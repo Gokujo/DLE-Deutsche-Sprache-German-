@@ -33,7 +33,7 @@
 				</div>
 			</li>
 			<li>
-				<b role="button" data-toggle="collapse" data-target="#fmenu_3" aria-expanded="false" class="collapsed">Besucher<i></i></b>
+				<b role="button" data-toggle="collapse" data-target="#fmenu_3" aria-expanded="false" class="collapsed">Benutzer<i></i></b>
 				<div class="collapse" id="fmenu_3">
 					<nav>
 						<a href="/">Startseite</a>

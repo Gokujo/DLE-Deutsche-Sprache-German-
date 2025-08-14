@@ -83,8 +83,8 @@ $lang_logs = array (
 // 10.1
 
 // 10.0
-'admin_logs_action_89'	=>	"Fehlgeschlagener Versuch der Autorisierung im Admin-Panel mit falschem Passwort.",
-'admin_logs_action_90'	=>	"Fehlgeschlagener Versuch der Autorisierung im Admin-Panel mit falschen Cookies im Browser.",
+'admin_logs_action_89'	=>	"Fehlgeschlagener Versuch der Autorisierung im Adminpanel mit falschem Passwort."
+'admin_logs_action_90'	=>	"Fehlgeschlagener Versuch der Autorisierung im Adminpanel mit falschen Cookies im Browser."
 'admin_logs_action_91'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschem Passwort.",
 'admin_logs_action_92'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschen Cookies im Browser.",
 // 10.0
@@ -175,11 +175,11 @@ $lang_logs = array (
 'admin_logs_action_79'	=>	"Hinzufügen eines neuen Wortes in den Wortfilter:",
 'admin_logs_action_80'	=>	"Löschung von Wörtern aus dem Filter.",
 'admin_logs_action_81'	=>	"Bearbeitung des Wortes im Wortfilter:",
-'admin_logs_action_82'	=>	"Autorisierung im Admin-Panel der Webseite (Eingabe von Login und Passwort).",
+'admin_logs_action_82'	=>	"Autorisierung im Adminpanel der Webseite (Eingabe von Login und Passwort)."
 'admin_logs_action_83'	=>	"Bearbeitung der Frage im Abschnitt Frage-Antwort:",
 'admin_logs_action_84'	=>	"Hinzufügen der Frage im Abschnitt Frage-Antwort:",
 'admin_logs_action_85'	=>	"Löschung der Frage im Abschnitt Frage-Antwort, ID:",
-'admin_logs_action_86'	=>	"Autorisierung im Admin-Panel der Webseite (Autorisierung durch Cookies). Übergang von der Seite:",
+'admin_logs_action_86'	=>	"Autorisierung im Adminpanel der Webseite (Autorisierung durch Cookies). Übergang von der Seite:"
 // 9.4
 
 );
