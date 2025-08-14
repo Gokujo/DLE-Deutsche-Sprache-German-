@@ -10,14 +10,14 @@
 		<ul class="foot_menu">
 			<li>
 				<b role="button" data-toggle="collapse" data-target="#fmenu_1" aria-expanded="false" class="collapsed">
-					Webseite-Bereiche<i></i>
+					Webseitenbereiche<i></i>
 				</b>
 				<div class="collapse" id="fmenu_1">
 					<nav>
 						<a href="/index.php?do=search&amp;mode=advanced">Erweiterte Suche</a>
 						<a href="/index.php?do=lastnews">Letzte Nachrichten</a>
 						<a href="/index.php?do=lastcomments">Letzte Kommentare</a>
-						<a href="/index.php?action=mobile" target="_blank" rel="nofollow">Mobile Webseite-Version</a>
+						<a href="/index.php?action=mobile" target="_blank" rel="nofollow">Mobile Webseitenversion</a>
 					</nav>
 				</div>
 			</li>

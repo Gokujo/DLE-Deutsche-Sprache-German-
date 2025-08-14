@@ -1,6 +1,6 @@
 <article class="box story">
 	<div class="box_in dark_top stats_head">
-		<h1 class="title">Webseite-Statistik</h1>
+		<h1 class="title">Webseitenstatistik</h1>
 		<ul>
 			<li class="stats_d"><b>Pro Tag</b> <span>{news_day} Nachrichten und {comm_day} Kommentare, {user_day} Benutzer registriert</span></li>
 			<li class="stats_w"><b>Pro Woche</b> <span>{news_week} Nachrichten und {comm_week} Kommentare, {user_week} Benutzer registriert</span></li>

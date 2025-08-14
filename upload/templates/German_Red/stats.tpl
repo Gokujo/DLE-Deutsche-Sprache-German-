@@ -1,6 +1,6 @@
 <article class="block story shadow">
 	<div class="wrp">
-		<div class="head"><h1 class="title h2 ultrabold">Webseite-Statistik</h1></div>
+		<div class="head"><h1 class="title h2 ultrabold">Webseitenstatistik</h1></div>
 		<div class="stats_head">
 			<ul>
 				<li class="stats_d"><b>Pro Tag</b> <span>{news_day} Nachrichten und {comm_day} Kommentare, {user_day} Benutzer registriert</span></li>
