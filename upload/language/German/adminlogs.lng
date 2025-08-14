@@ -1,187 +1,186 @@
 <?php
 
-$lang_logs = array (
+$lang_logs = [
 
-// 17.0
-'admin_logs_action_122'		=>	"Deaktivierung von Links im Modul 'Weiterleitungen'",
-'admin_logs_action_123'		=>	"Aktivierung von Links im Modul 'Weiterleitungen'",
-'admin_logs_action_124'		=>	"Deaktivierung von Links im Modul 'Meta-Tags'",
-'admin_logs_action_125'		=>	"Aktivierung von Links im Modul 'Meta-Tags'",
-'admin_logs_action_126'		=>	"Deaktivierung von Links im Modul 'Kreuzverweise'",
-'admin_logs_action_127'		=>	"Aktivierung von Links im Modul 'Kreuzverweise'",
-'admin_logs_action_128'		=>	"Hinzufügen eines neuen Speichers:",
-'admin_logs_action_129'		=>	"Bearbeitung des Speichers:",
-'admin_logs_action_130'		=>	"Deaktivierung des externen Speichers",
-'admin_logs_action_131'		=>	"Aktivierung des externen Speichers",
-'admin_logs_action_132'		=>	"Massenlöschung externer Speicher",
-'admin_logs_action_133'		=>	"Massenaktivierung externer Speicher",
-'admin_logs_action_134'		=>	"Massen-Deaktivierung externer Speicher",
-'admin_logs_action_135'		=>	"Änderung des Standardspeichers",
-'admin_logs_action_136'		=>	"Löschung des Speichers:",
-'admin_logs_action_137'		=>	"Selbstständige Löschung des eigenen Kontos",
-// 17.0
+	// 17.0
+	'admin_logs_action_122'  => "Deaktivierung von Links im Modul 'Weiterleitungen'",
+	'admin_logs_action_123'  => "Aktivierung von Links im Modul 'Weiterleitungen'",
+	'admin_logs_action_124'  => "Deaktivierung von Links im Modul 'Meta-Tags'",
+	'admin_logs_action_125'  => "Aktivierung von Links im Modul 'Meta-Tags'",
+	'admin_logs_action_126'  => "Deaktivierung von Links im Modul 'Kreuzverweise'",
+	'admin_logs_action_127'  => "Aktivierung von Links im Modul 'Kreuzverweise'",
+	'admin_logs_action_128'  => "Hinzufügen eines neuen Speichers:",
+	'admin_logs_action_129'  => "Bearbeitung des Speichers:",
+	'admin_logs_action_130'  => "Deaktivierung des externen Speichers",
+	'admin_logs_action_131'  => "Aktivierung des externen Speichers",
+	'admin_logs_action_132'  => "Massenlöschung externer Speicher",
+	'admin_logs_action_133'  => "Massenaktivierung externer Speicher",
+	'admin_logs_action_134'  => "Massen-Deaktivierung externer Speicher",
+	'admin_logs_action_135'  => "Änderung des Standardspeichers",
+	'admin_logs_action_136'  => "Löschung des Speichers:",
+	'admin_logs_action_137'  => "Selbstständige Löschung des eigenen Kontos",
+	// 17.0
 
-// 14.0
-'admin_logs_action_120'		=>	"Deaktivierung der Kategorie, ID:",
-'admin_logs_action_121'		=>	"Aktivierung der Kategorie, ID:",
-// 14.0
+	// 14.0
+	'admin_logs_action_120'  => "Deaktivierung der Kategorie, ID:",
+	'admin_logs_action_121'  => "Aktivierung der Kategorie, ID:",
+	// 14.0
 
-// 13.3
-'admin_logs_action_119'		=>	"Änderung der Plugin-Sortierung",
-// 13.3
+	// 13.3
+	'admin_logs_action_119'  => "Änderung der Plugin-Sortierung",
+	// 13.3
 
-// 13.1
-'admin_logs_action_118'		=>	"Bearbeitung der Sperre im Benutzerfilter:",
-// 13.1
+	// 13.1
+	'admin_logs_action_118'  => "Bearbeitung der Sperre im Benutzerfilter:",
+	// 13.1
 
+	// 13.0
+	'admin_logs_action_116'  => "Hinzufügen eines neuen Plugins:",
+	'admin_logs_action_117'  => "Bearbeitung des Plugins:",
+	'admin_logs_action_115'  => "Löschung des Plugins, ID:",
+	'admin_logs_action_1140' => "Deaktivierung des Plugins, ID:",
+	'admin_logs_action_1141' => "Aktivierung des Plugins, ID:",
+	// 13.0
 
-// 13.0
-'admin_logs_action_116'		=>	"Hinzufügen eines neuen Plugins:",
-'admin_logs_action_117'		=>	"Bearbeitung des Plugins:",
-'admin_logs_action_115'		=>	"Löschung des Plugins, ID:",
-'admin_logs_action_1140'	=>	"Deaktivierung des Plugins, ID:",
-'admin_logs_action_1141'	=>	"Aktivierung des Plugins, ID:",
-// 13.0
+	// 12.1
+	'admin_logs_action_109'  => "Bereinigung der Aufrufe des Werbebanners, ID:",
+	'admin_logs_action_110'  => "Bereinigung der Klicks des Werbebanners, ID:",
+	'admin_logs_action_111'  => "Hinzufügen einer Rubrik für Werbematerialien:",
+	'admin_logs_action_112'  => "Bearbeitung der Rubrik in Werbematerialien:",
+	'admin_logs_action_113'  => "Löschung der Rubrik in Werbematerialien, ID:",
+	// 12.1
 
-// 12.1
-'admin_logs_action_109'	=>	"Bereinigung der Aufrufe des Werbebanners, ID:",
-'admin_logs_action_110'	=>	"Bereinigung der Klicks des Werbebanners, ID:",
-'admin_logs_action_111'	=>	"Hinzufügen einer Rubrik für Werbematerialien:",
-'admin_logs_action_112'	=>	"Bearbeitung der Rubrik in Werbematerialien:",
-'admin_logs_action_113'	=>	"Löschung der Rubrik in Werbematerialien, ID:",
-// 12.1
+	// 12.0
+	'admin_logs_action_105'  => "Hinzufügen von Meta-Tags für den Link:",
+	'admin_logs_action_106'  => "Bearbeitung der Meta-Tags für den Link:",
+	'admin_logs_action_107'  => "Löschung von Links im Modul 'Meta-Tags'",
+	'admin_logs_action_108'  => "Export von Benutzern",
+	// 12.0
 
-// 12.0
-'admin_logs_action_105'	=>	"Hinzufügen von Meta-Tags für den Link:",
-'admin_logs_action_106'	=>	"Bearbeitung der Meta-Tags für den Link:",
-'admin_logs_action_107'	=>	"Löschung von Links im Modul 'Meta-Tags'",
-'admin_logs_action_108'	=>	"Export von Benutzern",
-// 12.0
+	// 11.3
+	'admin_logs_action_102'  => "Hinzufügen einer Weiterleitung für den Link:",
+	'admin_logs_action_103'  => "Bearbeitung der Weiterleitung für den Link:",
+	'admin_logs_action_104'  => "Löschung von Links im Modul 'Weiterleitungen'",
+	// 11.3
 
-// 11.3
-'admin_logs_action_102'	=>	"Hinzufügen einer Weiterleitung für den Link:",
-'admin_logs_action_103'	=>	"Bearbeitung der Weiterleitung für den Link:",
-'admin_logs_action_104'	=>	"Löschung von Links im Modul 'Weiterleitungen'",
-// 11.3
+	// 11.2
+	'admin_logs_action_99'   => "Falsche Eingabe des PIN-Codes nach der Autorisierung",
+	'admin_logs_action_100'  => "Autorisierung durch PIN-Code bestätigt",
+	'admin_logs_action_101'  => "Autorisierung auf der Webseite (Eingabe von Login und Passwort).",
+	// 11.2
 
-// 11.2
-'admin_logs_action_99'	=>	"Falsche Eingabe des PIN-Codes nach der Autorisierung",
-'admin_logs_action_100'	=>	"Autorisierung durch PIN-Code bestätigt",
-'admin_logs_action_101'	=>	"Autorisierung auf der Webseite (Eingabe von Login und Passwort).",
-// 11.2
+	// 10.4
+	'admin_logs_action_96'   => "Automatische Löschung der Nachricht nach Ablauf der in den Nachrichteneinstellungen festgelegten Frist:",
+	'admin_logs_action_97'   => "Löschung aller Kommentare des Benutzers:",
+	'admin_logs_action_98'   => "Löschung aller Nachrichten des Benutzers:",
+	// 10.4
 
-// 10.4
-'admin_logs_action_96'	=>	"Automatische Löschung der Nachricht nach Ablauf der in den Nachrichteneinstellungen festgelegten Frist:",
-'admin_logs_action_97'	=>	"Löschung aller Kommentare des Benutzers:",
-'admin_logs_action_98'	=>	"Löschung aller Nachrichten des Benutzers:",
-// 10.4
+	// 10.1
+	'admin_logs_action_93'   => "Hinzufügen eines neuen Kreuzverweises für das Schlüsselwort:",
+	'admin_logs_action_94'   => "Bearbeitung des Kreuzverweises für das Schlüsselwort:",
+	'admin_logs_action_95'   => "Bearbeitung von Links im Modul 'Kreuzverweise'",
+	// 10.1
 
-// 10.1
-'admin_logs_action_93'	=>	"Hinzufügen eines neuen Kreuzverweises für das Schlüsselwort:",
-'admin_logs_action_94'	=>	"Bearbeitung des Kreuzverweises für das Schlüsselwort:",
-'admin_logs_action_95'	=>	"Bearbeitung von Links im Modul 'Kreuzverweise'",
-// 10.1
+	// 10.0
+	'admin_logs_action_89'   => "Fehlgeschlagener Versuch der Autorisierung im Adminpanel mit falschem Passwort.",
+	'admin_logs_action_90'   => "Fehlgeschlagener Versuch der Autorisierung im Adminpanel mit falschen Cookies im Browser.",
+	'admin_logs_action_91'   => "Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschem Passwort.",
+	'admin_logs_action_92'   => "Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschen Cookies im Browser.",
+	// 10.0
 
-// 10.0
-'admin_logs_action_89'	=>	"Fehlgeschlagener Versuch der Autorisierung im Adminpanel mit falschem Passwort."
-'admin_logs_action_90'	=>	"Fehlgeschlagener Versuch der Autorisierung im Adminpanel mit falschen Cookies im Browser."
-'admin_logs_action_91'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschem Passwort.",
-'admin_logs_action_92'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschen Cookies im Browser.",
-// 10.0
+	// 9.8
+	'admin_logs_action_87'   => "Als Spammer markierter Benutzer:",
+	'admin_logs_action_88'   => "Als Spammer markierter nicht registrierter Gast:",
+	// 9.8
 
-// 9.8
-'admin_logs_action_87'	=>	"Als Spammer markierter Benutzer:",
-'admin_logs_action_88'	=>	"Als Spammer markierter nicht registrierter Gast:",
-// 9.8
+	// 9.4
+	'admin_logs_action_1'    => "Hinzufügen einer neuen Nachricht:",
+	'admin_logs_action_2'    => "Hinzufügen einer neuen Umfrage auf die Webseite:",
+	'admin_logs_action_3'    => "Bearbeitung der Umfrage:",
+	'admin_logs_action_4'    => "Hinzufügen eines neuen Werbebanners:",
+	'admin_logs_action_5'    => "Bearbeitung des Werbebanners:",
+	'admin_logs_action_6'    => "Deaktivierung des Werbebanners, ID:",
+	'admin_logs_action_7'    => "Aktivierung des Werbebanners, ID:",
+	'admin_logs_action_8'    => "Löschung des Werbebanners, ID:",
+	'admin_logs_action_9'    => "Hinzufügen von Sperren im Benutzerfilter.",
+	'admin_logs_action_10'   => "Löschung der Sperre im Benutzerfilter.",
+	'admin_logs_action_11'   => "Änderung der Kategorie-Sortierung.",
+	'admin_logs_action_12'   => "Hinzufügen der Kategorie:",
+	'admin_logs_action_13'   => "Löschung der Kategorie, ID:",
+	'admin_logs_action_14'   => "Bearbeitung der Kategorie:",
+	'admin_logs_action_15'   => "Löschung von Nachrichten im Optimierungsassistenten früher:",
+	'admin_logs_action_16'   => "Löschung von Kommentaren im Optimierungsassistenten früher:",
+	'admin_logs_action_17'   => "Bereinigung persönlicher Nachrichten im Optimierungsassistenten.",
+	'admin_logs_action_18'   => "Bereinigung von Logs im Optimierungsassistenten.",
+	'admin_logs_action_19'   => "Moderation von Kommentaren.",
+	'admin_logs_action_20'   => "Löschung aller Kommentare der Nachricht, ID:",
+	'admin_logs_action_21'   => "Löschung von Kommentaren von der Webseite.",
+	'admin_logs_action_22'   => "Löschung der Beschwerde.",
+	'admin_logs_action_23'   => "Optimierung/Reparatur der Datenbank.",
+	'admin_logs_action_24'   => "Erstellung eines Datenbank-Backups.",
+	'admin_logs_action_25'   => "Bearbeitung der Nachricht:",
+	'admin_logs_action_26'   => "Löschung der Nachricht:",
+	'admin_logs_action_27'   => "Löschung der Umfrage auf der Webseite, ID:",
+	'admin_logs_action_28'   => "Bereinigung der Abstimmungsergebnisse für die Umfrage ID:",
+	'admin_logs_action_29'   => "Anhalten der Umfrage, ID:",
+	'admin_logs_action_30'   => "Aktivierung der Umfrage, ID:",
+	'admin_logs_action_31'   => "Bearbeitung der E-Mail-Nachrichten-Vorlagen.",
+	'admin_logs_action_32'   => "Löschung hochgeladener Bilder der Nachricht, ID:",
+	'admin_logs_action_33'   => "Löschung hochgeladener Bilder und Dateien für die statische Seite, ID:",
+	'admin_logs_action_34'   => "Löschung hochgeladener Dateien der Nachricht, ID:",
+	'admin_logs_action_36'   => "Hochladen der Datei:",
+	'admin_logs_action_37'   => "Löschung der Datei:",
+	'admin_logs_action_38'   => "Erstellung der Sitemap.",
+	'admin_logs_action_39'   => "Verwendung der Massenbearbeitung statischer Seiten.",
+	'admin_logs_action_40'   => "Verwendung der Massenlöschung statischer Seiten.",
+	'admin_logs_action_41'   => "Löschung des Benutzers:",
+	'admin_logs_action_42'   => "Löschung der Kommentare des Benutzers mit ID:",
+	'admin_logs_action_43'   => "Änderung der Gruppe des Benutzers:",
+	'admin_logs_action_44'   => "Ban des Benutzers:",
+	'admin_logs_action_45'   => "Löschung persönlicher Nachrichten des Benutzers:",
+	'admin_logs_action_46'   => "Verwendung der Massenbearbeitung von Nachrichten.",
+	'admin_logs_action_47'   => "Massenversand von Nachrichten",
+	'admin_logs_action_48'   => "Änderung der Skript-Einstellungen",
+	'admin_logs_action_49'   => "Möglicher Neuaufbau der Nachrichten",
+	'admin_logs_action_50'   => "Löschung des RSS-Kanals, ID:",
+	'admin_logs_action_51'   => "Hinzufügen des RSS-Kanals:",
+	'admin_logs_action_52'   => "Bearbeitung des RSS-Kanals:",
+	'admin_logs_action_53'   => "Hinzufügen des RSS-Informers:",
+	'admin_logs_action_54'   => "Bearbeitung des RSS-Informers:",
+	'admin_logs_action_55'   => "Deaktivierung des RSS-Informers, ID:",
+	'admin_logs_action_56'   => "Aktivierung des RSS-Informers, ID:",
+	'admin_logs_action_57'   => "Löschung des RSS-Informers, ID:",
+	'admin_logs_action_58'   => "Suche und Ersetzung in der Datenbank:",
+	'admin_logs_action_59'   => "Hinzufügen der statischen Seite:",
+	'admin_logs_action_60'   => "Bearbeitung der statischen Seite:",
+	'admin_logs_action_61'   => "Löschung aus der Tag-Cloud, Tag:",
+	'admin_logs_action_62'   => "Bearbeitung der Tag-Cloud, Tag:",
+	'admin_logs_action_63'   => "Hinzufügen eines neuen Benutzers:",
+	'admin_logs_action_64'   => "Bearbeitung des Benutzers:",
+	'admin_logs_action_65'   => "Löschung des Benutzers:",
+	'admin_logs_action_66'   => "Änderung des Sprachpakets für die Vorlage:",
+	'admin_logs_action_67'   => "Erstellung einer neuen Vorlage:",
+	'admin_logs_action_68'   => "Löschung der Vorlage:",
+	'admin_logs_action_69'   => "Erstellung der Vorlagendatei:",
+	'admin_logs_action_70'   => "Bearbeitung der Vorlagendatei:",
+	'admin_logs_action_71'   => "Löschung des zusätzlichen Feldes für Benutzerprofile:",
+	'admin_logs_action_72'   => "Hinzufügen/Bearbeitung des zusätzlichen Feldes für Benutzerprofile:",
+	'admin_logs_action_73'   => "Löschung des zusätzlichen Feldes für Nachrichten:",
+	'admin_logs_action_74'   => "Hinzufügen/Bearbeitung des zusätzlichen Feldes für Nachrichten:",
+	'admin_logs_action_75'   => "Löschung der Benutzergruppe, ID:",
+	'admin_logs_action_76'   => "Hinzufügen einer neuen Benutzergruppe:",
+	'admin_logs_action_77'   => "Bearbeitung der Benutzergruppe:",
+	'admin_logs_action_78'   => "Bearbeitung der Video-Player-Einstellungen.",
+	'admin_logs_action_79'   => "Hinzufügen eines neuen Wortes in den Wortfilter:",
+	'admin_logs_action_80'   => "Löschung von Wörtern aus dem Filter.",
+	'admin_logs_action_81'   => "Bearbeitung des Wortes im Wortfilter:",
+	'admin_logs_action_82'   => "Autorisierung im Adminpanel der Webseite (Eingabe von Login und Passwort).",
+	'admin_logs_action_83'   => "Bearbeitung der Frage im Abschnitt Frage-Antwort:",
+	'admin_logs_action_84'   => "Hinzufügen der Frage im Abschnitt Frage-Antwort:",
+	'admin_logs_action_85'   => "Löschung der Frage im Abschnitt Frage-Antwort, ID:",
+	'admin_logs_action_86'   => "Autorisierung im Adminpanel der Webseite (Autorisierung durch Cookies). Übergang von der Seite:",
+	// 9.4
 
-// 9.4
-'admin_logs_action_1'	=>	"Hinzufügen einer neuen Nachricht:",
-'admin_logs_action_2'	=>	"Hinzufügen einer neuen Umfrage auf die Webseite:",
-'admin_logs_action_3'	=>	"Bearbeitung der Umfrage:",
-'admin_logs_action_4'	=>	"Hinzufügen eines neuen Werbebanners:",
-'admin_logs_action_5'	=>	"Bearbeitung des Werbebanners:",
-'admin_logs_action_6'	=>	"Deaktivierung des Werbebanners, ID:",
-'admin_logs_action_7'	=>	"Aktivierung des Werbebanners, ID:",
-'admin_logs_action_8'	=>	"Löschung des Werbebanners, ID:",
-'admin_logs_action_9'	=>	"Hinzufügen von Sperren im Benutzerfilter.",
-'admin_logs_action_10'	=>	"Löschung der Sperre im Benutzerfilter.",
-'admin_logs_action_11'	=>	"Änderung der Kategorie-Sortierung.",
-'admin_logs_action_12'	=>	"Hinzufügen der Kategorie:",
-'admin_logs_action_13'	=>	"Löschung der Kategorie, ID:",
-'admin_logs_action_14'	=>	"Bearbeitung der Kategorie:",
-'admin_logs_action_15'	=>	"Löschung von Nachrichten im Optimierungsassistenten früher:",
-'admin_logs_action_16'	=>	"Löschung von Kommentaren im Optimierungsassistenten früher:",
-'admin_logs_action_17'	=>	"Bereinigung persönlicher Nachrichten im Optimierungsassistenten.",
-'admin_logs_action_18'	=>	"Bereinigung von Logs im Optimierungsassistenten.",
-'admin_logs_action_19'	=>	"Moderation von Kommentaren.",
-'admin_logs_action_20'	=>	"Löschung aller Kommentare der Nachricht, ID:",
-'admin_logs_action_21'	=>	"Löschung von Kommentaren von der Webseite.",
-'admin_logs_action_22'	=>	"Löschung der Beschwerde.",
-'admin_logs_action_23'	=>	"Optimierung/Reparatur der Datenbank.",
-'admin_logs_action_24'	=>	"Erstellung eines Datenbank-Backups.",
-'admin_logs_action_25'	=>	"Bearbeitung der Nachricht:",
-'admin_logs_action_26'	=>	"Löschung der Nachricht:",
-'admin_logs_action_27'	=>	"Löschung der Umfrage auf der Webseite, ID:",
-'admin_logs_action_28'	=>	"Bereinigung der Abstimmungsergebnisse für die Umfrage ID:",
-'admin_logs_action_29'	=>	"Anhalten der Umfrage, ID:",
-'admin_logs_action_30'	=>	"Aktivierung der Umfrage, ID:",
-'admin_logs_action_31'	=>	"Bearbeitung der E-Mail-Nachrichten-Vorlagen.",
-'admin_logs_action_32'	=>	"Löschung hochgeladener Bilder der Nachricht, ID:",
-'admin_logs_action_33'	=>	"Löschung hochgeladener Bilder und Dateien für die statische Seite, ID:",
-'admin_logs_action_34'	=>	"Löschung hochgeladener Dateien der Nachricht, ID:",
-'admin_logs_action_36'	=>	"Hochladen der Datei:",
-'admin_logs_action_37'	=>	"Löschung der Datei:",
-'admin_logs_action_38'	=>	"Erstellung der Sitemap.",
-'admin_logs_action_39'	=>	"Verwendung der Massenbearbeitung statischer Seiten.",
-'admin_logs_action_40'	=>	"Verwendung der Massenlöschung statischer Seiten.",
-'admin_logs_action_41'	=>	"Löschung des Benutzers:",
-'admin_logs_action_42'	=>	"Löschung der Kommentare des Benutzers mit ID:",
-'admin_logs_action_43'	=>	"Änderung der Gruppe des Benutzers:",
-'admin_logs_action_44'	=>	"Ban des Benutzers:",
-'admin_logs_action_45'	=>	"Löschung persönlicher Nachrichten des Benutzers:",
-'admin_logs_action_46'	=>	"Verwendung der Massenbearbeitung von Nachrichten.",
-'admin_logs_action_47'	=>	"Massenversand von Nachrichten",
-'admin_logs_action_48'	=>	"Änderung der Skript-Einstellungen",
-'admin_logs_action_49'	=>	"Möglicher Neuaufbau der Nachrichten"
-'admin_logs_action_50'	=>	"Löschung des RSS-Kanals, ID:",
-'admin_logs_action_51'	=>	"Hinzufügen des RSS-Kanals:",
-'admin_logs_action_52'	=>	"Bearbeitung des RSS-Kanals:",
-'admin_logs_action_53'	=>	"Hinzufügen des RSS-Informers:",
-'admin_logs_action_54'	=>	"Bearbeitung des RSS-Informers:",
-'admin_logs_action_55'	=>	"Deaktivierung des RSS-Informers, ID:",
-'admin_logs_action_56'	=>	"Aktivierung des RSS-Informers, ID:",
-'admin_logs_action_57'	=>	"Löschung des RSS-Informers, ID:",
-'admin_logs_action_58'	=>	"Suche und Ersetzung in der Datenbank:",
-'admin_logs_action_59'	=>	"Hinzufügen der statischen Seite:",
-'admin_logs_action_60'	=>	"Bearbeitung der statischen Seite:",
-'admin_logs_action_61'	=>	"Löschung aus der Tag-Cloud, Tag:",
-'admin_logs_action_62'	=>	"Bearbeitung der Tag-Cloud, Tag:",
-'admin_logs_action_63'	=>	"Hinzufügen eines neuen Benutzers:",
-'admin_logs_action_64'	=>	"Bearbeitung des Benutzers:",
-'admin_logs_action_65'	=>	"Löschung des Benutzers:",
-'admin_logs_action_66'	=>	"Änderung des Sprachpakets für die Vorlage:",
-'admin_logs_action_67'	=>	"Erstellung einer neuen Vorlage:",
-'admin_logs_action_68'	=>	"Löschung der Vorlage:",
-'admin_logs_action_69'	=>	"Erstellung der Vorlagendatei:",
-'admin_logs_action_70'	=>	"Bearbeitung der Vorlagendatei:",
-'admin_logs_action_71'	=>	"Löschung des zusätzlichen Feldes für Benutzerprofile:",
-'admin_logs_action_72'	=>	"Hinzufügen/Bearbeitung des zusätzlichen Feldes für Benutzerprofile:",
-'admin_logs_action_73'	=>	"Löschung des zusätzlichen Feldes für Nachrichten:",
-'admin_logs_action_74'	=>	"Hinzufügen/Bearbeitung des zusätzlichen Feldes für Nachrichten:",
-'admin_logs_action_75'	=>	"Löschung der Benutzergruppe, ID:",
-'admin_logs_action_76'	=>	"Hinzufügen einer neuen Benutzergruppe:",
-'admin_logs_action_77'	=>	"Bearbeitung der Benutzergruppe:",
-'admin_logs_action_78'	=>	"Bearbeitung der Video-Player-Einstellungen.",
-'admin_logs_action_79'	=>	"Hinzufügen eines neuen Wortes in den Wortfilter:",
-'admin_logs_action_80'	=>	"Löschung von Wörtern aus dem Filter.",
-'admin_logs_action_81'	=>	"Bearbeitung des Wortes im Wortfilter:",
-'admin_logs_action_82'	=>	"Autorisierung im Adminpanel der Webseite (Eingabe von Login und Passwort)."
-'admin_logs_action_83'	=>	"Bearbeitung der Frage im Abschnitt Frage-Antwort:",
-'admin_logs_action_84'	=>	"Hinzufügen der Frage im Abschnitt Frage-Antwort:",
-'admin_logs_action_85'	=>	"Löschung der Frage im Abschnitt Frage-Antwort, ID:",
-'admin_logs_action_86'	=>	"Autorisierung im Adminpanel der Webseite (Autorisierung durch Cookies). Übergang von der Seite:"
-// 9.4
-
-);
+];
 
 ?>
