@@ -15,14 +15,14 @@
 	<meta property="og:image" content="{THEME}/images/logo.png">
 	
 	<link href="{THEME}/css/offline.css" type="text/css" rel="stylesheet">
-	<title>Website vorübergehend deaktiviert</title>
+	<title>Webseite vorübergehend deaktiviert</title>
 </head>
 <body>
 	<div class="offpage">
 		<div class="wrap">
 			<div class="wrap_in">
 				<div class="logo"><img src="{THEME}/images/offline.png" alt=""></div>
-				<div class="title">Website vorübergehend deaktiviert</div>
+				<div class="title">Webseite vorübergehend deaktiviert</div>
 				<div class="reason">{reason}</div>
 			</div>
 		</div>

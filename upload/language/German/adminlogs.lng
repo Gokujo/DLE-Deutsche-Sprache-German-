@@ -67,7 +67,7 @@ $lang_logs = array (
 // 11.2
 'admin_logs_action_99'	=>	"Falsche Eingabe des PIN-Codes nach der Autorisierung",
 'admin_logs_action_100'	=>	"Autorisierung durch PIN-Code bestätigt",
-'admin_logs_action_101'	=>	"Autorisierung auf der Website (Eingabe von Login und Passwort).",
+'admin_logs_action_101'	=>	"Autorisierung auf der Webseite (Eingabe von Login und Passwort).",
 // 11.2
 
 // 10.4
@@ -85,8 +85,8 @@ $lang_logs = array (
 // 10.0
 'admin_logs_action_89'	=>	"Fehlgeschlagener Versuch der Autorisierung im Admin-Panel mit falschem Passwort.",
 'admin_logs_action_90'	=>	"Fehlgeschlagener Versuch der Autorisierung im Admin-Panel mit falschen Cookies im Browser.",
-'admin_logs_action_91'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Website mit falschem Passwort.",
-'admin_logs_action_92'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Website mit falschen Cookies im Browser.",
+'admin_logs_action_91'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschem Passwort.",
+'admin_logs_action_92'	=>	"Fehlgeschlagener Versuch der Autorisierung auf der Webseite mit falschen Cookies im Browser.",
 // 10.0
 
 // 9.8
@@ -96,7 +96,7 @@ $lang_logs = array (
 
 // 9.4
 'admin_logs_action_1'	=>	"Hinzufügen einer neuen Nachricht:",
-'admin_logs_action_2'	=>	"Hinzufügen einer neuen Umfrage auf die Website:",
+'admin_logs_action_2'	=>	"Hinzufügen einer neuen Umfrage auf die Webseite:",
 'admin_logs_action_3'	=>	"Bearbeitung der Umfrage:",
 'admin_logs_action_4'	=>	"Hinzufügen eines neuen Werbebanners:",
 'admin_logs_action_5'	=>	"Bearbeitung des Werbebanners:",
@@ -115,13 +115,13 @@ $lang_logs = array (
 'admin_logs_action_18'	=>	"Bereinigung von Logs im Optimierungsassistenten.",
 'admin_logs_action_19'	=>	"Moderation von Kommentaren.",
 'admin_logs_action_20'	=>	"Löschung aller Kommentare der Nachricht, ID:",
-'admin_logs_action_21'	=>	"Löschung von Kommentaren von der Website.",
+'admin_logs_action_21'	=>	"Löschung von Kommentaren von der Webseite.",
 'admin_logs_action_22'	=>	"Löschung der Beschwerde.",
 'admin_logs_action_23'	=>	"Optimierung/Reparatur der Datenbank.",
 'admin_logs_action_24'	=>	"Erstellung eines Datenbank-Backups.",
 'admin_logs_action_25'	=>	"Bearbeitung der Nachricht:",
 'admin_logs_action_26'	=>	"Löschung der Nachricht:",
-'admin_logs_action_27'	=>	"Löschung der Umfrage auf der Website, ID:",
+'admin_logs_action_27'	=>	"Löschung der Umfrage auf der Webseite, ID:",
 'admin_logs_action_28'	=>	"Bereinigung der Abstimmungsergebnisse für die Umfrage ID:",
 'admin_logs_action_29'	=>	"Anhalten der Umfrage, ID:",
 'admin_logs_action_30'	=>	"Aktivierung der Umfrage, ID:",
@@ -175,11 +175,11 @@ $lang_logs = array (
 'admin_logs_action_79'	=>	"Hinzufügen eines neuen Wortes in den Wortfilter:",
 'admin_logs_action_80'	=>	"Löschung von Wörtern aus dem Filter.",
 'admin_logs_action_81'	=>	"Bearbeitung des Wortes im Wortfilter:",
-'admin_logs_action_82'	=>	"Autorisierung im Admin-Panel der Website (Eingabe von Login und Passwort).",
+'admin_logs_action_82'	=>	"Autorisierung im Admin-Panel der Webseite (Eingabe von Login und Passwort).",
 'admin_logs_action_83'	=>	"Bearbeitung der Frage im Abschnitt Frage-Antwort:",
 'admin_logs_action_84'	=>	"Hinzufügen der Frage im Abschnitt Frage-Antwort:",
 'admin_logs_action_85'	=>	"Löschung der Frage im Abschnitt Frage-Antwort, ID:",
-'admin_logs_action_86'	=>	"Autorisierung im Admin-Panel der Website (Autorisierung durch Cookies). Übergang von der Seite:",
+'admin_logs_action_86'	=>	"Autorisierung im Admin-Panel der Webseite (Autorisierung durch Cookies). Übergang von der Seite:",
 // 9.4
 
 );

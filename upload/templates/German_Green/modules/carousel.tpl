@@ -18,7 +18,7 @@
 			<div class="carousel-caption">
 				<div class="carousel-caption_in">
 					<div class="title">DataLife Engine</div>
-					<div class="text">Eigene Website ohne Kompromisse!</div>
+					<div class="text">Eigene Webseite ohne Kompromisse!</div>
 				</div>
 			</div>
 			<div class="cover" style="background-image: url({THEME}/images/tmp/slide_1.jpg);"></div>
@@ -27,7 +27,7 @@
 			<div class="carousel-caption">
 				<div class="carousel-caption_in">
 					<div class="title">DataLife Engine</div>
-					<div class="text">Eigene Website ohne Kompromisse!</div>
+					<div class="text">Eigene Webseite ohne Kompromisse!</div>
 				</div>
 			</div>
 			<div class="cover" style="background-image: url({THEME}/images/tmp/slide_2.jpg);"></div>
@@ -36,7 +36,7 @@
 			<div class="carousel-caption">
 				<div class="carousel-caption_in">
 					<div class="title">DataLife Engine</div>
-					<div class="text">Eigene Website ohne Kompromisse!</div>
+					<div class="text">Eigene Webseite ohne Kompromisse!</div>
 				</div>
 			</div>
 			<div class="cover" style="background-image: url({THEME}/images/tmp/slide_3.jpg);"></div>

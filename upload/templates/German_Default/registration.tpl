@@ -6,12 +6,12 @@
 	<div class="page_form__form">
 		<div class="regtext">
 		[registration]
-			Die Registrierung auf unserer Website ermöglicht es Ihnen, ein vollwertiges Mitglied zu werden.
-			Sie können Nachrichten auf der Website hinzufügen, Kommentare hinterlassen, versteckten Text anzeigen und vieles mehr.
-			<br>Bei Problemen mit der Registrierung wenden Sie sich an den <a href="/index.php?do=feedback">Administrator</a> der Website.
+			Die Registrierung auf unserer Webseite ermöglicht es Ihnen, ein vollwertiges Mitglied zu werden.
+			Sie können Nachrichten auf der Webseite hinzufügen, Kommentare hinterlassen, versteckten Text anzeigen und vieles mehr.
+			<br>Bei Problemen mit der Registrierung wenden Sie sich an den <a href="/index.php?do=feedback">Administrator</a> der Webseite.
 		[/registration]
 		[validation]
-			Ihr Konto wurde auf unserer Website registriert,
+			Ihr Konto wurde auf unserer Webseite registriert,
 			jedoch sind die Informationen über Sie unvollständig, daher füllen Sie BITTE die zusätzlichen Felder in Ihrem Profil aus.<br>
 		[/validation]
 		</div>

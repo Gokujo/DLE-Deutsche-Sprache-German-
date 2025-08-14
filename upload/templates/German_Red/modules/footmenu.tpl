@@ -5,7 +5,7 @@
 		</b>
 		<div class="collapse" id="fmenu_1">
 			<nav>
-				<a href="#">Über die Website</a>
+				<a href="#">Über die Webseite</a>
 				<a href="#">In der Welt</a>
 				<a href="#">Wirtschaft</a>
 				<a href="#">Religion</a>
@@ -19,7 +19,7 @@
 		</b>
 		<div class="collapse" id="fmenu_2">
 			<nav>
-				<a href="http://dle-news.ru/" target="_blank" rel="nofollow">System-Website</a>
+				<a href="http://dle-news.ru/" target="_blank" rel="nofollow">System-Webseite</a>
 				<a href="http://dle-news.ru/" target="_blank" rel="nofollow">Skript-Support</a>
 				<a href="http://forum.dle-news.ru/" target="_blank" rel="nofollow">Forum</a>
 				<a href="http://dle-news.ru/lastnews/" target="_blank" rel="nofollow">System-Nachrichten</a>

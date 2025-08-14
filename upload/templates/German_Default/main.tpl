@@ -26,7 +26,7 @@
 				<!-- Suche -->
 				<form id="q_search" class="rightside" action="/index.php" method="get">
 					<div class="q_search">
-						<input id="story" name="story" placeholder="Website durchsuchen..." type="search">
+						<input id="story" name="story" placeholder="Webseite durchsuchen..." type="search">
 						<button class="btn q_search_btn" type="submit" title="Suchen"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg><span class="title_hide">Suchen</span></button>
 						<a class="q_search_adv" href="/index.php?do=search&amp;mode=advanced" title="Erweiterte Suche"><svg class="icon icon-set"><use xlink:href="#icon-set"></use></svg><span class="title_hide">Erweiterte Suche</span></a>
 					</div>

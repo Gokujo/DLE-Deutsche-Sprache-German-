@@ -23,7 +23,7 @@
 			<div class="carousel-caption">
 				<div class="carousel-caption_in">
 					<div class="title">DataLife Engine 18.1</div>
-					<div class="text">Eigene Website ohne Kompromisse!</div>
+					<div class="text">Eigene Webseite ohne Kompromisse!</div>
 				</div>
 			</div>
 			<div class="cover" style="background-image: url({THEME}/images/tmp/slide_1.jpg);"></div>
@@ -32,7 +32,7 @@
 			<div class="carousel-caption">
 				<div class="carousel-caption_in">
 					<div class="title">DataLife Engine 18.1</div>
-					<div class="text">Eigene Website einfach und bequem!</div>
+					<div class="text">Eigene Webseite einfach und bequem!</div>
 				</div>
 			</div>
 			<div class="cover" style="background-image: url({THEME}/images/tmp/slide_2.jpg);"></div>
@@ -41,7 +41,7 @@
 			<div class="carousel-caption">
 				<div class="carousel-caption_in">
 					<div class="title">DataLife Engine 18.1</div>
-					<div class="text">Eigene Website am schnellsten und mit minimaler Belastung!</div>
+					<div class="text">Eigene Webseite am schnellsten und mit minimaler Belastung!</div>
 				</div>
 			</div>
 			<div class="cover" style="background-image: url({THEME}/images/tmp/slide_3.jpg);"></div>
