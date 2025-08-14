@@ -13,7 +13,7 @@ $lang = array (
 // 18.0
 'feedback_banned'        => "Benutzer ist auf der Webseite gesperrt"
 'country_declined_1'     => "Sie befinden sich in einem Land, für das der Zugang zum Anzeigen dieser Veröffentlichung auf der Webseite geschlossen ist.",
-'rating_error6'		     =>	"Sie haben heute zu oft negative Bewertungen für verschiedene Veröffentlichungen abgegeben. Das Abgeben negativer Bewertungen wurde für Sie vorübergehend ausgesetzt.",
+'rating_error6'		     =>	"Sie haben heute zu oft negative Bewertungen für verschiedene Nachrichten abgegeben. Das Abgeben negativer Bewertungen wurde für Sie vorübergehend ausgesetzt."
 'pm_err_14'              => "Derzeit ist der Benutzer auf der Webseite gesperrt und kann keine persönlichen Nachrichten erhalten",
 'pm_err_15'              => "Sie haben keinen Zugang zu diesem Schriftverkehr",
 'pm_err_16'              => "Sie haben keinen Zugang zum Löschen dieser Nachricht",
@@ -45,9 +45,9 @@ $lang = array (
 // 17.2
 'ajax_edit_cat'          => "Kategorie:",
 'group_change_1'         => "Die Zeit Ihres Aufenthalts in der Gruppe <b>{oldgroup}</b> ist abgelaufen. Sie wurden in die Gruppe <b>{newgroup}</b> verschoben.",
-'group_change_2'         => "Sie haben {count} Veröffentlichungen veröffentlicht, daher wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
+'group_change_2'         => "Sie haben {count} Nachrichten veröffentlicht, daher wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt."
 'group_change_3'         => "Sie haben {count} Kommentare veröffentlicht, daher wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
-'group_change_4'         => "Gemäß Ihrer neuen Bewertung der Veröffentlichungen wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
+'group_change_4'         => "Gemäß Ihrer neuen Bewertung der Nachrichten wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt."
 'group_change_5'         => "Gemäß Ihrer neuen Bewertung der Kommentare wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
 'addnews_xf_alert_2'     => "Das Feld <b>{field}</b> muss mindestens <b>{count}</b> Zeichen enthalten",
 'addnews_xf_alert_3'     => "Das Feld <b>{field}</b> darf höchstens <b>{count}</b> Zeichen enthalten",
@@ -176,7 +176,7 @@ $lang = array (
 'emoji_symbols'			=>	"Symbole",
 'emoji_flags'			=>	"Flaggen",
 'emoji_last'			=>	"Kürzlich verwendete",
-'enable_lastviewed'		=>	"Sie können die Anzahl der veröffentlichten Veröffentlichungen in den Einstellungen des Skripts im Administrationsbereich aktivieren, um diesen Block anzuzeigen",
+'enable_lastviewed'		=>	"Sie können die Anzahl der veröffentlichten Nachrichten in den Einstellungen des Skripts im Administrationsbereich aktivieren, um diesen Block anzuzeigen"
 'tinyapi_error'			=>	"Sie haben die Bildbearbeitung über die TinyPNG-Dienste aktiviert. Beim Bearbeiten des Bildes ist ein Fehler aufgetreten:",
 'player_play'			=>	"Abspielen",
 'player_pause'			=>	"Pause",
@@ -267,7 +267,7 @@ $lang = array (
 'news_subscribe'		=>	"E-Mails über neue Kommentare zu meinen Nachrichten erhalten",
 'comments_reply_subscribe'	=>	"E-Mails über Antworten auf meine Kommentare erhalten",
 'news_unsubscribe'		=>	"Sie sind für Kommentare zu {subscribed} [declination={subscribed}]Nachricht|en|ien|ien[/declination] abgemeldet",
-'news_unsubscribe_1'	=>	"Abbestellen von allen Veröffentlichungen",
+'news_unsubscribe_1'	=>	"Abbestellen von allen Nachrichten"
 // 11.1
 
 // 11.0
@@ -458,7 +458,7 @@ $lang = array (
 // 9.3
 
 // 9.2
-'newpost_notfound'	=>	"Es wurden keine ungelesenen Ihrer Veröffentlichungen auf der Webseite gefunden.",
+'newpost_notfound'	=>	"Es wurden keine ungelesenen Ihrer Nachrichten auf der Webseite gefunden."
 'all_votes'			=>	"Liste aller Abstimmungen auf der Webseite:",
 'vote_disable'		=>	"Die Abstimmung ist jetzt beendet",
 'vote_disable_1'	=>	"Sie haben bereits an dieser Umfrage teilgenommen",
@@ -488,7 +488,7 @@ $lang = array (
 'p_cancel'			=>	"Abbrechen",
 'news_err_42'		=>	"<li>Sie haben Zugriff auf die Webseite-Verwaltung, daher müssen Sie sich anmelden, um die E-Mail-Adresse oder das Passwort auf der Webseite zu ändern. Diese Aktion wird aus Sicherheitsgründen durchgeführt. Gehen Sie in die Benutzerverwaltungsseite, dort finden Sie Ihren Benutzernamen und führen Sie die erforderlichen Änderungen durch</li>",
 'news_err_43'		=>	"Sie können die Veröffentlichung nur über",
-'news_err_44'		=>	"Sie haben das maximale Limit für die Anzahl von Veröffentlichungen erreicht, das Sie auf der Webseite in einem Tag hinzufügen dürfen.",
+'news_err_44'		=>	"Sie haben das maximale Limit für die Anzahl von Nachrichten erreicht, das Sie auf der Webseite in einem Tag hinzufügen dürfen."
 'bb_t_upload'		=>	"Dateien auf den Server hochladen",
 'message_pm'		=>	"Eine Benachrichtigung über die Löschung der Veröffentlichung",
 'message_pm_1'		=>	"Ihr Artikel",
@@ -554,7 +554,7 @@ $lang = array (
 'not_allowed_sig'	=>	"<li>Zu lange Unterschrift!</li>",
 'news_err_33'		=>	"Der Text enthält keine zulässigen Tags für die Veröffentlichung.",
 'news_err_34'		=>	"Informationen über Sie oder Ihre Unterschrift enthalten keine zulässigen Tags für die Veröffentlichung.",
-'tags_count'		=>	"Veröffentlichungen gefunden:",
+'tags_count'		=>	"Nachrichten gefunden:"
 'news_err_35'		=>	"<li>Vollständiger Name enthält keine zulässigen Zeichen!</li>",
 'news_err_36'		=>	"<li>Ort der Wohnung enthält keine zulässigen Zeichen!</li>",
 // 7.5
@@ -573,8 +573,8 @@ $lang = array (
 // 7.2
 'news_info_2'		=>	"Von der Webseite-Verwaltung wurde die Kommentierung auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
 'news_info_3'		=>	"Von der Webseite-Verwaltung wurde die Kommentierung auf dieser Webseite verboten.",
-'news_info_4'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Veröffentlichungen auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
-'news_info_5'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Veröffentlichungen auf dieser Webseite verboten.",
+'news_info_4'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
+'news_info_5'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite verboten."
 'loading'    	    =>	"Laden...",
 'mail_pm'	  		=>  "Neue persönliche Nachricht",
 'sort_main'	  		=>  "Artikel nach:",
@@ -590,13 +590,13 @@ $lang = array (
 'reg_err_23'		=>	"<li>Von der Webseite-Verwaltung wurde der E-Mail-Adressenname {descr} nicht verwendet</li>",
 'reason'			=>  "Geben Sie einen Grund für die Bearbeitung an:",
 'tag_cloud'			=>  "Tag-Wolke",
-'last_news'			=>  "Letzte Veröffentlichungen auf der Webseite",
+'last_news'			=>  "Letzte Nachrichten auf der Webseite"
 'all_tags'			=>  "Alle Tags anzeigen",
 // 7.2
 
 // 7.0
 'sig_not_allowed'	=>	"Füllen Sie dieses Feld nicht aus, da für Ihre Gruppe die Verwendung von Signaturen in Kommentaren verboten ist.",
-'add_err_9'			=>	"Von der Webseite-Verwaltung wurde ein Limit für die maximale Anzahl von Artikeln festgelegt, die für die Moderation aufgenommen werden dürfen. Zurzeit wurden auf der Webseite die maximalen Anzahl von Veröffentlichungen hinzugefügt, die von der Webseite-Verwaltung überprüft werden. Versuchen Sie, Ihren Artikel ein wenig später hinzuzufügen.",
+'add_err_9'			=>	"Von der Webseite-Verwaltung wurde ein Limit für die maximale Anzahl von Artikeln festgelegt, die für die Moderation aufgenommen werden dürfen. Zurzeit wurden auf der Webseite die maximalen Anzahl von Nachrichten hinzugefügt, die von der Webseite-Verwaltung überprüft werden. Versuchen Sie, Ihren Artikel ein wenig später hinzuzufügen."
 // 7.0
 
 // 6.7
@@ -611,9 +611,9 @@ $lang = array (
 'thumb_restore'		=>	"Klicken Sie auf das Bild, um es zu schließen, und halten Sie gedrückt, um es zu verschieben",
 'thumb_focustitle'	=>	"Fokussieren",
 'thumb_cancel'		=>	"Klicken Sie zum Abbrechen",
-'all_user_news'		=>	"Alle Veröffentlichungen anzeigen",
-'show_user_news'	=>	"Alle Veröffentlichungen eines Benutzers",
-'menu_fnews'		=>	"Alle Veröffentlichungen finden",
+'all_user_news'		=>	"Alle Nachrichten anzeigen"
+'show_user_news'	=>	"Alle Nachrichten eines Benutzers"
+'menu_fnews'		=>	"Alle Nachrichten finden"
 'reg_next'			=>	"Fortsetzen Sie die Registrierung auf der Webseite",
 'xf_not_notig'		=>	"nicht notwendig",
 // 6.5
@@ -725,7 +725,7 @@ $lang = array (
 'news_err_id'		=>	"Es wurde keine Artikel-ID angegeben.",
 'comm_req_f'		=>	"Füllen Sie alle erforderlichen Felder aus",
 'ip_block_login'	=>	"Achtung! Sie haben die automatische IP-Sperre für Ihr Konto aktiviert. Der Zugriff auf Ihr Konto über diese Subnetz-Adresse ist verboten.",
-'mod_list_f'		=>	"Ihre Veröffentlichungen, die auf der Moderation warten, gibt es nicht",
+'mod_list_f'		=>	"Ihre Nachrichten, die auf der Moderation warten, gibt es nicht"
 'ip_block'         =>	"Ihre IP-Adresse oder Subnetz wurden von einem Administrator gesperrt",
 'pm_alert'         =>	"Ihre/r <b>{user}</b>, seit Ihrem Ausbleiben auf der Webseite wurden <b>{num}</b> Nachricht|en|ien|ien[/declination] an Sie gesendet",
 'pm_asub'          =>	"Betreff:",
@@ -749,7 +749,7 @@ $lang = array (
 'top_status'       =>	"Gruppe",
 'top_reg'          =>	"Registrierung",
 'top_last'          =>	"Letztes Besuch",
-'top_nnum'          =>	"Veröffentlichungen",
+'top_nnum'          =>	"Nachrichten"
 'top_cnum'          =>	"Kommentare",
 'top_pm'          =>	"PS",
 
@@ -769,7 +769,7 @@ $lang = array (
 'bb_b_up'			=>	"Hochladen",
 'next_moth'			=>	"Nächster Monat",
 'prev_moth'			=>	"Vorheriger Monat",
-'cal_post'			=>	"Alle Veröffentlichungen am",
+'cal_post'			=>	"Alle Nachrichten am"
 'title_users'		=>	"Benutzer",
 'title_new'			=>	"Nicht gelesen",
 'title_date'		=>	"Materialien am",

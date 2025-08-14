@@ -27,7 +27,7 @@
 				</ul>
 				<br>
 				<ul class="usinf">
-					<li><div class="ui-c1 grey">Anzahl der Veröffentlichungen</div> <div class="ui-c2">{news-num}&nbsp;&nbsp; [ {news} ]</div></li>
+					<li><div class="ui-c1 grey">Anzahl der Nachrichten</div> <div class="ui-c2">{news-num}&nbsp;&nbsp; [ {news} ]</div></li>
 					<li><div class="ui-c1 grey">Anzahl der Kommentare</div> <div class="ui-c2">{comm-num}&nbsp;&nbsp; [ {comments} ]</div></li>
 					<li><div class="ui-c1 grey">Webseite-Rating</div> <div class="ui-c2">{rate}</div></li>
 				</ul>

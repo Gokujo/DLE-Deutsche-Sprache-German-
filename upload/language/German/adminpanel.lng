@@ -232,7 +232,7 @@ $lang = array (
 'emoji_flags' => "Flaggen",
 'emoji_last' => "Kürzlich verwendet",
 'opt_sys_lastview' => "Verfolgung der zuletzt angesehenen Nachrichten",
-'opt_sys_lastviewd' => "Bei Aktivierung dieser Einstellung werden die letzten angesehenen Nachrichten durch Besucher der Webseite aufgezeichnet. Diese Möglichkeit kann in Zukunft bei der benutzerdefinierten Ausgabe von Nachrichten mit dem Tag {custom order=\"lastviewed\"} verwendet werden",
+'opt_sys_lastviewd' => "Bei Aktivierung dieser Einstellung werden die letzten angesehenen Nachrichten durch Benutzer der Webseite aufgezeichnet. Diese Möglichkeit kann in Zukunft bei der benutzerdefinierten Ausgabe von Nachrichten mit dem Tag {custom order=\"lastviewed\"} verwendet werden",
 'opt_sys_tiny' => "Bilder mit dem TinyPNG-Service verarbeiten",
 'opt_sys_tinyd' => "Falls 'Aktiviert', werden Bilder automatisch auf dem Service <a href=\"https://tinypng.com\" target=\"_blank\">TinyPNG</a> verarbeitet, wodurch Bilder erheblich komprimiert werden, ohne an Qualität zu verlieren",
 'opt_sys_tinykey' => "API-Schlüssel für den TinyPNG-Service",
