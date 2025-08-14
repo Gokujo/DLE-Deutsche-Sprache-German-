@@ -37,7 +37,7 @@ $lang = [
 	// 18.0
 
 	// 17.3
-	'stat_phperror'            => "Die PHP-Version auf dem Server entspricht nicht der minimal erforderlichen. Datalife Engine kann nicht korrekt auf dieser PHP-Version funktionieren. Die PHP-Version muss mindestens <b>{minversion}</b> sein. Ihre installierte Version {version}",
+	'stat_phperror'            => "Die PHP-Version auf dem Server entspricht nicht der minimal erforderlichen. DataLife Engine kann nicht korrekt auf dieser PHP-Version funktionieren. Die PHP-Version muss mindestens <b>{minversion}</b> sein. Ihre installierte Version {version}",
 	'country_declined'         => "Sie befinden sich in einem Land, für das der Zugang zum Anzeigen dieser Webseite geschlossen ist.",
 	// 17.3
 
@@ -51,7 +51,7 @@ $lang = [
 	'addnews_xf_alert_2'       => "Das Feld <b>{field}</b> muss mindestens <b>{count}</b> Zeichen enthalten",
 	'addnews_xf_alert_3'       => "Das Feld <b>{field}</b> darf höchstens <b>{count}</b> Zeichen enthalten",
 	'error_complaint_5'        => "Sie haben die maximale Anzahl von Beschwerden überschritten, die Sie an die Verwaltung senden können. Sie müssen warten, bis die zuvor von der Webseite gesendeten Beschwerden bearbeitet wurden",
-	'error_complaint_6'        => "Für Ihre Gruppe <b>'{group}'</b> ist das Senden von Beschwerden von der Webseitenverwaltung verboten",
+	'error_complaint_6'        => "Für Ihre Gruppe <b>'{group}'</b> ist das Senden von Beschwerden von der Webseite-Verwaltung verboten",
 	// 17.2
 
 	// 17.1
@@ -67,7 +67,7 @@ $lang = [
 	'self_delete_3'            => "Kontolöschung",
 	'self_delete_4'            => "Passwort erforderlich",
 	'self_delete_5'            => "Ihr Konto und alle Ihre Daten wurden von der Webseite gelöscht.",
-	'self_delete_6'            => "Ihre Anfrage auf Kontolöschung wurde an die Webseitenverwaltung gesendet. Sie wird vom Webseitenadministrator bearbeitet.",
+	'self_delete_6'            => "Ihre Anfrage auf Kontolöschung wurde an die Webseite-Verwaltung gesendet. Sie wird vom Webseite-Administrator bearbeitet.",
 	// 17.0
 
 	// 16.1
@@ -83,7 +83,7 @@ $lang = [
 	'sort_by_edate'            => "Änderungsdatum",
 	'xfield_xfvideo'           => "Videodateien hochladen",
 	'xfield_xfaudio'           => "Audiodateien hochladen",
-	'download_error'           => "Von der Webseitenverwaltung wurde erlaubt, nicht mehr als {count} Datei(en) pro Tag herunterzuladen. Sie können diese Datei erst morgen herunterladen.",
+	'download_error'           => "Von der Webseite-Verwaltung wurde erlaubt, nicht mehr als {count} Datei(en) pro Tag herunterzuladen. Sie können diese Datei erst morgen herunterladen.",
 	// 16.1
 
 	// 16.0
@@ -145,7 +145,7 @@ $lang = [
 	'pm_err_11'                => "Die Nachricht kann nicht gesendet werden, weil für den Empfänger das Senden persönlicher Nachrichten auf der Webseite verboten ist",
 	'reg_err_45'               => "Das Konto in diesem sozialen Netzwerk, auf dem derzeit eine Verbindung zu einem anderen Konto hergestellt ist <b>{login}</b> auf der Webseite. Autorisieren Sie sich auf der Webseite mit der Verwendung dieses Kontos, lösen Sie die Verbindung in Ihrem Profil auf, nachdem Sie es für einen neuen Benutzer wiederherstellen können.",
 	'reg_err_46'               => "Sie sind nicht auf der Webseite angemeldet, daher ist eine Verbindung zu Ihrem aktiven Konto nicht möglich",
-	'reg_err_47'               => "Die Verbindung zu Ihrer sozialen Netzwerk-Verbindung wurde nicht hergestellt. Wenden Sie sich an den WebseitenAdministrator, um dieses Problem zu beheben.",
+	'reg_err_47'               => "Die Verbindung zu Ihrer sozialen Netzwerk-Verbindung wurde nicht hergestellt. Wenden Sie sich an den Webseite-Administrator, um dieses Problem zu beheben.",
 	'social_attach_ok'         => "Ihr Konto wurde erfolgreich an Ihr Konto in der sozialen Netzwerk-Verbindung <b>{social}</b> angebunden. Sie können es verwenden, um sich auf der Webseite zu authentifizieren.",
 	'social_attach_ok_1'       => "Ihr Konto wurde bereits früher an Ihr Konto in der sozialen Netzwerk-Verbindung <b>{social}</b> angebunden. Sie können es verwenden, um sich auf der Webseite zu authentifizieren.",
 	'del_from_social'          => "Möchten Sie wirklich die Verbindung zu dieser sozialen Netzwerk-Verbindung von Ihrem Konto auf der Webseite löschen?",
@@ -220,7 +220,7 @@ $lang = [
 
 	// 12.0
 	'enter_n_pass'             => "Eine Bestätigung des Passworts ist erforderlich",
-	'enter_n_pass_1'           => "Um diese Veröffentlichung anzeigen zu können, müssen Sie das von der Webseitenverwaltung für diese Veröffentlichung festgelegte Passwort eingeben",
+	'enter_n_pass_1'           => "Um diese Veröffentlichung anzeigen zu können, müssen Sie das von der Webseite-Verwaltung für diese Veröffentlichung festgelegte Passwort eingeben",
 	'enter_n_pass_2'           => "Geben Sie das Passwort ein:",
 	'enter_n_pass_3'           => "Senden",
 	'enter_n_pass_4'           => "<b>Falsches Passwort für die Veröffentlichung angegeben</b>",
@@ -324,10 +324,10 @@ $lang = [
 	// 10.5
 
 	// 10.4
-	'reg_err_41'               => "Von der Webseitenverwaltung wurde die Möglichkeit der Anmeldung auf der Webseite über soziale Netzwerke aktiviert. Die Registrierung auf der Webseite wird in diesem Fall deaktiviert.",
+	'reg_err_41'               => "Von der Webseite-Verwaltung wurde die Möglichkeit der Anmeldung auf der Webseite über soziale Netzwerke aktiviert. Die Registrierung auf der Webseite wird in diesem Fall deaktiviert.",
 	'bb_url_tooltip'           => "Geben Sie eine Untertitelung für die Verlinkung ein",
 	'wait_subj'                => "Konto auf der Webseite mit einem Konto in einem sozialen Netzwerk verbinden",
-	'reg_err_42'               => "Dieser Benutzer befindet sich in einer Gruppe von Administratoren, daher kann er nicht mit der Anmeldung über soziale Netzwerke verbunden werden. Um die Anmeldung für die Webseitenverwaltung über soziale Netzwerke zu ermöglichen, muss diese Möglichkeit in den Einstellungen der Webseite im Verwaltungsbereich aktiviert werden.",
+	'reg_err_42'               => "Dieser Benutzer befindet sich in einer Gruppe von Administratoren, daher kann er nicht mit der Anmeldung über soziale Netzwerke verbunden werden. Um die Anmeldung für die Webseite-Verwaltung über soziale Netzwerke zu ermöglichen, muss diese Möglichkeit in den Einstellungen der Webseite im Verwaltungsbereich aktiviert werden.",
 	'reg_err_43'               => "Die Verbindung von Konten wurde nicht abgeschlossen. Die Verlinkung auf die Verbindung von Konten auf der Webseite ist nur einmalig gültig.",
 	'auth_next'                => "Weiter zur Anmeldung auf der Webseite",
 	'auth_social_ok'           => "Die Verbindung von Konten wurde erfolgreich bestätigt. Sie können fortfahren, sich auf der Webseite anzumelden, indem Sie die angegebene Verlinkung aufrufen :",
@@ -375,7 +375,7 @@ $lang = [
 	// 9.7
 	'paste_text'               => "Als einfachen Text einfügen",
 	'bb_t_yvideo'              => "Video aus Videodiensten abspielen",
-	'reg_err_26'               => "Von der Webseitenverwaltung wurde die Registrierung mehrerer Konten auf der Webseite mit derselben IP-Adresse verboten. Ihre IP-Adresse wurde bereits auf einem anderen Konto verwendet.",
+	'reg_err_26'               => "Von der Webseite-Verwaltung wurde die Registrierung mehrerer Konten auf der Webseite mit derselben IP-Adresse verboten. Ihre IP-Adresse wurde bereits auf einem anderen Konto verwendet.",
 	'reg_err_27'               => "Sie sind bereits auf der Webseite mit einem registrierten Konto angemeldet.",
 	// 9.7
 
@@ -423,22 +423,22 @@ $lang = [
 	'anti_message_1'           => "Sehr geehrter Administrator, gemäß Ihren Einstellungen wurde eine Prüfung der Dateien auf die Anwesenheit von fremden oder modifizierten Dateien durchgeführt. Nach der Prüfung wurden die folgenden verdächtigen Dateien festgestellt:",
 	'anti_message_2'           => "Es wird dringend empfohlen, unbekannte Dateien zu löschen und modifizierte Dateien zu überprüfen. Wenn Sie keine Änderungen an den modifizierten Dateien vorgenommen haben, stellen Sie die ursprünglichen Dateien wieder her. Wenn dies Ihre Änderungen sind, machen Sie bitte eine neue Fotoaufnahme der Dateien in der Administrationsseite des Skripts.",
 	'big_text'                 => "Sie haben einen zu großen Textbereich ausgewählt.",
-	'orfo_title'               => "Geben Sie einen Kommentar für die Webseitenverwaltung für die auf der Seite gefundene Fehler:",
+	'orfo_title'               => "Geben Sie einen Kommentar für die Webseite-Verwaltung für die auf der Seite gefundene Fehler:",
 	'reg_err_24'               => "Falscher Antworttext auf die Kontrollfrage",
 	'reg_err_25'               => "<li>Falscher Antworttext auf die Kontrollfrage</li>",
 	// 9.4
 
 	// 9.3
 	'change_mail_subj'         => "Eine Anfrage zur Änderung der E-Mail-Adresse",
-	'change_mail'              => "<li>Sehr geehrter Benutzer! Sie haben Ihre E-Mail-Adresse geändert. Die Webseitenverwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Webseitenverwaltung wenden.</li>",
+	'change_mail'              => "<li>Sehr geehrter Benutzer! Sie haben Ihre E-Mail-Adresse geändert. Die Webseite-Verwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Webseite-Verwaltung wenden.</li>",
 	'change_mail_1'            => "Sehr geehrter {name}! Ihr Antrag auf die Änderung der E-Mail-Adresse an:",
 	'change_mail_2'            => "angenommen.",
 	'change_mail_3'            => "Um Ihre E-Mail-Adresse auf der Webseite zu ändern, müssen Sie die folgende URL durchlaufen:",
 	'change_mail_4'            => "Sie sind nicht auf der Webseite angemeldet. Um Ihre E-Mail-Adresse zu ändern, müssen Sie sich auf der Webseite mit Ihrem Benutzernamen und Ihrem Passwort anmelden, nachdem Sie die folgende URL durchlaufen haben, um die E-Mail-Adresse zu ändern.",
 	'change_mail_5'            => "Die Änderung der E-Mail-Adresse ist nicht möglich. Sie sind unter einem anderen Benutzernamen oder diesem Benutzer angemeldet, der keine Änderung der E-Mail-Adresse auf der Webseite angefordert hat.",
 	'change_mail_6'            => "Ihre E-Mail-Adresse auf der Webseite wurde erfolgreich geändert.",
-	'news_info_7'              => "Von der Webseitenverwaltung wurde die Veröffentlichung in den {days} Tagen nach der Registrierung auf der Webseite verboten.",
-	'news_info_8'              => "Von der Webseitenverwaltung wurde die Veröffentlichung von Kommentaren in den {days} Tagen nach der Registrierung auf der Webseite verboten.",
+	'news_info_7'              => "Von der Webseite-Verwaltung wurde die Veröffentlichung in den {days} Tagen nach der Registrierung auf der Webseite verboten.",
+	'news_info_8'              => "Von der Webseite-Verwaltung wurde die Veröffentlichung von Kommentaren in den {days} Tagen nach der Registrierung auf der Webseite verboten.",
 	'vote_not_allow'           => "Sie können nicht am Abstimmungsverfahren auf der Webseite teilnehmen.",
 	'add_to_ignore'            => "Möchten Sie wirklich einen Absender zu der Liste der ignorierten Benutzer hinzufügen?",
 	'ignore_error'             => "Sie können sich nicht selbst ignorieren.",
@@ -449,8 +449,8 @@ $lang = [
 	'del_from_ignore_1'        => "Einen Benutzer aus der Liste der ignorierten Benutzer löschen.",
 	'ignore_del_ok'            => "Benutzer wurde aus der Liste der ignorierten Benutzer gelöscht.",
 	'pm_ignored'               => "Sie befinden sich in der Liste der ignorierten Benutzer bei diesem Empfänger. Ihre Nachricht an diesen Benutzer kann nicht gesendet werden.",
-	'add_to_complaint'         => "Geben Sie den Text Ihrer Beschwerde für die Webseitenverwaltung an:",
-	'error_complaint_1'        => "Sie haben bereits eine Benachrichtigung für die Webseitenverwaltung gesendet.",
+	'add_to_complaint'         => "Geben Sie den Text Ihrer Beschwerde für die Webseite-Verwaltung an:",
+	'error_complaint_1'        => "Sie haben bereits eine Benachrichtigung für die Webseite-Verwaltung gesendet.",
 	'error_complaint_2'        => "Sie können keine Beschwerde an sich selbst senden.",
 	// 9.3
 
@@ -483,7 +483,7 @@ $lang = [
 	'p_no'                     => "Abbrechen",
 	'p_enter'                  => "Einfügen",
 	'p_cancel'                 => "Abbrechen",
-	'news_err_42'              => "<li>Sie haben Zugriff auf die Webseitenverwaltung, daher müssen Sie sich anmelden, um die E-Mail-Adresse oder das Passwort auf der Webseite zu ändern. Diese Aktion wird aus Sicherheitsgründen durchgeführt. Gehen Sie in die Benutzerverwaltungsseite, dort finden Sie Ihren Benutzernamen und führen Sie die erforderlichen Änderungen durch</li>",
+	'news_err_42'              => "<li>Sie haben Zugriff auf die Webseite-Verwaltung, daher müssen Sie sich anmelden, um die E-Mail-Adresse oder das Passwort auf der Webseite zu ändern. Diese Aktion wird aus Sicherheitsgründen durchgeführt. Gehen Sie in die Benutzerverwaltungsseite, dort finden Sie Ihren Benutzernamen und führen Sie die erforderlichen Änderungen durch</li>",
 	'news_err_43'              => "Sie können die Veröffentlichung nur über",
 	'news_err_44'              => "Sie haben das maximale Limit für die Anzahl von Nachrichten erreicht, das Sie auf der Webseite in einem Tag hinzufügen dürfen.",
 	'bb_t_upload'              => "Dateien auf den Server hochladen",
@@ -502,7 +502,7 @@ $lang = [
 	'preview_short'            => "Kurze Zusammenfassung:",
 	'preview_full'             => "Detaillierte Zusammenfassung:",
 	'lost_send'                => "Sehr geehrter Benutzer! Gemäß Ihrer Anfrage wurde Ihnen ein neues Passwort generiert. Dieses Passwort wurde Ihnen auf Ihre E-Mail-Adresse gesendet:",
-	'news_err_40'              => "Der Text Ihres Kommentars ist zu kurz und nach Ansicht der Webseitenverwaltung nicht hilfreich.",
+	'news_err_40'              => "Der Text Ihres Kommentars ist zu kurz und nach Ansicht der Webseite-Verwaltung nicht hilfreich.",
 	'news_err_41'              => "Sie haben keine Erlaubnis, Artikel in diesem Bereich der Webseite zu veröffentlichen, wählen Sie eine Kategorie aus der verfügbaren Liste aus.",
 	'edit_selact'              => "-- Aktion --",
 	'edit_seldel'              => "Löschen",
@@ -516,7 +516,7 @@ $lang = [
 	'lost_ip'                  => "Um die Sperre aufgrund der IP-Adresse auf der Webseite zu lösen, gehen Sie bitte die folgende URL durch:",
 	'lost_clear_ip'            => "Sperre aufgrund der IP-Adresse aufgehoben",
 	'lost_clear_ip_1'          => "Von Benutzer <b>{username}</b> wurde die Sperre aufgrund der IP-Adresse auf der Webseite erfolgreich aufgehoben.",
-	'lost_mfg'                 => "Mit freundlichen Grüßen,\nWebseitenverwaltung",
+	'lost_mfg'                 => "Mit freundlichen Grüßen,\nWebseite-Verwaltung",
 	'c_subscribe'              => "Abonnieren Sie die Kommentare",
 	'admin'                    => "Administrator",
 	'news_err_37'              => "Der Text enthält keinen zulässigen Text für die Veröffentlichung.",
@@ -547,7 +547,7 @@ $lang = [
 	// 8.0
 
 	// 7.5
-	'news_err_32'              => "<li>Von der Webseitenverwaltung wurde die Ladung von Avataren für Ihre Gruppe verboten.</li>",
+	'news_err_32'              => "<li>Von der Webseite-Verwaltung wurde die Ladung von Avataren für Ihre Gruppe verboten.</li>",
 	'not_allowed_sig'          => "<li>Zu lange Unterschrift!</li>",
 	'news_err_33'              => "Der Text enthält keine zulässigen Tags für die Veröffentlichung.",
 	'news_err_34'              => "Informationen über Sie oder Ihre Unterschrift enthalten keine zulässigen Tags für die Veröffentlichung.",
@@ -560,7 +560,7 @@ $lang = [
 	'reg_err_30'               => "Der Benutzername darf nicht leer sein!",
 	'reg_err_31'               => "Die Länge des Passworts muss mindestens 6 Zeichen betragen!",
 	'reg_err_32'               => "Beide eingegebenen Passwörter müssen identisch sein!",
-	'reg_err_33'               => "Falscher E-Mail-Adressname!",
+	'reg_err_33'               => "Falscher E-Mail-Adressenname!",
 	'rss_user'                 => "Alle Artikel eines Benutzers über RSS verfolgen",
 	'show_archive'             => "Alle Archivseiten anzeigen / verstecken",
 	'no_message'               => "Zu dieser Zeit haben Sie keine persönlichen Nachrichten",
@@ -568,10 +568,10 @@ $lang = [
 	// 7.3
 
 	// 7.2
-	'news_info_2'              => "Von der Webseitenverwaltung wurde die Kommentierung auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
-	'news_info_3'              => "Von der Webseitenverwaltung wurde die Kommentierung auf dieser Webseite verboten.",
-	'news_info_4'              => "Von der Webseitenverwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
-	'news_info_5'              => "Von der Webseitenverwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite verboten.",
+	'news_info_2'              => "Von der Webseite-Verwaltung wurde die Kommentierung auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
+	'news_info_3'              => "Von der Webseite-Verwaltung wurde die Kommentierung auf dieser Webseite verboten.",
+	'news_info_4'              => "Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
+	'news_info_5'              => "Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite verboten.",
 	'loading'                  => "Laden...",
 	'mail_pm'                  => "Neue persönliche Nachricht",
 	'sort_main'                => "Artikel nach:",
@@ -582,9 +582,9 @@ $lang = [
 	'sort_by_comm'             => "Kommentare",
 	'rules_accept'             => "Ich stimme zu",
 	'rules_decline'            => "Ich stimme nicht zu",
-	'reg_err_21'               => "<li>Von der Webseitenverwaltung wurde der Benutzername {descr} nicht verwendet</li>",
+	'reg_err_21'               => "<li>Von der Webseite-Verwaltung wurde der Benutzername {descr} nicht verwendet</li>",
 	'reg_err_22'               => ", aus folgendem Grund: {descr}",
-	'reg_err_23'               => "<li>Von der Webseitenverwaltung wurde der E-Mail-Adressname {descr} nicht verwendet</li>",
+	'reg_err_23'               => "<li>Von der Webseite-Verwaltung wurde der E-Mail-Adressenname {descr} nicht verwendet</li>",
 	'reason'                   => "Geben Sie einen Grund für die Bearbeitung an:",
 	'tag_cloud'                => "Tag-Wolke",
 	'last_news'                => "Letzte Nachrichten auf der Webseite",
@@ -593,7 +593,7 @@ $lang = [
 
 	// 7.0
 	'sig_not_allowed'          => "Füllen Sie dieses Feld nicht aus, da für Ihre Gruppe die Verwendung von Signaturen in Kommentaren verboten ist.",
-	'add_err_9'                => "Von der Webseitenverwaltung wurde ein Limit für die maximale Anzahl von Artikeln festgelegt, die für die Moderation aufgenommen werden dürfen. Zurzeit wurden auf der Webseite die maximalen Anzahl von Nachrichten hinzugefügt, die von der Webseitenverwaltung überprüft werden. Versuchen Sie, Ihren Artikel ein wenig später hinzuzufügen.",
+	'add_err_9'                => "Von der Webseite-Verwaltung wurde ein Limit für die maximale Anzahl von Artikeln festgelegt, die für die Moderation aufgenommen werden dürfen. Zurzeit wurden auf der Webseite die maximalen Anzahl von Nachrichten hinzugefügt, die von der Webseite-Verwaltung überprüft werden. Versuchen Sie, Ihren Artikel ein wenig später hinzuzufügen.",
 	// 7.0
 
 	// 6.7
@@ -645,7 +645,7 @@ $lang = [
 	// 5.3
 	'bb_t_emo'                 => "Einfügen von Smileys",
 	'pm_to'                    => "Empfänger",
-	'approve'                  => "(Warten auf Bestätigung durch die Webseitenverwaltung)",
+	'approve'                  => "(Warten auf Bestätigung durch die Webseite-Verwaltung)",
 	'ip_info'                  => "Informationen zur IP-Adresse",
 	'ip_tools'                 => "Suche nach anderen Benutzern",
 	'ip_ban'                   => "Adresse sperren",
@@ -717,7 +717,7 @@ $lang = [
 	's_freset'       => "Zurücksetzen",
 	'static_denied'  => "Sie haben nicht genug Rechte, um die ausgewählte Seite anzuzeigen.",
 	'i_quote'        => "Zitat:",
-	'feed_error'     => "Benutzer, die sich in der Gruppe \"<b>{group}</b>\" befinden, können nur eine Rückmeldung auf der Webseite über die Webseitenverwaltung senden.",
+	'feed_error'     => "Benutzer, die sich in der Gruppe \"<b>{group}</b>\" befinden, können nur eine Rückmeldung auf der Webseite über die Webseite-Verwaltung senden.",
 	'search_denied'  => "Benutzer, die sich in der Gruppe \"<b>{group}</b>\" befinden, können keine Suche auf der Webseite durchführen.",
 	'news_err_id'    => "Es wurde keine Artikel-ID angegeben.",
 	'comm_req_f'     => "Füllen Sie alle erforderlichen Felder aus",
@@ -806,10 +806,10 @@ $lang = [
 	'reg_err_3'  => "<li>Ungültige Länge des Namens. Der Login darf nicht weniger als 3 Zeichen und nicht mehr als 40 Zeichen lang sein!</li>",
 	'reg_err_4'  => "<li>Sie verwenden keinen gültigen Namen!</li>",
 	'reg_err_5'  => "<li>Sie verwenden kein gültiges Passwort!</li>",
-	'reg_err_6'  => "<li>Falscher E-Mail-Adressname!</li>",
+	'reg_err_6'  => "<li>Falscher E-Mail-Adressenname!</li>",
 	'reg_err_7'  => "Der Benutzername darf nicht leer sein!",
 	'reg_err_8'  => "<li>Es gibt bereits einen Benutzer mit diesem Namen oder E-Mail-Adresse!</li>",
-	'reg_err_9'  => "Von der Webseitenverwaltung wurde die Registrierung nicht unterstützt.",
+	'reg_err_9'  => "Von der Webseite-Verwaltung wurde die Registrierung nicht unterstützt.",
 	'reg_err_10' => "Auf der Webseite ist bereits die maximale Anzahl von Benutzern erreicht. Versuchen Sie sich später zu registrieren.",
 	'reg_err_11' => "Registrierungsfehler",
 	'reg_err_12' => "<li>Es ist ein Fehler beim Hochladen des Avatars aufgetreten.</li>",
@@ -823,7 +823,7 @@ $lang = [
 
 	'reg_subj'  => "Kontoaktivierung",
 	'reg_vhead' => "Eine Anfrage zur Aktivierung wurde eingereicht",
-	'reg_vtext' => "Anfrage zur Registrierung angenommen.<br><br>Die Webseitenverwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Noch ein wenig, und Sie werden auf der Webseite registriert. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Webseitenverwaltung wenden.",
+	'reg_vtext' => "Anfrage zur Registrierung angenommen.<br><br>Die Webseite-Verwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Noch ein wenig, und Sie werden auf der Webseite registriert. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Webseite-Verwaltung wenden.",
 
 	'add_err_1'    => "<li>Der Titel darf nicht leer sein</li>",
 	'add_err_2'    => "<li>Es wurde ein zu langsamer Titel eingegeben</li>",
@@ -835,7 +835,7 @@ $lang = [
 	'add_ok'       => "Nachricht hinzugefügt",
 	'add_ok_1'     => "Ihr Artikel wurde erfolgreich in die Datenbank eingefügt.",
 	'add_ok_2'     => "Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Nach der Überprüfung durch den Administrator wird er auf der Webseite veröffentlicht.",
-	'add_ok_3'     => "Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Allerdings ist zu beachten, dass Sie Informationen ohne Moderation in nicht alle Bereiche veröffentlichen können, sodass Ihr Artikel nur nach der Überprüfung durch den WebseitenAdministrator auf der Webseite veröffentlicht wird.",
+	'add_ok_3'     => "Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Allerdings ist zu beachten, dass Sie Informationen ohne Moderation in nicht alle Bereiche veröffentlichen können, sodass Ihr Artikel nur nach der Überprüfung durch den Webseite-Administrator auf der Webseite veröffentlicht wird.",
 	'add_noch'     => "Noch einmal hinzufügen",
 	'add_or'       => "oder",
 	'add_al_com'   => "Kommentare zulassen",
@@ -919,14 +919,14 @@ $lang = [
 	'lost_err_1' => "Der Benutzer mit diesem Namen oder E-Mail-Adresse wurde nicht in der Datenbank gefunden",
 
 	'news_err_1'  => "Sie haben einen zu langen Namen eingegeben.",
-	'news_err_2'  => "Sie haben einen zu langen E-Mail-Adressname eingegeben.",
+	'news_err_2'  => "Sie haben einen zu langen E-Mail-Adressenname eingegeben.",
 	'news_err_3'  => "Sie haben einen zu langen Kommentar eingegeben.",
 	'news_err_4'  => "Schutz gegen Spam aktiviert.",
 	'news_err_5'  => "Sie können nur einen erneuten Kommentar für diesen Artikel über",
 	'news_err_6'  => "Sekunden",
 	'news_err_7'  => "<li>Es tut uns leid, aber Sie haben Ihren Namen oder E-Mail-Adresse eines registrierten Benutzers eingegeben. Wenn Sie dieser Benutzer sind, müssen Sie sich in der Benutzerverwaltungsseite anmelden.</li>",
 	'news_err_9'  => "Das Feld \"Name\" ist ein obligatorisches Feld und darf nicht leer sein.",
-	'news_err_10' => "Es tut uns leid, aber Sie haben einen falschen E-Mail-Adressname eingegeben.",
+	'news_err_10' => "Es tut uns leid, aber Sie haben einen falschen E-Mail-Adressenname eingegeben.",
 	'news_err_11' => "Das Feld \"Kommentar\" ist ein obligatorisches Feld und darf nicht leer sein.",
 	'news_err_12' => "Leider ist diese Seite für Sie nicht verfügbar, möglicherweise wurde ihre Adresse geändert oder sie wurde gelöscht. Bitte verwenden Sie die Suche.",
 	'news_err_13' => "<li>Sie haben keine Berechtigung, um dieses Profil zu bearbeiten!</li>",
@@ -937,7 +937,7 @@ $lang = [
 	'news_err_18' => "<li>Beide eingegebenen Passwörter müssen identisch sein!</li>",
 	'news_err_19' => "<li>Die Länge des Passworts muss mindestens 6 Zeichen und nicht mehr als 72 Zeichen betragen!</li>",
 	'news_err_20' => "<li>Sie verwenden ein ungültiges Passwort!</li>",
-	'news_err_21' => "<li>Falscher E-Mail-Adressname!</li>",
+	'news_err_21' => "<li>Falscher E-Mail-Adressenname!</li>",
 	'news_err_22' => "<li>Zu lange Information über Sie!</li>",
 	'news_err_23' => "<li>Es wurde ein zu langsamer Name eingegeben!</li>",
 	'news_err_24' => "<li>Länder mit einem solchen langen Namen gibt es nicht!</li>",
@@ -948,7 +948,7 @@ $lang = [
 
 	'feed_err_1' => "<li>Sie haben Ihren Namen nicht angegeben.</li>",
 	'feed_err_2' => "<li>Sie haben Ihre E-Mail-Adresse nicht angegeben.</li>",
-	'feed_err_3' => "<li>Falscher E-Mail-Adressname!</li>",
+	'feed_err_3' => "<li>Falscher E-Mail-Adressenname!</li>",
 	'feed_err_4' => "<li>Sie haben den Betreff der Nachricht nicht angegeben.</li>",
 	'feed_err_5' => "<li>Sie haben den Text der Nachricht nicht angegeben.</li>",
 	'feed_err_6' => "Es ist nicht möglich, Ihre Nachricht zu senden.",
