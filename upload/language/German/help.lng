@@ -1,0 +1,187 @@
+<?php
+
+$help_sections['title']['templates'] ="Vorlagen";
+$help_sections['body']['templates'] = <<<HTML
+Vorlagen werden verwendet, um die Anzeige von Nachrichten einfach zu ändern. Sie können verschiedene Teile der Vorlage ändern, die für verschiedene Teile der Nachrichtenanzeige verwendet werden. Zum Beispiel wird der Vorlagenteil "Kurzbeschreibung" verwendet, um das Aussehen aktiver Nachrichten zu ändern, "Vollständiger Artikel", um das Aussehen des vollständigen Artikels zu ändern, "Kommentar", um das Aussehen von Kommentaren zu ändern usw.<br><br>
+Beim Bearbeiten von Vorlagenteilen können Sie HTML verwenden, um verschiedene Strukturen usw. zu ändern. Außerdem müssen Sie einige spezielle Bezeichnungen in Ihren Vorlagen hinzufügen, um den Ort zu definieren, wo der Titel der Nachricht, der Name des Autors, das Datum usw. angezeigt werden. Jeder Vorlagenteil entspricht einer bestimmten Bezeichnung.<br>
+Die Werte der Variablen können auf der Seite zur Bearbeitung von Vorlagen beim Klicken auf den Namen des Vorlagenteils angezeigt werden. Zum Beispiel wird <b>{title}</b> den Titel des Artikels ausgeben, und <b>{author}</b> den Autor des Artikels usw.<br><br>
+Sie können mehrere verschiedene Vorlagen verwenden.
+HTML;
+
+$help_sections['title']['xfields'] ="Zusätzliche Felder";
+$help_sections['body']['xfields'] = <<<HTML
+Die Verbindung zusätzlicher Felder erfolgt über das Menü <b>Einstellungen</b> &gt; <b>Zusätzliche Felder</b>. Diese Funktion ist nützlich beim Veröffentlichen zusammen mit dem Artikel, zum Beispiel Links zur ursprünglichen Quelle.<br>
+Sie können ein neues Feld hinzufügen, indem Sie auf die Schaltfläche "Feld hinzufügen" klicken. Auf der sich öffnenden Seite müssen Sie einen eindeutigen Feldnamen, eine Feldbeschreibung und den Standardfeldinhalt eingeben. Außerdem müssen Sie wählen, ob Sie die Felder nach Wunsch verwenden möchten. Das bedeutet, wenn Sie für einen Artikel kein zusätzliches Feld verwenden möchten, reicht es aus, das Feld beim Hinzufügen/Bearbeiten der Nachricht leer zu lassen, und das Modul wird nicht eingeschaltet.<br><br>
+Um das Feld auf der Seite mit Nachrichten zu verwenden, müssen Sie in die Vorlage die Variable <b>[xfvalue_X]</b> hinzufügen, wobei <b>X</b> der Wert des Feldes ist (der Name, den Sie beim Hinzufügen des neuen Feldes eingegeben haben). Sie können auch die Kombination <b>[xfgiven_X]...[/xfgiven_X]</b> verwenden, die den angegebenen Text ausgibt, wenn das zusätzliche Feld gesetzt wurde. Und Sie können auch die Kombination <b>[xfnotgiven_X]...[/xfnotgiven_X]</b> verwenden, die den angegebenen Text ausgibt, wenn das zusätzliche Feld nicht gesetzt wurde.<br><br>
+Beispiel für die Arbeit der Felder:
+<div class="code">
+<b>1)</b>- Name: stit<br>
+&nbsp;&nbsp;- Beschreibung: Informationsquelle<br>
+&nbsp;&nbsp;- Standardwert: Ich<br>
+&nbsp;&nbsp;- Nach Wunsch: ja<br>
+<b>2)</b>- Name: source<br>
+&nbsp;&nbsp;- Beschreibung: Link zur Informationsquelle<br>
+&nbsp;&nbsp;- Standardwert: http://server.com/<br>
+&nbsp;&nbsp;- Nach Wunsch: ja<br><br>
+<b>In der Vorlage schreiben wir:</b><br>
+[xfgiven_source]Quelle - &lt;a href=[xfvalue_source] target=_blank&gt;[xfvalue_stit]&lt;/a&gt;.[/xfgiven_source]<br>
+[xfnotgiven_source]Quelle nicht angegeben[/xfnotgiven_source]</div>
+Falls das Feld in der Veröffentlichung gesetzt wurde, wird das Ergebnis der Arbeit der folgende HTML-Code sein:
+<div class="code">Quelle - &lt;a href=http://server.com/ target=_blank&gt;Ich&lt;/a&gt;.</div>
+Falls die Quelle nicht gesetzt wurde, wird das Ergebnis der Arbeit die Nachricht sein:
+<div class="code">Quelle nicht angegeben</div>
+Denken Sie daran, dass für den Feldnamen nur lateinische Buchstaben und Zahlen verwendet werden sollten.
+HTML;
+
+$help_sections['title']['xprofile'] ="Zusätzliche Felder im Benutzerprofil";
+$help_sections['body']['xprofile'] = <<<HTML
+Diese Funktion ist für das Hinzufügen neuer Felder in das Benutzerprofil neben den bestehenden grundlegenden Feldern gedacht.<br><br>
+Sie können ein neues Feld hinzufügen, indem Sie auf den Link "Feld hinzufügen" klicken. Auf der sich öffnenden Seite müssen Sie einen eindeutigen Feldnamen und eine Feldbeschreibung eingeben. Außerdem müssen Sie wählen, ob der Benutzer bei der Registrierung zusätzliche Informationen hinzufügen kann, ob dieses Feld streng persönlich ist und ob der Benutzer den Inhalt dieses Feldes später bearbeiten kann.<br><br>
+Zusätzliche Felder sind beim Anzeigen von Kommentaren und dem Benutzerprofil verfügbar. Sie müssen in die entsprechenden Vorlagen den Tag [xfvalue_X] hinzufügen, wobei X der Wert des Feldes ist (der Name, den Sie beim Hinzufügen des neuen Feldes eingegeben haben). Sie können auch die Kombination [xfgiven_X]...[/xfgiven_X] verwenden.<br><br>
+Beispiel für die Arbeit der Felder:
+<div class="code">
+&nbsp;&nbsp;- Name: city<br>
+&nbsp;&nbsp;- Beschreibung: Stadt<br>
+&nbsp;&nbsp;- Feldtyp: Eine Zeile<br>
+&nbsp;&nbsp;- Auf der Registrierungsseite hinzufügen: ja<br>
+&nbsp;&nbsp;- Feld kann vom Benutzer geändert werden: ja<br>
+&nbsp;&nbsp;- Dieses Feld persönlich machen: nein<br><br>
+in die Vorlagen comments.tpl und userinfo.tpl hinzufügen<br>
+[xfgiven_city] Stadt: [xfvalue_city] [/xfgiven_city]</div>
+Wenn der Benutzer in seinem Profil zum Beispiel "Moskau" als Stadt hinzugefügt hat, wird das Ergebnis der Arbeit der folgende HTML-Code sein:
+<div class="code">Stadt: Moskau</div>
+Denken Sie daran, dass für den Feldnamen nur lateinische Buchstaben und Zahlen verwendet werden sollten.
+HTML;
+
+$help_sections['title']['banners'] ="Verwaltung von Werbung auf der Website";
+$help_sections['body']['banners'] = <<<HTML
+Dieses Modul ist für die schnelle und bequeme Platzierung und Verwaltung Ihrer Werbematerialien auf der Website gedacht. Um Ihren Banner auf der Website zu platzieren, reicht es aus, den Banner-Tag einmal in die Vorlage hinzuzufügen. Danach können Sie den Banner-Code im Admin-Panel problemlos ändern oder bearbeiten, ohne dabei die Vorlagen zu berühren.<br /><br />
+Nach dem Hinzufügen Ihres Banners können Sie seinen Tag in den Vorlagen <b>main.tpl</b> oder <b>fullstory.tpl</b> platzieren. Wenn Sie einen Banner für die Anzeige zwischen kurzen Nachrichten hinzufügen, ist es nicht nötig, den Tag in die Vorlage hinzuzufügen. Der Banner wird automatisch zwischen den Nachrichten hinzugefügt.
+<br />Beispiel für die Arbeit:
+<div class="code">
+&nbsp;&nbsp;- Name: header<br>
+&nbsp;&nbsp;- Beschreibung: Oberer Banner<br>
+&nbsp;&nbsp;- Banner-Anzeige aktivieren: Ja<br>
+&nbsp;&nbsp;- Nur auf der Hauptseite anzeigen: Nein<br>
+&nbsp;&nbsp;- In der Position fixieren: Nein<br>
+&nbsp;&nbsp;- Position in kurzen Nachrichten: Nein<br><br>
+Danach können Sie in Ihre Vorlage in <b>main.tpl</b> oder <b>fullstory.tpl</b> den Tag für die Banner-Ausgabe hinzufügen: <b>{banner_header}</b><br />
+</div>
+Sie können beim Hinzufügen des Banner-Codes HTML und JavaScript verwenden.
+HTML;
+
+$help_sections['title']['date'] ="Formate für lokale Zeit und Datum";
+$help_sections['body']['date'] = <<<HTML
+In der Formatzeile werden folgende Zeichen erkannt: 
+<ul>
+<li><b>a</b> - "am" oder "pm"</li>
+<li><b>A</b> - "AM" oder "PM"</li>
+<li><b>B</b> - Swatch Internet-Zeit </li>
+<li><b>d</b> - Tag (Zahl) des Monats, 2 Ziffern mit führender Null, falls erforderlich; d.h. von "01" bis "31"</li>
+<li><b>D</b> - Wochentag, alphabetisch, 3 Buchstaben; zum Beispiel "Fri"</li>
+<li><b>F</b> - Monat, alphabetisch, lang; zum Beispiel "January"</li>
+<li><b>g</b> - Stunde, 12-Stunden-Format ohne führende Nullen; d.h. von "1" bis "12"</li>
+<li><b>G</b> - Stunde, 24-Stunden-Format ohne führende Nullen; d.h. von "0" bis "23"</li>
+<li><b>h</b> - Stunde, 12-Stunden-Format; d.h. von "01" bis "12"</li>
+<li><b>H</b> - Stunde, 24-Stunden-Format; d.h. von "00" bis "23"</li>
+<li><b>i</b> - Minuten; d.h. von "00" bis "59"</li>
+<li><b>I</b> (Großbuchstabe i) - "1", wenn Sommerzeit, "0" - sonst.</li>
+<li><b>j</b> - Tag (Zahl) des Monats ohne führende Nullen; d.h. von "1" bis "31" </li>
+<li><b>l</b> ('L' in Kleinbuchstaben) - Wochentag, alphabetisch, lang; zum Beispiel "Friday" </li>
+<li><b>L</b> - Boolean, der angibt, ob es ein Schaltjahr ist; d.h. "0" oder "1"</li> 
+<li><b>m</b> - Monat; d.h. von "01" bis "12"</li>
+<li><b>M</b> - Monat, alphabetisch, 3 Buchstaben; zum Beispiel "Jan" </li>
+<li><b>n</b> - Monat ohne führende Nullen; d.h. von "1" bis "12" </li>
+<li><b>O</b> - Differenz zur Greenwich-Zeit, in Stunden; zum Beispiel "+0200" </li>
+<li><b>r</b> - RFC 822 Datumsformat; zum Beispiel "Thu, 21 Dec 2000 16:01:07 +0200" (eingeführt in PHP 4.0.4) </li>
+<li><b>s</b> - Sekunden; d.h. von "00" bis "59"</li>
+<li><b>S</b> - einfaches englisches Suffix für den Tag (Zahl) des Monats, 2 Zeichen; d.h. "st", "nd", "rd" oder "th"</li>
+<li><b>t</b> - Anzahl der Tage im gegebenen Monat; d.h. von "28" bis "31" </li>
+<li><b>T</b> - Einstellung der Zeitzone/des Zeitzonensystems auf dieser Maschine; zum Beispiel "EST" oder 
+"MDT" </li>
+<li><b>U</b> - Sekunden seit der Unix-Epoche (beginnend mit January 1 1970 00:00:00 GMT) </li>
+<li><b>w</b> - Wochentag, numerisch, d.h. von "0" (Sunday) bis "6" (Saturday) </li>
+<li><b>W</b> - ISO-8601 Wochentag im Jahr, Wochen beginnen mit Montag/Monday 
+(eingeführt in PHP 4.1.0) </li>
+<li><b>Y</b> - Jahr, 4 Ziffern; zum Beispiel "1999"</li>
+<li><b>y</b> - Jahr, 2 Ziffern; zum Beispiel "99" </li>
+<li><b>z</b> - Tag des Jahres; d.h. von "0" bis "365"</li>
+<li><b>Z</b> - Zeitzonenversatz, in Sekunden (d.h. von "-43200" bis "43200"). </li>
+Der Zeitzonenversatz westlich von UTC ist immer negativ, und für Zonen östlich von UTC - immer positiv.</li></ul>
+HTML;
+
+$help_sections['title']['social'] ="Einstellung der Autorisierung über soziale Netzwerke";
+$help_sections['body']['social'] = <<<HTML
+<div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk VKontakte</div>
+Zunächst müssen Sie eine neue Anwendung auf der Website des sozialen Netzwerks <a href="https://vk.com/editapp?act=create" target="_blank">VKontakte</a> erstellen.<br><br>
+In dem sich öffnenden Formular geben Sie den Namen der Anwendung ein, wählen den Typ "Website", als Adresse für Redirect URI geben Sie den Pfad http://ihrewebsite.ru/index.php ein, und als Basisdomäne geben Sie an: ihrewebsite.ru
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/vk1.jpg" /></div>
+<br />Nach dem Klicken auf die Schaltfläche "Website verbinden" müssen Sie einen Verifizierungscode eingeben, der per SMS kommt. Wenn Sie die Verifizierung bestehen, sollte sich das folgende Formular mit den Anwendungseinstellungen öffnen:
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/vk2.jpg" /></div>
+<br />Aus diesem Formular benötigen Sie Daten wie "Anwendungs-ID" und "Geschützter Schlüssel", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
+<div class="code">[vk]&lt;a href="{vk_url}" target="_blank"&gt;Autorisierung mit Hilfe von VKontakte&lt;/a&gt;[/vk]</div>
+Wobei die Tags [vk] Text [/vk] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks VKontakte aktiviert ist. Und der Tag {vk_url} gibt den URL-Link zur Autorisierung im sozialen Netzwerk aus.
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Odnoklassniki</div>
+Für die Registrierung der Website, auf der die Autorisierung über Odnoklassniki platziert wird, ist es notwendig, das <a href="http://www.odnoklassniki.ru/devaccess" target="_blank">Formular auszufüllen und Entwicklerrechte zu erhalten</a>. Danach öffnen Sie den Abschnitt <a href="http://www.odnoklassniki.ru/games" target="_blank">"Spiele"</a> und rechts im Menü sollte der Link <a href="http://www.odnoklassniki.ru/dk?st.cmd=appsInfoMyDevList&st._aid=Apps_Info_MyDev" target="_blank">"Meine hochgeladenen"</a> sein. Danach klicken Sie auf "Anwendung hinzufügen" und füllen das Formular aus:<br><br>
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/odnoklassniki1.jpg" /></div>
+<br />Beim Ausfüllen des Formulars geben Sie unbedingt den Anwendungstyp "External" an. In den Feldern "Link zur Anwendung" und "Liste der erlaubten redirect_uri" geben Sie den Pfad http://ihrewebsite.ru/index.php?do=auth-social&provider=od an, wobei ihrewebsite.ru der Name Ihrer Domäne ist, und markieren Sie das Häkchen "Client-OAuth-Autorisierung erlauben". Nach dem Hinzufügen der neuen Anwendung wird Ihnen eine E-Mail mit den benötigten Einstellungen an Ihre E-Mail-Adresse gesendet.
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/odnoklassniki2.jpg" /></div>
+<br />Aus der E-Mail benötigen Sie Parameter wie "Application ID", "Öffentlicher Schlüssel der Anwendung", "Geheimer Schlüssel der Anwendung", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
+<div class="code">[odnoklassniki]&lt;a href="{odnoklassniki_url}" target="_blank"&gt;Autorisierung mit Hilfe von Odnoklassniki&lt;/a&gt;[/odnoklassniki]</div>
+Wobei die Tags [odnoklassniki] Text [/odnoklassniki] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Odnoklassniki aktiviert ist. Und der Tag {odnoklassniki_url} gibt den URL-Link zur Autorisierung in diesem sozialen Netzwerk aus.
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Facebook</div>
+Zunächst müssen Sie eine neue Anwendung auf der Website des sozialen Netzwerks <a href="https://developers.facebook.com/apps" target="_blank">Facebook</a> erstellen.<br><br>
+In der oberen rechten Ecke klicken wir auf die Schaltfläche "+ Neue Anwendung erstellen". Danach schreiben wir den Namen der Anwendung ein:
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc1.jpg" /></div>
+<br />Danach wählen Sie als Anwendungstyp, dass die Anwendung für den Login über Facebook ist, und die Plattform Web.
+<br />Danach speichern wir und gehen zu den Einstellungen der Anwendung über, die sich im Untermenü "Produkte" befindet. In den Anwendungseinstellungen ist es notwendig, die richtige URL-Adresse für die OAuth-Umleitung hinzuzufügen, nämlich http://ihrewebsite.ru/index.php?do=auth-social&provider=fc . Für die Aktivierung der Anwendung für den allgemeinen Zugang ist es in der Registerkarte "Anwendungsprüfung" notwendig, die entsprechende Option einzuschalten und zu speichern. Für die weitere Arbeit benötigen Sie Parameter, die Sie in den folgenden Feldern finden können:
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc3.jpg" /></div>
+<br />die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
+<div class="code">[facebook]&lt;a href="{facebook_url}" target="_blank"&gt;Autorisierung mit Hilfe von Facebook&lt;/a&gt;[/facebook]</div>
+Wobei die Tags [facebook] Text [/facebook] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Facebook aktiviert ist. Und der Tag {facebook_url} gibt den URL-Link zur Autorisierung im sozialen Netzwerk aus.
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Google</div>
+<p>Zunächst müssen Sie eine neue Anwendung auf der Website <a href="https://code.google.com/apis/console/" target="_blank">Google</a> erstellen</p>
+<ol>
+	<li>Erstellen Sie ein neues Projekt, indem Sie im Menü oben "API Project" auf <strong>New Project</strong> klicken und einen Namen eingeben.</li>
+	<li>Auf der Startseite des Projekts gehen Sie zu <strong>APIs &amp; Services</strong> in der Seitenleiste und wählen <strong>Dashboard</strong>.</li>
+	<li>In der Seitenleiste gehen Sie zu <strong>Credentials</strong> und wählen <strong>Configure Consent Screen</strong> oben auf der Seite.</li>
+	<li>Fügen Sie den Namen der Anwendung hinzu, fügen Sie Ihre Support-E-Mail hinzu und geben Sie Kontaktdaten ein. Google erfordert eine E-Mail-Adresse in Ihrem Konto.</li>
+	<li>Kehren Sie zur Seite <strong>APIs &amp; Services</strong> zurück, wählen Sie <strong>Create Credentials</strong> &gt; <strong>OAuth client ID</strong> und den Namen Ihrer Anwendung</li>
+    <li>Wählen Sie den Typ <b>Web Application</b> als Anwendungstyp. Da diese Anwendung nicht in einem Google Workspace-Konto erstellt wird, kann jeder Benutzer mit einer Gmail-Adresse sich anmelden.</li>
+    <li>Geben Sie den Namen Ihrer Domäne im Feld <strong>Authorized JavaScript origin</strong> an</li>
+	<li>Im Abschnitt <strong>Authorized redirect URIs</strong> geben Sie im Feld <strong>URIs</strong> die Adresse Ihrer Website einschließlich Domäne und Pfad ein: https://ihrewebsite.ru/index.php?do=auth-social&amp;provider=google</li>
+	<li>Google wird OAuth Client ID und den geheimen Schlüssel bereitstellen, die Sie kopieren und in den DLE-Einstellungen eingeben müssen.</li>
+</ol>
+Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
+<div class="code">[google]&lt;a href="{google_url}" target="_blank"&gt;Autorisierung mit Hilfe von Google&lt;/a&gt;[/google]</div>
+Wobei die Tags [google] Text [/google] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Google aktiviert ist. Und der Tag {google_url} gibt den URL-Link zur Autorisierung im Netzwerk aus.
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Mail.Ru</div>
+Zunächst müssen Sie eine neue Anwendung auf der Website <a href="https://o2.mail.ru/app/new/" target="_blank">https://o2.mail.ru/app/new/</a> erstellen.<br><br>
+Auf der sich öffnenden Seite füllen wir das Formular aus:
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru1.jpg" /></div>
+<br />Als Parameter redirect_uri ist es notwendig, https://site.com/index.php?do=auth-social&provider=mailru anzugeben, wobei site.com der Name Ihrer Domäne ist
+<br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru2.jpg" /></div>
+<br />Danach benötigen Sie Parameter wie "Anwendungs-ID" und "Geheimer Schlüssel", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
+<div class="code">[mailru]&lt;a href="{mailru_url}" target="_blank"&gt;Autorisierung mit Hilfe von Mail.Ru&lt;/a&gt;[/mailru]</div>
+Wobei die Tags [mailru] Text [/mailru] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Mail.Ru aktiviert ist. Und der Tag {mailru_url} gibt den URL-Link zur Autorisierung im Netzwerk aus.
+<br><br>
+<div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Yandex</div>
+Zunächst müssen Sie eine neue Anwendung auf der Website <a href="https://oauth.yandex.ru/client/new" target="_blank">Yandex</a> erstellen.<br><br>
+<div style="text-align:center;"><img src="engine/skins/images/yandex1.jpg" /></div>
+<br />Der Name wird "Yandex Auth" sein. Plattformen: Web-Services, danach markieren wir "API-Autorisierung im Yandex-Browser und Yandex-Anwendung". Bei "Zugriff" klicken wir auf "API Yandex ID" und wählen alle Unterpunkte: E-Mail-Adresse, Geburtsdatum, Zugriff auf Login, Vor- und Nachname, Geschlecht, Zugriff auf das Benutzerporträt. Falls der Benutzer diese Daten in seinem Profil ausgefüllt hat, werden wir später Zugriff darauf haben. Auf der nächsten Seite wird uns ein Block mit speziellen Parametern angezeigt:
+<div style="text-align:center;"><img src="engine/skins/images/yandex2.jpg" /></div>
+<br />Sie benötigen Parameter wie "Anwendungs-ID" und "Anwendungspasswort", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
+<div class="code">[yandex]&lt;a href="{yandex_url}" target="_blank"&gt;Autorisierung mit Hilfe von Yandex&lt;/a&gt;[/yandex]</div>
+Wobei die Tags [yandex] Text [/yandex] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Yandex aktiviert ist. Und der Tag {yandex_url} gibt den URL-Link zur Autorisierung im Netzwerk aus.
+HTML;
+
+?>
