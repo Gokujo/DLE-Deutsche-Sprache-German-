@@ -2,7 +2,7 @@
 	<!-- Suche -->
 	<form id="q_search" method="post">
 		<div class="q_search">
-			<input id="story" name="story" placeholder="Website durchsuchen..." type="search">
+			<input id="story" name="story" placeholder="Webseite durchsuchen..." type="search">
 			<button class="q_search_btn" type="submit" title="Suchen"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg><span class="title_hide">Suchen</span></button>
 		</div>
 		<input type="hidden" name="do" value="search">

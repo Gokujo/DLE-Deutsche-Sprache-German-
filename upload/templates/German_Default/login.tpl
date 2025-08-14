@@ -9,7 +9,7 @@
 				<div class="avatar">
 					<a href="{profile-link}"><span class="cover" style="background-image: url({foto});">{login}</span></a>
 				</div>
-				[admin-link]<div class="login_pane__admin"><a href="{admin-link}" target="_blank">Admin-Panel</a></div>[/admin-link]
+				[admin-link]<div class="login_pane__admin"><a href="{admin-link}" target="_blank">Adminpanel</a></div>[/admin-link]
 			</div>
 			<ul class="login_pane__menu">
 				<li><a href="{pm-link}">Nachrichten <span class="right grey"><b>{new-pm}</b> von {all-pm}</span></a></li>

@@ -23,7 +23,7 @@
 		<form class="droptopbar" id="q_search" method="post">
 			<div class="wrp">
 				<div class="q_search">
-					<input id="story" name="story" placeholder="Website durchsuchen..." type="search">
+					<input id="story" name="story" placeholder="Webseite durchsuchen..." type="search">
 					<button class="btn btn_border" type="submit" title="Suchen"><b class="ultrabold">Suchen</b></button>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 							<span class="icon_close">
 								<i class="mt_1"></i><i class="mt_2"></i>
 							</span>
-							<span class="title_hide">Website durchsuchen</span>
+							<span class="title_hide">Webseite durchsuchen</span>
 						</div>
 						<!-- / Suchbutton -->
 						<!-- Menü -->
@@ -71,7 +71,7 @@
 				<div class="head_text">
 					<div class="head_text_in">
 						<h1 class="title ultrabold">DataLife Engine</h1>
-						<p class="text">Eigene Website ohne Kompromisse!</p>
+						<p class="text">Eigene Webseite ohne Kompromisse!</p>
 					</div>
 				</div>
 				[/available]

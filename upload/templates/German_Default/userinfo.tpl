@@ -21,9 +21,9 @@
 					<li><div class="ui-c1 grey">Status</div> <div class="ui-c2">[online]<span style="color: #70bb39;">Online</span>[/online][offline]Offline[/offline]</div></li>
 				</ul>
 				<ul class="usinf">
-					<li><div class="ui-c1 grey">Anzahl der Veröffentlichungen</div> <div class="ui-c2">{news-num}&nbsp;&nbsp; [ {news} ]</div></li>
+					<li><div class="ui-c1 grey">Anzahl der Nachrichten</div> <div class="ui-c2">{news-num}&nbsp;&nbsp; [ {news} ]</div></li>
 					<li><div class="ui-c1 grey">Anzahl der Kommentare</div> <div class="ui-c2">{comm-num}&nbsp;&nbsp; [ {comments} ]</div></li>
-					<li><div class="ui-c1 grey">Bewertung der Veröffentlichungen</div> <div class="ui-c2">{rate}</div></li>
+					<li><div class="ui-c1 grey">Bewertung der Nachrichten</div> <div class="ui-c2">{rate}</div></li>
 					<li><div class="ui-c1 grey">Bewertung der Kommentare</div> <div class="ui-c2">{commentsrate}</div></li>
 				</ul>
 				<h4 class="heading">Über mich</h4>

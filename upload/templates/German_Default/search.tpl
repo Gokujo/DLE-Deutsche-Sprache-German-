@@ -1,6 +1,6 @@
 <article class="box story searchpage">
 	<div class="box_in">
-		<h1 class="title">Website durchsuchen</h1>
+		<h1 class="title">Webseite durchsuchen</h1>
 		<div id="searchtable" name="searchtable" class="searchtable">
 [simple-search]
 <table style="width:100%;">

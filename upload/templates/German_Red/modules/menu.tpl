@@ -4,7 +4,7 @@
 	</li>
 	<li class="parent"><a href="/index.php?do=feedback">Support<svg class="icon icon-arrow_down"><use xlink:href="#icon-arrow_down"></use></svg></a>
 		<ul>
-			<li><a rel="nofollow" target="_blank" href="http://dle-news.ru/">System-Website</a></li>
+			<li><a rel="nofollow" target="_blank" href="http://dle-news.ru/">System-Webseite</a></li>
 			<li><a rel="nofollow" target="_blank" href="http://forum.dle-news.ru/">Forum</a></li>
 			<li><a rel="nofollow" target="_blank" href="http://dle-news.ru/lastnews/">System-Nachrichten</a></li>
 			<li><a rel="nofollow" target="_blank" href="http://dle-news.ru/faq.html">FAQ</a></li>

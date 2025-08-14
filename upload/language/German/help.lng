@@ -53,9 +53,9 @@ Wenn der Benutzer in seinem Profil zum Beispiel "Moskau" als Stadt hinzugefügt 
 Denken Sie daran, dass für den Feldnamen nur lateinische Buchstaben und Zahlen verwendet werden sollten.
 HTML;
 
-$help_sections['title']['banners'] ="Verwaltung von Werbung auf der Website";
+$help_sections['title']['banners'] ="Verwaltung von Werbung auf der Webseite";
 $help_sections['body']['banners'] = <<<HTML
-Dieses Modul ist für die schnelle und bequeme Platzierung und Verwaltung Ihrer Werbematerialien auf der Website gedacht. Um Ihren Banner auf der Website zu platzieren, reicht es aus, den Banner-Tag einmal in die Vorlage hinzuzufügen. Danach können Sie den Banner-Code im Admin-Panel problemlos ändern oder bearbeiten, ohne dabei die Vorlagen zu berühren.<br /><br />
+Dieses Modul ist für die schnelle und bequeme Platzierung und Verwaltung Ihrer Werbematerialien auf der Webseite gedacht. Um Ihren Banner auf der Webseite zu platzieren, reicht es aus, den Banner-Tag einmal in die Vorlage hinzuzufügen. Danach können Sie den Banner-Code im Adminpanel problemlos ändern oder bearbeiten, ohne dabei die Vorlagen zu berühren.<br /><br />
 Nach dem Hinzufügen Ihres Banners können Sie seinen Tag in den Vorlagen <b>main.tpl</b> oder <b>fullstory.tpl</b> platzieren. Wenn Sie einen Banner für die Anzeige zwischen kurzen Nachrichten hinzufügen, ist es nicht nötig, den Tag in die Vorlage hinzuzufügen. Der Banner wird automatisch zwischen den Nachrichten hinzugefügt.
 <br />Beispiel für die Arbeit:
 <div class="code">
@@ -113,40 +113,40 @@ HTML;
 $help_sections['title']['social'] ="Einstellung der Autorisierung über soziale Netzwerke";
 $help_sections['body']['social'] = <<<HTML
 <div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk VKontakte</div>
-Zunächst müssen Sie eine neue Anwendung auf der Website des sozialen Netzwerks <a href="https://vk.com/editapp?act=create" target="_blank">VKontakte</a> erstellen.<br><br>
-In dem sich öffnenden Formular geben Sie den Namen der Anwendung ein, wählen den Typ "Website", als Adresse für Redirect URI geben Sie den Pfad http://ihrewebsite.ru/index.php ein, und als Basisdomäne geben Sie an: ihrewebsite.ru
+Zunächst müssen Sie eine neue Anwendung auf der Webseite des sozialen Netzwerks <a href="https://vk.com/editapp?act=create" target="_blank">VKontakte</a> erstellen.<br><br>
+In dem sich öffnenden Formular geben Sie den Namen der Anwendung ein, wählen den Typ "Webseite", als Adresse für Redirect URI geben Sie den Pfad http://ihrewebsite.ru/index.php ein, und als Basisdomäne geben Sie an: ihrewebsite.ru
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/vk1.jpg" /></div>
-<br />Nach dem Klicken auf die Schaltfläche "Website verbinden" müssen Sie einen Verifizierungscode eingeben, der per SMS kommt. Wenn Sie die Verifizierung bestehen, sollte sich das folgende Formular mit den Anwendungseinstellungen öffnen:
+<br />Nach dem Klicken auf die Schaltfläche "Webseite verbinden" müssen Sie einen Verifizierungscode eingeben, der per SMS kommt. Wenn Sie die Verifizierung bestehen, sollte sich das folgende Formular mit den Anwendungseinstellungen öffnen:
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/vk2.jpg" /></div>
-<br />Aus diesem Formular benötigen Sie Daten wie "Anwendungs-ID" und "Geschützter Schlüssel", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br />Aus diesem Formular benötigen Sie Daten wie "Anwendungs-ID" und "Geschützter Schlüssel", die Sie im Adminpanel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Webseite eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
 <br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
 <div class="code">[vk]&lt;a href="{vk_url}" target="_blank"&gt;Autorisierung mit Hilfe von VKontakte&lt;/a&gt;[/vk]</div>
 Wobei die Tags [vk] Text [/vk] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks VKontakte aktiviert ist. Und der Tag {vk_url} gibt den URL-Link zur Autorisierung im sozialen Netzwerk aus.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Odnoklassniki</div>
-Für die Registrierung der Website, auf der die Autorisierung über Odnoklassniki platziert wird, ist es notwendig, das <a href="http://www.odnoklassniki.ru/devaccess" target="_blank">Formular auszufüllen und Entwicklerrechte zu erhalten</a>. Danach öffnen Sie den Abschnitt <a href="http://www.odnoklassniki.ru/games" target="_blank">"Spiele"</a> und rechts im Menü sollte der Link <a href="http://www.odnoklassniki.ru/dk?st.cmd=appsInfoMyDevList&st._aid=Apps_Info_MyDev" target="_blank">"Meine hochgeladenen"</a> sein. Danach klicken Sie auf "Anwendung hinzufügen" und füllen das Formular aus:<br><br>
+Für die Registrierung der Webseite, auf der die Autorisierung über Odnoklassniki platziert wird, ist es notwendig, das <a href="http://www.odnoklassniki.ru/devaccess" target="_blank">Formular auszufüllen und Entwicklerrechte zu erhalten</a>. Danach öffnen Sie den Abschnitt <a href="http://www.odnoklassniki.ru/games" target="_blank">"Spiele"</a> und rechts im Menü sollte der Link <a href="http://www.odnoklassniki.ru/dk?st.cmd=appsInfoMyDevList&st._aid=Apps_Info_MyDev" target="_blank">"Meine hochgeladenen"</a> sein. Danach klicken Sie auf "Anwendung hinzufügen" und füllen das Formular aus:<br><br>
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/odnoklassniki1.jpg" /></div>
 <br />Beim Ausfüllen des Formulars geben Sie unbedingt den Anwendungstyp "External" an. In den Feldern "Link zur Anwendung" und "Liste der erlaubten redirect_uri" geben Sie den Pfad http://ihrewebsite.ru/index.php?do=auth-social&provider=od an, wobei ihrewebsite.ru der Name Ihrer Domäne ist, und markieren Sie das Häkchen "Client-OAuth-Autorisierung erlauben". Nach dem Hinzufügen der neuen Anwendung wird Ihnen eine E-Mail mit den benötigten Einstellungen an Ihre E-Mail-Adresse gesendet.
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/odnoklassniki2.jpg" /></div>
-<br />Aus der E-Mail benötigen Sie Parameter wie "Application ID", "Öffentlicher Schlüssel der Anwendung", "Geheimer Schlüssel der Anwendung", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br />Aus der E-Mail benötigen Sie Parameter wie "Application ID", "Öffentlicher Schlüssel der Anwendung", "Geheimer Schlüssel der Anwendung", die Sie im Adminpanel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Webseite eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
 <br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
 <div class="code">[odnoklassniki]&lt;a href="{odnoklassniki_url}" target="_blank"&gt;Autorisierung mit Hilfe von Odnoklassniki&lt;/a&gt;[/odnoklassniki]</div>
 Wobei die Tags [odnoklassniki] Text [/odnoklassniki] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Odnoklassniki aktiviert ist. Und der Tag {odnoklassniki_url} gibt den URL-Link zur Autorisierung in diesem sozialen Netzwerk aus.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Facebook</div>
-Zunächst müssen Sie eine neue Anwendung auf der Website des sozialen Netzwerks <a href="https://developers.facebook.com/apps" target="_blank">Facebook</a> erstellen.<br><br>
+Zunächst müssen Sie eine neue Anwendung auf der Webseite des sozialen Netzwerks <a href="https://developers.facebook.com/apps" target="_blank">Facebook</a> erstellen.<br><br>
 In der oberen rechten Ecke klicken wir auf die Schaltfläche "+ Neue Anwendung erstellen". Danach schreiben wir den Namen der Anwendung ein:
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc1.jpg" /></div>
 <br />Danach wählen Sie als Anwendungstyp, dass die Anwendung für den Login über Facebook ist, und die Plattform Web.
 <br />Danach speichern wir und gehen zu den Einstellungen der Anwendung über, die sich im Untermenü "Produkte" befindet. In den Anwendungseinstellungen ist es notwendig, die richtige URL-Adresse für die OAuth-Umleitung hinzuzufügen, nämlich http://ihrewebsite.ru/index.php?do=auth-social&provider=fc . Für die Aktivierung der Anwendung für den allgemeinen Zugang ist es in der Registerkarte "Anwendungsprüfung" notwendig, die entsprechende Option einzuschalten und zu speichern. Für die weitere Arbeit benötigen Sie Parameter, die Sie in den folgenden Feldern finden können:
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/fc3.jpg" /></div>
-<br />die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br />die Sie im Adminpanel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Webseite eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
 <br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
 <div class="code">[facebook]&lt;a href="{facebook_url}" target="_blank"&gt;Autorisierung mit Hilfe von Facebook&lt;/a&gt;[/facebook]</div>
 Wobei die Tags [facebook] Text [/facebook] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Facebook aktiviert ist. Und der Tag {facebook_url} gibt den URL-Link zur Autorisierung im sozialen Netzwerk aus.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Google</div>
-<p>Zunächst müssen Sie eine neue Anwendung auf der Website <a href="https://code.google.com/apis/console/" target="_blank">Google</a> erstellen</p>
+<p>Zunächst müssen Sie eine neue Anwendung auf der Webseite <a href="https://code.google.com/apis/console/" target="_blank">Google</a> erstellen</p>
 <ol>
 	<li>Erstellen Sie ein neues Projekt, indem Sie im Menü oben "API Project" auf <strong>New Project</strong> klicken und einen Namen eingeben.</li>
 	<li>Auf der Startseite des Projekts gehen Sie zu <strong>APIs &amp; Services</strong> in der Seitenleiste und wählen <strong>Dashboard</strong>.</li>
@@ -155,7 +155,7 @@ Wobei die Tags [facebook] Text [/facebook] den in sie eingeschlossenen Text ausg
 	<li>Kehren Sie zur Seite <strong>APIs &amp; Services</strong> zurück, wählen Sie <strong>Create Credentials</strong> &gt; <strong>OAuth client ID</strong> und den Namen Ihrer Anwendung</li>
     <li>Wählen Sie den Typ <b>Web Application</b> als Anwendungstyp. Da diese Anwendung nicht in einem Google Workspace-Konto erstellt wird, kann jeder Benutzer mit einer Gmail-Adresse sich anmelden.</li>
     <li>Geben Sie den Namen Ihrer Domäne im Feld <strong>Authorized JavaScript origin</strong> an</li>
-	<li>Im Abschnitt <strong>Authorized redirect URIs</strong> geben Sie im Feld <strong>URIs</strong> die Adresse Ihrer Website einschließlich Domäne und Pfad ein: https://ihrewebsite.ru/index.php?do=auth-social&amp;provider=google</li>
+	<li>Im Abschnitt <strong>Authorized redirect URIs</strong> geben Sie im Feld <strong>URIs</strong> die Adresse Ihrer Webseite einschließlich Domäne und Pfad ein: https://ihrewebsite.ru/index.php?do=auth-social&amp;provider=google</li>
 	<li>Google wird OAuth Client ID und den geheimen Schlüssel bereitstellen, die Sie kopieren und in den DLE-Einstellungen eingeben müssen.</li>
 </ol>
 Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
@@ -163,22 +163,22 @@ Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Co
 Wobei die Tags [google] Text [/google] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Google aktiviert ist. Und der Tag {google_url} gibt den URL-Link zur Autorisierung im Netzwerk aus.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Mail.Ru</div>
-Zunächst müssen Sie eine neue Anwendung auf der Website <a href="https://o2.mail.ru/app/new/" target="_blank">https://o2.mail.ru/app/new/</a> erstellen.<br><br>
+Zunächst müssen Sie eine neue Anwendung auf der Webseite <a href="https://o2.mail.ru/app/new/" target="_blank">https://o2.mail.ru/app/new/</a> erstellen.<br><br>
 Auf der sich öffnenden Seite füllen wir das Formular aus:
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru1.jpg" /></div>
 <br />Als Parameter redirect_uri ist es notwendig, https://site.com/index.php?do=auth-social&provider=mailru anzugeben, wobei site.com der Name Ihrer Domäne ist
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru2.jpg" /></div>
-<br />Danach benötigen Sie Parameter wie "Anwendungs-ID" und "Geheimer Schlüssel", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br />Danach benötigen Sie Parameter wie "Anwendungs-ID" und "Geheimer Schlüssel", die Sie im Adminpanel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Webseite eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
 <br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
 <div class="code">[mailru]&lt;a href="{mailru_url}" target="_blank"&gt;Autorisierung mit Hilfe von Mail.Ru&lt;/a&gt;[/mailru]</div>
 Wobei die Tags [mailru] Text [/mailru] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Mail.Ru aktiviert ist. Und der Tag {mailru_url} gibt den URL-Link zur Autorisierung im Netzwerk aus.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Einstellung der Autorisierung über das Netzwerk Yandex</div>
-Zunächst müssen Sie eine neue Anwendung auf der Website <a href="https://oauth.yandex.ru/client/new" target="_blank">Yandex</a> erstellen.<br><br>
+Zunächst müssen Sie eine neue Anwendung auf der Webseite <a href="https://oauth.yandex.ru/client/new" target="_blank">Yandex</a> erstellen.<br><br>
 <div style="text-align:center;"><img src="engine/skins/images/yandex1.jpg" /></div>
 <br />Der Name wird "Yandex Auth" sein. Plattformen: Web-Services, danach markieren wir "API-Autorisierung im Yandex-Browser und Yandex-Anwendung". Bei "Zugriff" klicken wir auf "API Yandex ID" und wählen alle Unterpunkte: E-Mail-Adresse, Geburtsdatum, Zugriff auf Login, Vor- und Nachname, Geschlecht, Zugriff auf das Benutzerporträt. Falls der Benutzer diese Daten in seinem Profil ausgefüllt hat, werden wir später Zugriff darauf haben. Auf der nächsten Seite wird uns ein Block mit speziellen Parametern angezeigt:
 <div style="text-align:center;"><img src="engine/skins/images/yandex2.jpg" /></div>
-<br />Sie benötigen Parameter wie "Anwendungs-ID" und "Anwendungspasswort", die Sie im Admin-Panel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Website eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
+<br />Sie benötigen Parameter wie "Anwendungs-ID" und "Anwendungspasswort", die Sie im Adminpanel des Skripts in den Einstellungen für soziale Netzwerke eingeben müssen. Diese Felder werden für Ihre Webseite eindeutig sein, sie können nicht vom obigen Screenshot kopiert werden.
 <br /><br />Danach platzieren Sie in der Vorlage <b>login.tpl</b> ungefähr den folgenden Code:
 <div class="code">[yandex]&lt;a href="{yandex_url}" target="_blank"&gt;Autorisierung mit Hilfe von Yandex&lt;/a&gt;[/yandex]</div>
 Wobei die Tags [yandex] Text [/yandex] den in sie eingeschlossenen Text ausgeben, wenn die Unterstützung der Autorisierung mit Hilfe des sozialen Netzwerks Yandex aktiviert ist. Und der Tag {yandex_url} gibt den URL-Link zur Autorisierung im Netzwerk aus.

@@ -11,10 +11,10 @@ $lang = array (
 // 18.1
 
 // 18.0
-'feedback_banned'        => "Benutzer ist auf der Website gesperrt",
-'country_declined_1'     => "Sie befinden sich in einem Land, für das der Zugang zum Anzeigen dieser Veröffentlichung auf der Website geschlossen ist.",
-'rating_error6'		     =>	"Sie haben heute zu oft negative Bewertungen für verschiedene Veröffentlichungen abgegeben. Das Abgeben negativer Bewertungen wurde für Sie vorübergehend ausgesetzt.",
-'pm_err_14'              => "Derzeit ist der Benutzer auf der Website gesperrt und kann keine persönlichen Nachrichten erhalten",
+'feedback_banned'        => "Benutzer ist auf der Webseite gesperrt"
+'country_declined_1'     => "Sie befinden sich in einem Land, für das der Zugang zum Anzeigen dieser Veröffentlichung auf der Webseite geschlossen ist.",
+'rating_error6'		     =>	"Sie haben heute zu oft negative Bewertungen für verschiedene Nachrichten abgegeben. Das Abgeben negativer Bewertungen wurde für Sie vorübergehend ausgesetzt."
+'pm_err_14'              => "Derzeit ist der Benutzer auf der Webseite gesperrt und kann keine persönlichen Nachrichten erhalten",
 'pm_err_15'              => "Sie haben keinen Zugang zu diesem Schriftverkehr",
 'pm_err_16'              => "Sie haben keinen Zugang zum Löschen dieser Nachricht",
 'pm_err_17'              => "Sie können die Nachricht nicht mehr bearbeiten, da sie bereits von einem anderen Teilnehmer des Schriftverkehrs gelesen wurde",
@@ -38,21 +38,21 @@ $lang = array (
 
 // 17.3
 'stat_phperror'          => "Die PHP-Version auf dem Server entspricht nicht der minimal erforderlichen. Datalife Engine kann nicht korrekt auf dieser PHP-Version funktionieren. Die PHP-Version muss mindestens <b>{minversion}</b> sein. Ihre installierte Version {version}",
-'country_declined'       => "Sie befinden sich in einem Land, für das der Zugang zum Anzeigen dieser Website geschlossen ist.",
+'country_declined'       => "Sie befinden sich in einem Land, für das der Zugang zum Anzeigen dieser Webseite geschlossen ist.",
 // 17.3
 
 
 // 17.2
 'ajax_edit_cat'          => "Kategorie:",
 'group_change_1'         => "Die Zeit Ihres Aufenthalts in der Gruppe <b>{oldgroup}</b> ist abgelaufen. Sie wurden in die Gruppe <b>{newgroup}</b> verschoben.",
-'group_change_2'         => "Sie haben {count} Veröffentlichungen veröffentlicht, daher wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
+'group_change_2'         => "Sie haben {count} Nachrichten veröffentlicht, daher wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt."
 'group_change_3'         => "Sie haben {count} Kommentare veröffentlicht, daher wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
-'group_change_4'         => "Gemäß Ihrer neuen Bewertung der Veröffentlichungen wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
+'group_change_4'         => "Gemäß Ihrer neuen Bewertung der Nachrichten wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt."
 'group_change_5'         => "Gemäß Ihrer neuen Bewertung der Kommentare wurden Sie aus der Gruppe <b>{oldgroup}</b> in die neue Gruppe <b>{newgroup}</b> versetzt.",
 'addnews_xf_alert_2'     => "Das Feld <b>{field}</b> muss mindestens <b>{count}</b> Zeichen enthalten",
 'addnews_xf_alert_3'     => "Das Feld <b>{field}</b> darf höchstens <b>{count}</b> Zeichen enthalten",
-'error_complaint_5'      => "Sie haben die maximale Anzahl von Beschwerden überschritten, die Sie an die Verwaltung senden können. Sie müssen warten, bis die zuvor von der Website gesendeten Beschwerden bearbeitet wurden",
-'error_complaint_6'      => "Für Ihre Gruppe <b>'{group}'</b> ist das Senden von Beschwerden von der Website-Verwaltung verboten",
+'error_complaint_5'      => "Sie haben die maximale Anzahl von Beschwerden überschritten, die Sie an die Verwaltung senden können. Sie müssen warten, bis die zuvor von der Webseite gesendeten Beschwerden bearbeitet wurden"
+'error_complaint_6'      => "Für Ihre Gruppe <b>'{group}'</b> ist das Senden von Beschwerden von der Webseite-Verwaltung verboten"
 // 17.2
 
 // 17.1
@@ -63,12 +63,12 @@ $lang = array (
 
 // 17.0
 'attach_images'         => "Bilder anhängen",
-'self_delete_1'         => "Möchten Sie wirklich Ihr Konto und alle Ihre Daten von dieser Website löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+'self_delete_1'         => "Möchten Sie wirklich Ihr Konto und alle Ihre Daten von dieser Webseite löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
 'self_delete_2'         => "Zur Bestätigung der Kontolöschung müssen Sie Ihr Passwort von Ihrem Konto eingeben:",
 'self_delete_3'         => "Kontolöschung",
 'self_delete_4'         => "Passwort erforderlich",
-'self_delete_5'         => "Ihr Konto und alle Ihre Daten wurden von der Website gelöscht.",
-'self_delete_6'         => "Ihre Anfrage auf Kontolöschung wurde an die Website-Verwaltung gesendet. Sie wird vom Website-Administrator bearbeitet.",
+'self_delete_5'         => "Ihr Konto und alle Ihre Daten wurden von der Webseite gelöscht.",
+'self_delete_6'         => "Ihre Anfrage auf Kontolöschung wurde an die Webseite-Verwaltung gesendet. Sie wird vom Webseite-Administrator bearbeitet.",
 // 17.0
 
 // 16.1
@@ -76,15 +76,15 @@ $lang = array (
 'twofactor_auth_2'      => "Einmaliger PIN-Code per E-Mail",
 'twofactor_auth_3'      => "Einmaliger PIN-Code Google Authenticator",
 'twofactor_auth_4'      => "Sie aktivieren die Zwei-Faktor-Autorisierung mit einem einmaligen Passwort in Google Authenticator. Sie müssen diese Anwendung oder eine andere kompatible Anwendung für OTP-Autorisierung auf Ihr Smartphone herunterladen. Danach scannen Sie den angegebenen QR-Code in dieser Anwendung.",
-'twofactor_auth_5'      => "Geben Sie den PIN-Code von der Anwendung ein, um eine Verbindung mit der Website zu erstellen:",
+'twofactor_auth_5'      => "Geben Sie den PIN-Code von der Anwendung ein, um eine Verbindung mit der Webseite zu erstellen:",
 'twofactor_err_6'       => "Falscher PIN-Code eingegeben",
-'twofactor_alert_1'     => "Sie haben für Ihr Konto die Zwei-Faktor-Autorisierung aktiviert. Für die Anmeldung auf der Website müssen Sie den einmaligen PIN-Code aus der Anwendung eingeben:",
+'twofactor_alert_1'     => "Sie haben für Ihr Konto die Zwei-Faktor-Autorisierung aktiviert. Für die Anmeldung auf der Webseite müssen Sie den einmaligen PIN-Code aus der Anwendung eingeben:",
 'twofactor_ok'          => "Zwei-Faktor-Autorisierung aktiviert.",
 'add_ok_4'              => "Die Veröffentlichung wurde erfolgreich bearbeitet.",
 'sort_by_edate'         => "Änderungsdatum",
 'xfield_xfvideo'        => "Videodateien hochladen",
 'xfield_xfaudio'        => "Audiodateien hochladen",
-'download_error'        => "Von der Website-Verwaltung wurde erlaubt, nicht mehr als {count} Datei(en) pro Tag herunterzuladen. Sie können diese Datei erst morgen herunterladen.",
+'download_error'        => "Von der Webseite-Verwaltung wurde erlaubt, nicht mehr als {count} Datei(en) pro Tag herunterzuladen. Sie können diese Datei erst morgen herunterladen.",
 // 16.1
 
 // 16.0
@@ -116,7 +116,7 @@ $lang = array (
 
 // 15.1
 'error_complaint_3'		=>	"Die maximale Länge des Textes der Beschwerde darf nicht mehr als 2000 Zeichen betragen.",
-'fav_plus_err_1'		=>  "Diese Veröffentlichung befindet sich bereits in Ihren Lesezeichen auf der Website.",
+'fav_plus_err_1'		=>  "Diese Veröffentlichung befindet sich bereits in Ihren Lesezeichen auf der Webseite."
 'fav_plus_err_2'		=>  "Diese Veröffentlichung befindet sich auf der Moderation und kann nicht hinzugefügt werden.",
 'duplicate_protect'		=>	"Die Datenübertragung wurde bereits erfolgreich durchgeführt.",
 // 15.1
@@ -138,19 +138,19 @@ $lang = array (
 // 14.3
 
 // 14.2
-'pm_err_12'				=>	"Um diese Nachricht lesen zu können, müssen Sie sich auf der Website mit Ihrem Konto anmelden",
-'pm_err_13'				=>	"Persönliche Nachrichten auf der Website können nur von registrierten Benutzern verwendet werden. Sie müssen sich auf der Website anmelden, oder Sie müssen sich auf der Website registrieren, wenn Sie noch nicht registriert sind.",
+'pm_err_12'				=>	"Um diese Nachricht lesen zu können, müssen Sie sich auf der Webseite mit Ihrem Konto anmelden"
+'pm_err_13'				=>	"Persönliche Nachrichten auf der Webseite können nur von registrierten Benutzern verwendet werden. Sie müssen sich auf der Webseite anmelden, oder Sie müssen sich auf der Webseite registrieren, wenn Sie noch nicht registriert sind.",
 // 14.2
 
 // 14.1
-'pm_err_11'				=>	"Die Nachricht kann nicht gesendet werden, weil für den Empfänger das Senden persönlicher Nachrichten auf der Website verboten ist",
-'reg_err_45'        	=>  "Das Konto in diesem sozialen Netzwerk, auf dem derzeit eine Verbindung zu einem anderen Konto hergestellt ist <b>{login}</b> auf der Website. Autorisieren Sie sich auf der Website mit der Verwendung dieses Kontos, lösen Sie die Verbindung in Ihrem Profil auf, nachdem Sie es für einen neuen Benutzer wiederherstellen können.",
-'reg_err_46'        	=>  "Sie sind nicht auf der Website angemeldet, daher ist eine Verbindung zu Ihrem aktiven Konto nicht möglich",
-'reg_err_47'        	=>  "Die Verbindung zu Ihrer sozialen Netzwerk-Verbindung wurde nicht hergestellt. Wenden Sie sich an den Website-Administrator, um dieses Problem zu beheben.",
-'social_attach_ok'		=>	"Ihr Konto wurde erfolgreich an Ihr Konto in der sozialen Netzwerk-Verbindung <b>{social}</b> angebunden. Sie können es verwenden, um sich auf der Website zu authentifizieren.",
-'social_attach_ok_1'	=>	"Ihr Konto wurde bereits früher an Ihr Konto in der sozialen Netzwerk-Verbindung <b>{social}</b> angebunden. Sie können es verwenden, um sich auf der Website zu authentifizieren.",
-'del_from_social'		=>	"Möchten Sie wirklich die Verbindung zu dieser sozialen Netzwerk-Verbindung von Ihrem Konto auf der Website löschen?",
-'del_from_social_1'		=>	"Die Verbindung zu dieser sozialen Netzwerk-Verbindung von Ihrem Konto auf der Website löschen.",
+'pm_err_11'				=>	"Die Nachricht kann nicht gesendet werden, weil für den Empfänger das Senden persönlicher Nachrichten auf der Webseite verboten ist"
+'reg_err_45'        	=>  "Das Konto in diesem sozialen Netzwerk, auf dem derzeit eine Verbindung zu einem anderen Konto hergestellt ist <b>{login}</b> auf der Webseite. Autorisieren Sie sich auf der Webseite mit der Verwendung dieses Kontos, lösen Sie die Verbindung in Ihrem Profil auf, nachdem Sie es für einen neuen Benutzer wiederherstellen können."
+'reg_err_46'        	=>  "Sie sind nicht auf der Webseite angemeldet, daher ist eine Verbindung zu Ihrem aktiven Konto nicht möglich"
+'reg_err_47'        	=>  "Die Verbindung zu Ihrer sozialen Netzwerk-Verbindung wurde nicht hergestellt. Wenden Sie sich an den Webseite-Administrator, um dieses Problem zu beheben."
+'social_attach_ok'		=>	"Ihr Konto wurde erfolgreich an Ihr Konto in der sozialen Netzwerk-Verbindung <b>{social}</b> angebunden. Sie können es verwenden, um sich auf der Webseite zu authentifizieren."
+'social_attach_ok_1'	=>	"Ihr Konto wurde bereits früher an Ihr Konto in der sozialen Netzwerk-Verbindung <b>{social}</b> angebunden. Sie können es verwenden, um sich auf der Webseite zu authentifizieren."
+'del_from_social'		=>	"Möchten Sie wirklich die Verbindung zu dieser sozialen Netzwerk-Verbindung von Ihrem Konto auf der Webseite löschen?"
+'del_from_social_1'		=>	"Die Verbindung zu dieser sozialen Netzwerk-Verbindung von Ihrem Konto auf der Webseite löschen."
 'addnews_xf_alert_1'	=>	"Das Feld <b>{field}</b> ist zur Eingabe erforderlich",
 // 14.1
 
@@ -176,7 +176,7 @@ $lang = array (
 'emoji_symbols'			=>	"Symbole",
 'emoji_flags'			=>	"Flaggen",
 'emoji_last'			=>	"Kürzlich verwendete",
-'enable_lastviewed'		=>	"Sie können die Anzahl der veröffentlichten Veröffentlichungen in den Einstellungen des Skripts im Administrationsbereich aktivieren, um diesen Block anzuzeigen",
+'enable_lastviewed'		=>	"Sie können die Anzahl der veröffentlichten Nachrichten in den Einstellungen des Skripts im Administrationsbereich aktivieren, um diesen Block anzuzeigen"
 'tinyapi_error'			=>	"Sie haben die Bildbearbeitung über die TinyPNG-Dienste aktiviert. Beim Bearbeiten des Bildes ist ein Fehler aufgetreten:",
 'player_play'			=>	"Abspielen",
 'player_pause'			=>	"Pause",
@@ -195,7 +195,7 @@ $lang = array (
 
 // 13.3
 'complaint_title'		=>	"Beschwerde einreichen",
-'add_err_11'			=>	"Eine Veröffentlichung mit diesem Namen URL-SEO ist bereits auf der Website vorhanden. Ändern Sie die URL-SEO des Artikels auf einen anderen Namen.",
+'add_err_11'			=>	"Eine Veröffentlichung mit diesem Namen URL-SEO ist bereits auf der Webseite vorhanden. Ändern Sie die URL-SEO des Artikels auf einen anderen Namen."
 'upload_error_7'		=>	"Das hochgeladene Bild darf nicht weniger als {minsize} Pixeln betragen.",
 // 13.3
 
@@ -215,13 +215,13 @@ $lang = array (
 // 13.0
 
 // 12.1
-'rules_page'			=>	"Regeln der Website",
+'rules_page'			=>	"Regeln der Webseite"
 'xfield_xhtmljs_2'		=>	"Das vorläufige Anzeigen dieses Felds ist aufgrund von Sicherheitsbedenken nicht möglich",
 // 12.1
 
 // 12.0
 'enter_n_pass'			=>	"Eine Bestätigung des Passworts ist erforderlich",
-'enter_n_pass_1'		=>	"Um diese Veröffentlichung anzeigen zu können, müssen Sie das von der Website-Verwaltung für diese Veröffentlichung festgelegte Passwort eingeben",
+'enter_n_pass_1'		=>	"Um diese Veröffentlichung anzeigen zu können, müssen Sie das von der Webseite-Verwaltung für diese Veröffentlichung festgelegte Passwort eingeben"
 'enter_n_pass_2'		=>	"Geben Sie das Passwort ein:",
 'enter_n_pass_3'		=>	"Senden",
 'enter_n_pass_4'		=>	"<b>Falsches Passwort für die Veröffentlichung angegeben</b>",
@@ -233,11 +233,11 @@ $lang = array (
 // 11.3
 
 // 11.2
-'twofactor_auth'		=>	"Verwenden Sie die Zwei-Faktor-Autorisierung auf der Website (eine einmalige PIN-E-Mail wird gesendet)",
-'twofactor_alert'		=>	"Sie haben für Ihr Konto die Zwei-Faktor-Autorisierung aktiviert. Auf Ihre E-Mail-Adresse wurde eine einmalige PIN-E-Mail gesendet. Für die Anmeldung auf der Website müssen Sie die von Ihnen erhaltene PIN-E-Mail eingeben:",
+'twofactor_auth'		=>	"Verwenden Sie die Zwei-Faktor-Autorisierung auf der Webseite (eine einmalige PIN-E-Mail wird gesendet)"
+'twofactor_alert'		=>	"Sie haben für Ihr Konto die Zwei-Faktor-Autorisierung aktiviert. Auf Ihre E-Mail-Adresse wurde eine einmalige PIN-E-Mail gesendet. Für die Anmeldung auf der Webseite müssen Sie die von Ihnen erhaltene PIN-E-Mail eingeben:"
 'twofactor_title'		=>	"Geben Sie die PIN-E-Mail ein",
-'twofactor_subj'		=>	"Eine einmalige PIN-E-Mail für die Anmeldung auf der Website",
-'twofactor_err_1'		=>	"Bevor Sie die PIN-E-Mail eingeben, müssen Sie sich zuerst auf der Website mit Ihrem Benutzernamen und Ihrem Passwort anmelden",
+'twofactor_subj'		=>	"Eine einmalige PIN-E-Mail für die Anmeldung auf der Webseite"
+'twofactor_err_1'		=>	"Bevor Sie die PIN-E-Mail eingeben, müssen Sie sich zuerst auf der Webseite mit Ihrem Benutzernamen und Ihrem Passwort anmelden"
 'twofactor_err_2'		=>	"Sie haben die PIN-E-Mail nicht eingegeben",
 'twofactor_err_3'		=>	"Falsche Autorisierungsdaten. Laden Sie die Seite neu in Ihrem Browser und geben Sie Ihren Benutzernamen und Ihr Passwort ein.",
 'twofactor_err_4'		=>	"Der Zeitraum für die Gültigkeit eines einmaligen PIN-E-Mails ist abgelaufen. Der Code kann nur innerhalb von 15 Minuten eingegeben werden, nachdem er angefordert wurde.",
@@ -267,7 +267,7 @@ $lang = array (
 'news_subscribe'		=>	"E-Mails über neue Kommentare zu meinen Nachrichten erhalten",
 'comments_reply_subscribe'	=>	"E-Mails über Antworten auf meine Kommentare erhalten",
 'news_unsubscribe'		=>	"Sie sind für Kommentare zu {subscribed} [declination={subscribed}]Nachricht|en|ien|ien[/declination] abgemeldet",
-'news_unsubscribe_1'	=>	"Abbestellen von allen Veröffentlichungen",
+'news_unsubscribe_1'	=>	"Abbestellen von allen Nachrichten"
 // 11.1
 
 // 11.0
@@ -288,13 +288,13 @@ $lang = array (
 'xfield_xno'			=>	"Nein",
 'feedback_not_reg'		=>	"Nicht registrierter Benutzer",
 'c_not_reg'				=>	"Gast",
-'enter_login'			=>	"Bestätigung des verwendeten Benutzernamens auf der Website",
-'enter_login1'			=>	"Sehr geehrter <b>{name}</b>,<br /><br />Ihr Benutzername wurde automatisch aus Ihrer sozialen Netzwerk-Verbindung erstellt. Sie können sich aber einen anderen Benutzernamen auswählen, der auf unserer Website verwendet wird.",
-'enter_login2'			=>	"Ihr Benutzername auf der Website:",
+'enter_login'			=>	"Bestätigung des verwendeten Benutzernamens auf der Webseite"
+'enter_login1'			=>	"Sehr geehrter <b>{name}</b>,<br /><br />Ihr Benutzername wurde automatisch aus Ihrer sozialen Netzwerk-Verbindung erstellt. Sie können sich aber einen anderen Benutzernamen auswählen, der auf unserer Webseite verwendet wird."
+'enter_login2'			=>	"Ihr Benutzername auf der Webseite:"
 'enter_login3'			=>	"Benutzernamen bestätigen",
-'enter_login4'			=>	"Bitte beachten Sie, dass Sie nur einen gewünschten Benutzernamen einmal einrichten können, daher geben Sie genau den erforderlichen und gewünschten Benutzernamen auf der Website ein",
-'reg_err_44'			=>	"<li>Es gibt bereits einen Benutzer mit diesem Benutzernamen auf der Website, wählen Sie einen anderen Benutzernamen</li>",
-'add_err_10'			=>	"Diese Nachricht erwartet keine Moderation und kann nicht bearbeitet werden. Sie können auf der Website nur Nachrichten bearbeiten, die auf Moderation warten.",
+'enter_login4'			=>	"Bitte beachten Sie, dass Sie nur einen gewünschten Benutzernamen einmal einrichten können, daher geben Sie genau den erforderlichen und gewünschten Benutzernamen auf der Webseite ein"
+'reg_err_44'			=>	"<li>Es gibt bereits einen Benutzer mit diesem Benutzernamen auf der Webseite, wählen Sie einen anderen Benutzernamen</li>"
+'add_err_10'			=>	"Diese Nachricht erwartet keine Moderation und kann nicht bearbeitet werden. Sie können auf der Webseite nur Nachrichten bearbeiten, die auf Moderation warten."
 'comments_empty'		=>	"Kommentar ausgeblendet",
 // 11.0
 
@@ -326,13 +326,13 @@ $lang = array (
 
 
 // 10.4
-'reg_err_41'        =>  "Von der Website-Verwaltung wurde die Möglichkeit der Anmeldung auf der Website über soziale Netzwerke aktiviert. Die Registrierung auf der Website wird in diesem Fall deaktiviert.",
+'reg_err_41'        =>  "Von der Webseite-Verwaltung wurde die Möglichkeit der Anmeldung auf der Webseite über soziale Netzwerke aktiviert. Die Registrierung auf der Webseite wird in diesem Fall deaktiviert."
 'bb_url_tooltip'	=>	"Geben Sie eine Untertitelung für die Verlinkung ein",
-'wait_subj'			=>	"Konto auf der Website mit einem Konto in einem sozialen Netzwerk verbinden",
-'reg_err_42'        =>  "Dieser Benutzer befindet sich in einer Gruppe von Administratoren, daher kann er nicht mit der Anmeldung über soziale Netzwerke verbunden werden. Um die Anmeldung für die Website-Verwaltung über soziale Netzwerke zu ermöglichen, muss diese Möglichkeit in den Einstellungen der Website im Verwaltungsbereich aktiviert werden.",
-'reg_err_43'        =>  "Die Verbindung von Konten wurde nicht abgeschlossen. Die Verlinkung auf die Verbindung von Konten auf der Website ist nur einmalig gültig.",
-'auth_next'			=>	"Weiter zur Anmeldung auf der Website",
-'auth_social_ok'	=>	"Die Verbindung von Konten wurde erfolgreich bestätigt. Sie können fortfahren, sich auf der Website anzumelden, indem Sie die angegebene Verlinkung aufrufen :",
+'wait_subj'			=>	"Konto auf der Webseite mit einem Konto in einem sozialen Netzwerk verbinden"
+'reg_err_42'        =>  "Dieser Benutzer befindet sich in einer Gruppe von Administratoren, daher kann er nicht mit der Anmeldung über soziale Netzwerke verbunden werden. Um die Anmeldung für die Webseite-Verwaltung über soziale Netzwerke zu ermöglichen, muss diese Möglichkeit in den Einstellungen der Webseite im Verwaltungsbereich aktiviert werden."
+'reg_err_43'        =>  "Die Verbindung von Konten wurde nicht abgeschlossen. Die Verlinkung auf die Verbindung von Konten auf der Webseite ist nur einmalig gültig."
+'auth_next'			=>	"Weiter zur Anmeldung auf der Webseite"
+'auth_social_ok'	=>	"Die Verbindung von Konten wurde erfolgreich bestätigt. Sie können fortfahren, sich auf der Webseite anzumelden, indem Sie die angegebene Verlinkung aufrufen :"
 // 10.4
 
 // 10.3
@@ -340,14 +340,14 @@ $lang = array (
 'social_err_1'		=>	"Daten des Benutzers aus dem sozialen Netzwerk konnten nicht abgerufen werden. Entweder wurde die falsche geheime Schlüsselnummer in den Netzwerk-Einstellungen angegeben, oder auf dem Server sind ausgehende externe Verbindungen deaktiviert, und es konnte keine Verbindung zu einem sozialen Netzwerk hergestellt werden.",
 'social_err_2'		=>	"Eine nicht unterstützte soziale Netzwerk-Verbindung wurde angegeben.",
 'social_err_3'		=>	"Daten des Benutzers aus dem sozialen Netzwerk konnten nicht abgerufen werden.",
-'social_login_ok'	=>	"Sie haben sich erfolgreich auf der Website angemeldet. Sie werden jetzt automatisch auf die Website umgeleitet. Wenn dies nicht der Fall ist, schließen Sie das Fenster und laden Sie die Website neu in Ihrem Browser.",
-'reg_err_36'        =>  "Sie haben bereits mit Ihrer E-Mail-Adresse auf unserer Website registriert, entweder direkt, oder über eine andere soziale Netzwerk-Verbindung. Um Ihre Konten auf der Website und in der sozialen Netzwerk-Verbindung zu vereinigen, wurde Ihrer E-Mail-Adresse eine E-Mail mit Anweisungen zum Bestätigen der Vereinigung der Konten gesendet. Nach der Bestätigung können Sie sich auf der Website über diese soziale Netzwerk-Verbindung anmelden.",
-'reg_err_37'        =>  "Um sich auf der Website anzumelden, müssen Sie Ihre E-Mail-Adresse eingeben:",
+'social_login_ok'	=>	"Sie haben sich erfolgreich auf der Webseite angemeldet. Sie werden jetzt automatisch auf die Webseite umgeleitet. Wenn dies nicht der Fall ist, schließen Sie das Fenster und laden Sie die Webseite neu in Ihrem Browser."
+'reg_err_36'        =>  "Sie haben bereits mit Ihrer E-Mail-Adresse auf unserer Webseite registriert, entweder direkt, oder über eine andere soziale Netzwerk-Verbindung. Um Ihre Konten auf der Webseite und in der sozialen Netzwerk-Verbindung zu vereinigen, wurde Ihrer E-Mail-Adresse eine E-Mail mit Anweisungen zum Bestätigen der Vereinigung der Konten gesendet. Nach der Bestätigung können Sie sich auf der Webseite über diese soziale Netzwerk-Verbindung anmelden."
+'reg_err_37'        =>  "Um sich auf der Webseite anzumelden, müssen Sie Ihre E-Mail-Adresse eingeben:"
 'reg_err_38'        =>  "Diese E-Mail-Adresse wird bereits von einem anderen Benutzer verwendet. Geben Sie eine andere ein.",
 'reg_err_39'        =>  "Es ist ein Problem mit der Arbeit von PHP-Sitzungen auf Ihrem Server aufgetreten. Sie müssen sich an den Support-Service Ihres Webhosters wenden, um die Arbeit von PHP-Sitzungen zu überprüfen.",
-'reg_err_40'        =>  "Es konnte Ihr E-Mail-Adressen aus dem sozialen Netzwerk nicht abgerufen werden, über das Sie versuchen, sich auf der Website anzumelden. Die Existenz einer E-Mail-Adresse ist für die Anmeldung auf der Website erforderlich. Legen Sie sie in den Einstellungen Ihrer sozialen Netzwerk-Verbindung fest.",
+'reg_err_40'        =>  "Es konnte Ihr E-Mail-Adressen aus dem sozialen Netzwerk nicht abgerufen werden, über das Sie versuchen, sich auf der Webseite anzumelden. Die Existenz einer E-Mail-Adresse ist für die Anmeldung auf der Webseite erforderlich. Legen Sie sie in den Einstellungen Ihrer sozialen Netzwerk-Verbindung fest."
 'social_next'       =>  "Weiter",
-'fav_plus'     	    =>  "Veröffentlichung erfolgreich hinzugefügt in Ihre Lesezeichen auf der Website",
+'fav_plus'     	    =>  "Veröffentlichung erfolgreich hinzugefügt in Ihre Lesezeichen auf der Webseite"
 'fav_minus'     	=>  "Veröffentlichung erfolgreich aus Ihren Lesezeichen entfernt",
 // 10.3
 
@@ -357,18 +357,18 @@ $lang = array (
 // 10.2
 
 // 10.1
-'lost_err_2'		=>	"Benutzer, die Zugriff auf die Verwaltungsseite der Website haben, können nur in der Verwaltungsseite ihre Passwörter zurücksetzen. Gehen Sie auf die Seite der Verwaltungsseite und setzen Sie dort Ihr Passwort zurück.",
-'reg_err_35'       	=>  "Leider können Sie sich nicht auf unserer Website registrieren, weil festgelegt wurde, dass Ihr E-Mail-Adressenbereich bereits für die Versendung von Spam verwendet wurde.",
+'lost_err_2'		=>	"Benutzer, die Zugriff auf die Verwaltungsseite der Webseite haben, können nur in der Verwaltungsseite ihre Passwörter zurücksetzen. Gehen Sie auf die Seite der Verwaltungsseite und setzen Sie dort Ihr Passwort zurück."
+'reg_err_35'       	=>  "Leider können Sie sich nicht auf unserer Webseite registrieren, weil festgelegt wurde, dass Ihr E-Mail-Adressenbereich bereits für die Versendung von Spam verwendet wurde."
 // 10.1
 
 // 10.0
 'static_page_err'	=>	"Leider ist die Seite {page} für Sie nicht verfügbar: Möglicherweise wurde ihre Adresse geändert oder sie wurde gelöscht. Bitte verwenden Sie die Suche.",
 'p_del'				=>	"Löschen",
-'mail_complaint'	=>  "Eine Benachrichtigung über die Eingang einer neuen Beschwerde auf der Website",
-'mail_complaint_1'	=>  "Diese Benachrichtigung wurde von der Website gesendet: {site}\n\nWir informieren Sie, dass Ihnen eine neue Beschwerde von Besuchern Ihrer Website zugeflossen ist.\n\nUm die Beschwerde anzeigen und die darauf folgenden Maßnahmen zu treffen, müssen Sie sich in der Verwaltungsseite der Website anmelden und in den Bereich \"Liste der Beschwerden\" gehen.",
-'reg_err_28'        =>  "Leider können Sie sich nicht auf unserer Website registrieren, weil festgelegt wurde, dass Ihre IP-Adresse bereits für die Versendung von Spam verwendet wurde. Wenn Sie niemals Spam versandt haben, bedeutet dies, dass Ihre IP-Adresse bereits von Spammern verwendet wurde. Sie müssen Ihre IP-Adresse bei Ihrem Internet-Provider ändern und Sie können sich dann auf unserer Website registrieren.",
-'reg_err_29'        =>  "Leider können Sie keine Kommentare auf unserer Website hinterlassen, weil festgelegt wurde, dass Ihre IP-Adresse oder Ihre E-Mail-Adresse bereits für die Versendung von Spam verwendet wurde. Wenn Sie niemals Spam versandt haben, bedeutet dies, dass Ihre IP-Adresse bereits von Spammern verwendet wurde. Sie müssen Ihre IP-Adresse bei Ihrem Internet-Provider ändern und Sie können dann auf unserer Website Kommentare hinterlassen.",
-'reg_err_34'        =>  "<li>Leider können Sie keine Nachrichten an die Website senden, weil festgelegt wurde, dass Ihre IP-Adresse oder Ihre E-Mail-Adresse bereits für die Versendung von Spam verwendet wurde. Wenn Sie niemals Spam versandt haben, bedeutet dies, dass Ihre IP-Adresse bereits von Spammern verwendet wurde. Sie müssen Ihre IP-Adresse bei Ihrem Internet-Provider ändern und Sie können dann auf unserer Website Nachrichten senden.</li>",
+'mail_complaint'	=>  "Eine Benachrichtigung über die Eingang einer neuen Beschwerde auf der Webseite"
+'mail_complaint_1'	=>  "Diese Benachrichtigung wurde von der Webseite gesendet: {site}\n\nWir informieren Sie, dass Ihnen eine neue Beschwerde von Benutzern Ihrer Webseite zugeflossen ist.\n\nUm die Beschwerde anzeigen und die darauf folgenden Maßnahmen zu treffen, müssen Sie sich in der Verwaltungsseite der Webseite anmelden und in den Bereich \"Liste der Beschwerden\" gehen."
+'reg_err_28'        =>  "Leider können Sie sich nicht auf unserer Webseite registrieren, weil festgelegt wurde, dass Ihre IP-Adresse bereits für die Versendung von Spam verwendet wurde. Wenn Sie niemals Spam versandt haben, bedeutet dies, dass Ihre IP-Adresse bereits von Spammern verwendet wurde. Sie müssen Ihre IP-Adresse bei Ihrem Internet-Provider ändern und Sie können sich dann auf unserer Webseite registrieren."
+'reg_err_29'        =>  "Leider können Sie keine Kommentare auf unserer Webseite hinterlassen, weil festgelegt wurde, dass Ihre IP-Adresse oder Ihre E-Mail-Adresse bereits für die Versendung von Spam verwendet wurde. Wenn Sie niemals Spam versandt haben, bedeutet dies, dass Ihre IP-Adresse bereits von Spammern verwendet wurde. Sie müssen Ihre IP-Adresse bei Ihrem Internet-Provider ändern und Sie können dann auf unserer Webseite Kommentare hinterlassen."
+'reg_err_34'        =>  "<li>Leider können Sie keine Nachrichten an die Webseite senden, weil festgelegt wurde, dass Ihre IP-Adresse oder Ihre E-Mail-Adresse bereits für die Versendung von Spam verwendet wurde. Wenn Sie niemals Spam versandt haben, bedeutet dies, dass Ihre IP-Adresse bereits von Spammern verwendet wurde. Sie müssen Ihre IP-Adresse bei Ihrem Internet-Provider ändern und Sie können dann auf unserer Webseite Nachrichten senden.</li>"
 // 10.0
 
 // 9.8
@@ -378,8 +378,8 @@ $lang = array (
 // 9.7
 'paste_text'		=>	"Als einfachen Text einfügen",
 'bb_t_yvideo'		=>	"Video aus Videodiensten abspielen",
-'reg_err_26'        =>  "Von der Website-Verwaltung wurde die Registrierung mehrerer Konten auf der Website mit derselben IP-Adresse verboten. Ihre IP-Adresse wurde bereits auf einem anderen Konto verwendet.",
-'reg_err_27'        =>  "Sie sind bereits auf der Website mit einem registrierten Konto angemeldet.",
+'reg_err_26'        =>  "Von der Webseite-Verwaltung wurde die Registrierung mehrerer Konten auf der Webseite mit derselben IP-Adresse verboten. Ihre IP-Adresse wurde bereits auf einem anderen Konto verwendet."
+'reg_err_27'        =>  "Sie sind bereits auf der Webseite mit einem registrierten Konto angemeldet."
 // 9.7
 
 // 9.6
@@ -393,7 +393,7 @@ $lang = array (
 // 9.6
 
 // 9.5
-'news_err_45'		=>	"Zu dieser Zeit haben Sie die maximale Anzahl von Kommentaren überschritten, die Sie auf der Website veröffentlichen dürfen. Ihr Limit für die Anzahl von Kommentaren pro Tag beträgt <b>{max}</b>",
+'news_err_45'		=>	"Zu dieser Zeit haben Sie die maximale Anzahl von Kommentaren überschritten, die Sie auf der Webseite veröffentlichen dürfen. Ihr Limit für die Anzahl von Kommentaren pro Tag beträgt <b>{max}</b>"
 'images_align'		=>	"Ausrichtung",
 'images_left'		=>	"Linksbündig",
 'images_right'		=>	"Rechtsbündig",
@@ -409,7 +409,7 @@ $lang = array (
 'bb_t_list2'		=>	"Einfügen einer nummerierten Liste",
 's_fword'			=>	"Genau übereinstimmende Wörter",
 'addnews_cat_sel'	=>	"Wählen Sie die Kategorie ...",
-'related_not_found'	=>	"Es konnten keine ähnlichen Artikel auf der Website gefunden werden.",
+'related_not_found'	=>	"Es konnten keine ähnlichen Artikel auf der Webseite gefunden werden."
 // 9.5
 
 // 9.4
@@ -418,48 +418,48 @@ $lang = array (
 'addnews_xf_alert'	=>	"Nicht alle erforderlichen zusätzlichen Felder sind ausgefüllt",
 'editnews_error'	=>	"Sie haben keine Berechtigung, um diese Nachricht zu bearbeiten.",
 'login_metod'		=>	"Login:",
-'login_err_3'		=>	"Achtung! Anmeldung auf der Website nicht erfolgt. Möglicherweise wurden Sie nicht korrekt eingeloggt.",
+'login_err_3'		=>	"Achtung! Anmeldung auf der Webseite nicht erfolgt. Möglicherweise wurden Sie nicht korrekt eingeloggt."
 'xf_notig'			=>	"notwendig",
 'anti_modified'		=>  "entspricht nicht dem gemachten Foto",
 'anti_not'			=>  "unbekannte Distribution",
-'anti_subj'			=>  "Ergebnis der Antivirenprüfung Ihrer Website",
+'anti_subj'			=>  "Ergebnis der Antivirenprüfung Ihrer Webseite"
 'anti_message_1'	=>  "Sehr geehrter Administrator, gemäß Ihren Einstellungen wurde eine Prüfung der Dateien auf die Anwesenheit von fremden oder modifizierten Dateien durchgeführt. Nach der Prüfung wurden die folgenden verdächtigen Dateien festgestellt:",
 'anti_message_2'	=>  "Es wird dringend empfohlen, unbekannte Dateien zu löschen und modifizierte Dateien zu überprüfen. Wenn Sie keine Änderungen an den modifizierten Dateien vorgenommen haben, stellen Sie die ursprünglichen Dateien wieder her. Wenn dies Ihre Änderungen sind, machen Sie bitte eine neue Fotoaufnahme der Dateien in der Administrationsseite des Skripts.",
 'big_text'			=>  "Sie haben einen zu großen Textbereich ausgewählt.",
-'orfo_title'		=>  "Geben Sie einen Kommentar für die Website-Verwaltung für die auf der Seite gefundene Fehler:",
+'orfo_title'		=>  "Geben Sie einen Kommentar für die Webseite-Verwaltung für die auf der Seite gefundene Fehler:"
 'reg_err_24'        =>  "Falscher Antworttext auf die Kontrollfrage",
 'reg_err_25'        =>  "<li>Falscher Antworttext auf die Kontrollfrage</li>",
 // 9.4
 
 // 9.3
 'change_mail_subj'	=>	"Eine Anfrage zur Änderung der E-Mail-Adresse",
-'change_mail'		=>	"<li>Sehr geehrter Besucher! Sie haben Ihre E-Mail-Adresse geändert. Die Website-Verwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Website-Verwaltung wenden.</li>",
+'change_mail'		=>	"<li>Sehr geehrter Benutzer! Sie haben Ihre E-Mail-Adresse geändert. Die Webseite-Verwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Webseite-Verwaltung wenden.</li>",
 'change_mail_1'		=>	"Sehr geehrter {name}! Ihr Antrag auf die Änderung der E-Mail-Adresse an:",
 'change_mail_2'		=>	"angenommen.",
-'change_mail_3'		=>	"Um Ihre E-Mail-Adresse auf der Website zu ändern, müssen Sie die folgende URL durchlaufen:",
-'change_mail_4'		=>	"Sie sind nicht auf der Website angemeldet. Um Ihre E-Mail-Adresse zu ändern, müssen Sie sich auf der Website mit Ihrem Benutzernamen und Ihrem Passwort anmelden, nachdem Sie die folgende URL durchlaufen haben, um die E-Mail-Adresse zu ändern.",
-'change_mail_5'		=>	"Die Änderung der E-Mail-Adresse ist nicht möglich. Sie sind unter einem anderen Benutzernamen oder diesem Benutzer angemeldet, der keine Änderung der E-Mail-Adresse auf der Website angefordert hat.",
-'change_mail_6'		=>	"Ihre E-Mail-Adresse auf der Website wurde erfolgreich geändert.",
-'news_info_7'		=>	"Von der Website-Verwaltung wurde die Veröffentlichung in den {days} Tagen nach der Registrierung auf der Website verboten.",
-'news_info_8'		=>	"Von der Website-Verwaltung wurde die Veröffentlichung von Kommentaren in den {days} Tagen nach der Registrierung auf der Website verboten.",
-'vote_not_allow'	=>	"Sie können nicht am Abstimmungsverfahren auf der Website teilnehmen.",
+'change_mail_3'		=>	"Um Ihre E-Mail-Adresse auf der Webseite zu ändern, müssen Sie die folgende URL durchlaufen:",
+'change_mail_4'		=>	"Sie sind nicht auf der Webseite angemeldet. Um Ihre E-Mail-Adresse zu ändern, müssen Sie sich auf der Webseite mit Ihrem Benutzernamen und Ihrem Passwort anmelden, nachdem Sie die folgende URL durchlaufen haben, um die E-Mail-Adresse zu ändern.",
+'change_mail_5'		=>	"Die Änderung der E-Mail-Adresse ist nicht möglich. Sie sind unter einem anderen Benutzernamen oder diesem Benutzer angemeldet, der keine Änderung der E-Mail-Adresse auf der Webseite angefordert hat.",
+'change_mail_6'		=>	"Ihre E-Mail-Adresse auf der Webseite wurde erfolgreich geändert.",
+'news_info_7'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung in den {days} Tagen nach der Registrierung auf der Webseite verboten.",
+'news_info_8'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von Kommentaren in den {days} Tagen nach der Registrierung auf der Webseite verboten.",
+'vote_not_allow'	=>	"Sie können nicht am Abstimmungsverfahren auf der Webseite teilnehmen.",
 'add_to_ignore'		=>	"Möchten Sie wirklich einen Absender zu der Liste der ignorierten Benutzer hinzufügen?",
 'ignore_error'		=>	"Sie können sich nicht selbst ignorieren.",
 'ignore_error_1'	=>	"Dieser Absender befindet sich bereits in der Liste der ignorierten Benutzer.",
 'ignore_error_2'	=>	"Sie können sich nicht von Administratoren gruppieren.",
-'ignore_ok'			=>	"Absender wurde zu der Liste der ignorierten Benutzer hinzugefügt. Sie werden keine Nachrichten mehr von diesem Benutzer erhalten. Sie können den Benutzer in Ihrem Profil auf der Website entsperren.",
+'ignore_ok'			=>	"Absender wurde zu der Liste der ignorierten Benutzer hinzugefügt. Sie werden keine Nachrichten mehr von diesem Benutzer erhalten. Sie können den Benutzer in Ihrem Profil auf der Webseite entsperren.",
 'del_from_ignore'	=>	"Möchten Sie wirklich einen Benutzer aus der Liste der ignorierten Benutzer löschen?",
 'del_from_ignore_1'	=>	"Einen Benutzer aus der Liste der ignorierten Benutzer löschen.",
 'ignore_del_ok'		=>	"Benutzer wurde aus der Liste der ignorierten Benutzer gelöscht.",
 'pm_ignored'		=>	"Sie befinden sich in der Liste der ignorierten Benutzer bei diesem Empfänger. Ihre Nachricht an diesen Benutzer kann nicht gesendet werden.",
-'add_to_complaint'	=>	"Geben Sie den Text Ihrer Beschwerde für die Website-Verwaltung an:",
-'error_complaint_1'	=>	"Sie haben bereits eine Benachrichtigung für die Website-Verwaltung gesendet.",
+'add_to_complaint'	=>	"Geben Sie den Text Ihrer Beschwerde für die Webseite-Verwaltung an:",
+'error_complaint_1'	=>	"Sie haben bereits eine Benachrichtigung für die Webseite-Verwaltung gesendet.",
 'error_complaint_2'	=>	"Sie können keine Beschwerde an sich selbst senden.",
 // 9.3
 
 // 9.2
-'newpost_notfound'	=>	"Es wurden keine ungelesenen Ihrer Veröffentlichungen auf der Website gefunden.",
-'all_votes'			=>	"Liste aller Abstimmungen auf der Website:",
+'newpost_notfound'	=>	"Es wurden keine ungelesenen Ihrer Nachrichten auf der Webseite gefunden."
+'all_votes'			=>	"Liste aller Abstimmungen auf der Webseite:",
 'vote_disable'		=>	"Die Abstimmung ist jetzt beendet",
 'vote_disable_1'	=>	"Sie haben bereits an dieser Umfrage teilgenommen",
 'max_votes'			=>	"Insgesamt abgestimmt:",
@@ -486,27 +486,27 @@ $lang = array (
 'p_no'				=>	"Abbrechen",
 'p_enter'			=>	"Einfügen",
 'p_cancel'			=>	"Abbrechen",
-'news_err_42'		=>	"<li>Sie haben Zugriff auf die Website-Verwaltung, daher müssen Sie sich anmelden, um die E-Mail-Adresse oder das Passwort auf der Website zu ändern. Diese Aktion wird aus Sicherheitsgründen durchgeführt. Gehen Sie in die Benutzerverwaltungsseite, dort finden Sie Ihren Benutzernamen und führen Sie die erforderlichen Änderungen durch</li>",
+'news_err_42'		=>	"<li>Sie haben Zugriff auf die Webseite-Verwaltung, daher müssen Sie sich anmelden, um die E-Mail-Adresse oder das Passwort auf der Webseite zu ändern. Diese Aktion wird aus Sicherheitsgründen durchgeführt. Gehen Sie in die Benutzerverwaltungsseite, dort finden Sie Ihren Benutzernamen und führen Sie die erforderlichen Änderungen durch</li>",
 'news_err_43'		=>	"Sie können die Veröffentlichung nur über",
-'news_err_44'		=>	"Sie haben das maximale Limit für die Anzahl von Veröffentlichungen erreicht, das Sie auf der Website in einem Tag hinzufügen dürfen.",
+'news_err_44'		=>	"Sie haben das maximale Limit für die Anzahl von Nachrichten erreicht, das Sie auf der Webseite in einem Tag hinzufügen dürfen."
 'bb_t_upload'		=>	"Dateien auf den Server hochladen",
 'message_pm'		=>	"Eine Benachrichtigung über die Löschung der Veröffentlichung",
 'message_pm_1'		=>	"Ihr Artikel",
-'message_pm_2'		=>	"wurde von einem Moderator auf der Website gelöscht:",
+'message_pm_2'		=>	"wurde von einem Moderator auf der Webseite gelöscht:",
 'message_pm_3'		=>	"Als Moderator wurden die folgenden Gründe angegeben:",
 'fav_notfound_1'	=>	"Es gibt keine Lesezeichen auf dieser Seite, gehen Sie auf vorherige Seiten zurück.",
 'pm_err_10'			=>	"Sie können nicht mehr als {max} persönliche Nachrichten pro Tag senden.",
 'feed_err_9'		=>	"<li>Sie können nicht mehr als {max} E-Mail-Nachrichten pro Tag senden.</li>",
 'edit_selcomb'		=>	"Kommentare zusammenführen",
-'login_err_2'		=>	"Achtung! Sie haben das maximale Limit für die Anzahl der fehlgeschlagenen Anmeldeversuche auf der Website erreicht. Der Zugriff auf das Konto wurde für {time} Minuten gesperrt. Wiederholen Sie die Anmeldung auf der Website nach der angegebenen Zeit. Wenn Sie Ihr Passwort vergessen haben, versuchen Sie, Ihr Passwort auf der Website zurückzusetzen. Sie können dies auch nur am Ende der Blockierung durchführen.",
+'login_err_2'		=>	"Achtung! Sie haben das maximale Limit für die Anzahl der fehlgeschlagenen Anmeldeversuche auf der Webseite erreicht. Der Zugriff auf das Konto wurde für {time} Minuten gesperrt. Wiederholen Sie die Anmeldung auf der Webseite nach der angegebenen Zeit. Wenn Sie Ihr Passwort vergessen haben, versuchen Sie, Ihr Passwort auf der Webseite zurückzusetzen. Sie können dies auch nur am Ende der Blockierung durchführen.",
 // 9.0
 
 // 8.5
 'preview_short'			=>	"Kurze Zusammenfassung:",
 'preview_full'			=>	"Detaillierte Zusammenfassung:",
-'lost_send'			=>	"Sehr geehrter Besucher! Gemäß Ihrer Anfrage wurde Ihnen ein neues Passwort generiert. Dieses Passwort wurde Ihnen auf Ihre E-Mail-Adresse gesendet:",
-'news_err_40'		=>	"Der Text Ihres Kommentars ist zu kurz und nach Ansicht der Website-Verwaltung nicht hilfreich.",
-'news_err_41'		=>	"Sie haben keine Erlaubnis, Artikel in diesem Bereich der Website zu veröffentlichen, wählen Sie eine Kategorie aus der verfügbaren Liste aus.",
+'lost_send'			=>	"Sehr geehrter Benutzer! Gemäß Ihrer Anfrage wurde Ihnen ein neues Passwort generiert. Dieses Passwort wurde Ihnen auf Ihre E-Mail-Adresse gesendet:",
+'news_err_40'		=>	"Der Text Ihres Kommentars ist zu kurz und nach Ansicht der Webseite-Verwaltung nicht hilfreich.",
+'news_err_41'		=>	"Sie haben keine Erlaubnis, Artikel in diesem Bereich der Webseite zu veröffentlichen, wählen Sie eine Kategorie aus der verfügbaren Liste aus.",
 'edit_selact'		=>	"-- Aktion --",
 'edit_seldel'		=>	"Löschen",
 'edit_rel'			=>	"Bearbeiten",
@@ -515,11 +515,11 @@ $lang = array (
 // 8.5
 
 // 8.3
-'lost_password'		=>	"Um Ihr Passwort auf der Website zurückzusetzen, gehen Sie bitte die folgende URL durch:",
-'lost_ip'			=>	"Um die Sperre aufgrund der IP-Adresse auf der Website zu lösen, gehen Sie bitte die folgende URL durch:",
+'lost_password'		=>	"Um Ihr Passwort auf der Webseite zurückzusetzen, gehen Sie bitte die folgende URL durch:",
+'lost_ip'			=>	"Um die Sperre aufgrund der IP-Adresse auf der Webseite zu lösen, gehen Sie bitte die folgende URL durch:",
 'lost_clear_ip'		=>	"Sperre aufgrund der IP-Adresse aufgehoben",
-'lost_clear_ip_1'	=>	"Von Benutzer <b>{username}</b> wurde die Sperre aufgrund der IP-Adresse auf der Website erfolgreich aufgehoben.",
-'lost_mfg'			=>	"Mit freundlichen Grüßen,\nWebsite-Verwaltung",
+'lost_clear_ip_1'	=>	"Von Benutzer <b>{username}</b> wurde die Sperre aufgrund der IP-Adresse auf der Webseite erfolgreich aufgehoben.",
+'lost_mfg'			=>	"Mit freundlichen Grüßen,\nWebseite-Verwaltung",
 'c_subscribe'		=>	"Abonnieren Sie die Kommentare",
 'admin'				=>	"Administrator",
 'news_err_37'		=>	"Der Text enthält keinen zulässigen Text für die Veröffentlichung.",
@@ -538,7 +538,7 @@ $lang = array (
 'thumb_movetitle'	=>	"Verschieben",
 'thumb_closetitle'	=>	"Schließen (Esc)",
 'nl_info_2'			=>	"Benutzer",
-'news_info_6'		=>	"Sie können auf der Website Kommentare zu Artikeln nur innerhalb von <b>{days}</b> Tagen nach der Veröffentlichung hinterlassen.",
+'news_info_6'		=>	"Sie können auf der Webseite Kommentare zu Artikeln nur innerhalb von <b>{days}</b> Tagen nach der Veröffentlichung hinterlassen.",
 'search_s_go'		=>	"gehen Sie auf die Seite",
 // 8.2
 
@@ -550,11 +550,11 @@ $lang = array (
 // 8.0
 
 // 7.5
-'news_err_32'		=>	"<li>Von der Website-Verwaltung wurde die Ladung von Avataren für Ihre Gruppe verboten.</li>",
+'news_err_32'		=>	"<li>Von der Webseite-Verwaltung wurde die Ladung von Avataren für Ihre Gruppe verboten.</li>",
 'not_allowed_sig'	=>	"<li>Zu lange Unterschrift!</li>",
 'news_err_33'		=>	"Der Text enthält keine zulässigen Tags für die Veröffentlichung.",
 'news_err_34'		=>	"Informationen über Sie oder Ihre Unterschrift enthalten keine zulässigen Tags für die Veröffentlichung.",
-'tags_count'		=>	"Veröffentlichungen gefunden:",
+'tags_count'		=>	"Nachrichten gefunden:"
 'news_err_35'		=>	"<li>Vollständiger Name enthält keine zulässigen Zeichen!</li>",
 'news_err_36'		=>	"<li>Ort der Wohnung enthält keine zulässigen Zeichen!</li>",
 // 7.5
@@ -571,32 +571,32 @@ $lang = array (
 // 7.3
 
 // 7.2
-'news_info_2'		=>	"Von der Website-Verwaltung wurde die Kommentierung auf dieser Website bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
-'news_info_3'		=>	"Von der Website-Verwaltung wurde die Kommentierung auf dieser Website verboten.",
-'news_info_4'		=>	"Von der Website-Verwaltung wurde die Veröffentlichung von eigenen Veröffentlichungen auf dieser Website bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
-'news_info_5'		=>	"Von der Website-Verwaltung wurde die Veröffentlichung von eigenen Veröffentlichungen auf dieser Website verboten.",
+'news_info_2'		=>	"Von der Webseite-Verwaltung wurde die Kommentierung auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
+'news_info_3'		=>	"Von der Webseite-Verwaltung wurde die Kommentierung auf dieser Webseite verboten.",
+'news_info_4'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite bis <b>{date}</b> verboten. Die Sperre stellt einen vollständig automatisierten Prozess dar und erfordert von Ihnen nichts, um sie zu beschleunigen oder zu beenden.",
+'news_info_5'		=>	"Von der Webseite-Verwaltung wurde die Veröffentlichung von eigenen Nachrichten auf dieser Webseite verboten."
 'loading'    	    =>	"Laden...",
 'mail_pm'	  		=>  "Neue persönliche Nachricht",
 'sort_main'	  		=>  "Artikel nach:",
 'sort_by_date'	  	=>  "Datum",
 'sort_by_rating'	=>  "Beliebtheit",
-'sort_by_read'		=>  "Besucherzahl",
+'sort_by_read'		=>  "Benutzerzahl",
 'sort_by_title'		=>  "Alphabetisch",
 'sort_by_comm'		=>  "Kommentare",
 'rules_accept'		=>  "Ich stimme zu",
 'rules_decline'		=>  "Ich stimme nicht zu",
-'reg_err_21'		=>	"<li>Von der Website-Verwaltung wurde der Benutzername {descr} nicht verwendet</li>",
+'reg_err_21'		=>	"<li>Von der Webseite-Verwaltung wurde der Benutzername {descr} nicht verwendet</li>",
 'reg_err_22'		=>	", aus folgendem Grund: {descr}",
-'reg_err_23'		=>	"<li>Von der Website-Verwaltung wurde der E-Mail-Adressenname {descr} nicht verwendet</li>",
+'reg_err_23'		=>	"<li>Von der Webseite-Verwaltung wurde der E-Mail-Adressenname {descr} nicht verwendet</li>",
 'reason'			=>  "Geben Sie einen Grund für die Bearbeitung an:",
 'tag_cloud'			=>  "Tag-Wolke",
-'last_news'			=>  "Letzte Veröffentlichungen auf der Website",
+'last_news'			=>  "Letzte Nachrichten auf der Webseite"
 'all_tags'			=>  "Alle Tags anzeigen",
 // 7.2
 
 // 7.0
 'sig_not_allowed'	=>	"Füllen Sie dieses Feld nicht aus, da für Ihre Gruppe die Verwendung von Signaturen in Kommentaren verboten ist.",
-'add_err_9'			=>	"Von der Website-Verwaltung wurde ein Limit für die maximale Anzahl von Artikeln festgelegt, die für die Moderation aufgenommen werden dürfen. Zurzeit wurden auf der Website die maximalen Anzahl von Veröffentlichungen hinzugefügt, die von der Website-Verwaltung überprüft werden. Versuchen Sie, Ihren Artikel ein wenig später hinzuzufügen.",
+'add_err_9'			=>	"Von der Webseite-Verwaltung wurde ein Limit für die maximale Anzahl von Artikeln festgelegt, die für die Moderation aufgenommen werden dürfen. Zurzeit wurden auf der Webseite die maximalen Anzahl von Nachrichten hinzugefügt, die von der Webseite-Verwaltung überprüft werden. Versuchen Sie, Ihren Artikel ein wenig später hinzuzufügen."
 // 7.0
 
 // 6.7
@@ -611,10 +611,10 @@ $lang = array (
 'thumb_restore'		=>	"Klicken Sie auf das Bild, um es zu schließen, und halten Sie gedrückt, um es zu verschieben",
 'thumb_focustitle'	=>	"Fokussieren",
 'thumb_cancel'		=>	"Klicken Sie zum Abbrechen",
-'all_user_news'		=>	"Alle Veröffentlichungen anzeigen",
-'show_user_news'	=>	"Alle Veröffentlichungen eines Benutzers",
-'menu_fnews'		=>	"Alle Veröffentlichungen finden",
-'reg_next'			=>	"Fortsetzen Sie die Registrierung auf der Website",
+'all_user_news'		=>	"Alle Nachrichten anzeigen"
+'show_user_news'	=>	"Alle Nachrichten eines Benutzers"
+'menu_fnews'		=>	"Alle Nachrichten finden"
+'reg_next'			=>	"Fortsetzen Sie die Registrierung auf der Webseite",
 'xf_not_notig'		=>	"nicht notwendig",
 // 6.5
 
@@ -629,26 +629,26 @@ $lang = array (
 
 // 6.0
 'reload_code' 	    =>  "Klicken Sie auf das Bild, um den Code zu aktualisieren, wenn er nicht lesbar ist",
-'news_err_31'		=>	"Ihr Kommentar wurde in die Datenbank eingefügt. Nach der Überprüfung des Kommentars durch den Administrator wird er auf der Website veröffentlicht.",
+'news_err_31'		=>	"Ihr Kommentar wurde in die Datenbank eingefügt. Nach der Überprüfung des Kommentars durch den Administrator wird er auf der Webseite veröffentlicht.",
 'bb_t_font'	   		=>	"Schriftart",
 'bb_t_size'	   		=>	"Größe",
 // 6.0
 
 // 5.7
 'mail_news' 	   =>   "Neue Nachricht auf der Moderation",
-'mail_comments'	   =>   "Neuer Kommentar auf der Website",
+'mail_comments'	   =>   "Neuer Kommentar auf der Webseite",
 'bb_t_leech'	   =>	"Einfügen einer geschützten Verlinkung",
 // 5.7
 
 // 5.5
 's_ffullstart'    =>   "Erweiterter Suchmodus",
-'user_logged'     =>    "Sie sind erfolgreich auf der Website angemeldet.",
+'user_logged'     =>    "Sie sind erfolgreich auf der Webseite angemeldet.",
 // 5.5
 
 // 5.3
 'bb_t_emo'        =>    "Einfügen von Smileys",
 'pm_to'           =>    "Empfänger",
-'approve'         =>    "(Warten auf Bestätigung durch die Website-Verwaltung)",
+'approve'         =>    "(Warten auf Bestätigung durch die Webseite-Verwaltung)",
 'ip_info'         =>    "Informationen zur IP-Adresse",
 'ip_tools'        =>    "Suche nach anderen Benutzern",
 'ip_ban'          =>    "Adresse sperren",
@@ -658,7 +658,7 @@ $lang = array (
 'bb_t_code'        =>   "Einfügen des ursprünglichen Codes",
 'title_last'	   =>	"Kommentare",
 'title_lost'	   =>	"Passwort zurücksetzen",
-'title_search'	   =>	"Suche auf der Website",
+'title_search'	   =>	"Suche auf der Webseite",
 'bb_t_video'	   =>	"Video einfügen",
 'menu_profile' 	   =>	"Profil anzeigen",
 'menu_fcomments'   =>	"Alle Kommentare finden",
@@ -720,14 +720,14 @@ $lang = array (
 's_freset'			=>	"Zurücksetzen",
 'static_denied'		=>	"Sie haben nicht genug Rechte, um die ausgewählte Seite anzuzeigen.",
 'i_quote'			=>	"Zitat:",
-'feed_error'		=>	"Besucher, die sich in der Gruppe \"<b>{group}</b>\" befinden, können nur eine Rückmeldung auf der Website über die Website-Verwaltung senden.",
-'search_denied'		=>	"Besucher, die sich in der Gruppe \"<b>{group}</b>\" befinden, können keine Suche auf der Website durchführen.",
+'feed_error'		=>	"Benutzer, die sich in der Gruppe \"<b>{group}</b>\" befinden, können nur eine Rückmeldung auf der Webseite über die Webseite-Verwaltung senden.",
+'search_denied'		=>	"Benutzer, die sich in der Gruppe \"<b>{group}</b>\" befinden, können keine Suche auf der Webseite durchführen.",
 'news_err_id'		=>	"Es wurde keine Artikel-ID angegeben.",
 'comm_req_f'		=>	"Füllen Sie alle erforderlichen Felder aus",
 'ip_block_login'	=>	"Achtung! Sie haben die automatische IP-Sperre für Ihr Konto aktiviert. Der Zugriff auf Ihr Konto über diese Subnetz-Adresse ist verboten.",
-'mod_list_f'		=>	"Ihre Veröffentlichungen, die auf der Moderation warten, gibt es nicht",
+'mod_list_f'		=>	"Ihre Nachrichten, die auf der Moderation warten, gibt es nicht"
 'ip_block'         =>	"Ihre IP-Adresse oder Subnetz wurden von einem Administrator gesperrt",
-'pm_alert'         =>	"Ihre/r <b>{user}</b>, seit Ihrem Ausbleiben auf der Website wurden <b>{num}</b> Nachricht|en|ien|ien[/declination] an Sie gesendet",
+'pm_alert'         =>	"Ihre/r <b>{user}</b>, seit Ihrem Ausbleiben auf der Webseite wurden <b>{num}</b> Nachricht|en|ien|ien[/declination] an Sie gesendet",
 'pm_asub'          =>	"Betreff:",
 'pm_atitle'        =>	"Sie haben persönliche Nachrichten erhalten",
 'pm_mtitle'        =>	"Klicken Sie und halten Sie gedrückt, um das Fenster zu verschieben",
@@ -749,7 +749,7 @@ $lang = array (
 'top_status'       =>	"Gruppe",
 'top_reg'          =>	"Registrierung",
 'top_last'          =>	"Letztes Besuch",
-'top_nnum'          =>	"Veröffentlichungen",
+'top_nnum'          =>	"Nachrichten"
 'top_cnum'          =>	"Kommentare",
 'top_pm'          =>	"PS",
 
@@ -769,13 +769,13 @@ $lang = array (
 'bb_b_up'			=>	"Hochladen",
 'next_moth'			=>	"Nächster Monat",
 'prev_moth'			=>	"Vorheriger Monat",
-'cal_post'			=>	"Alle Veröffentlichungen am",
+'cal_post'			=>	"Alle Nachrichten am"
 'title_users'		=>	"Benutzer",
 'title_new'			=>	"Nicht gelesen",
 'title_date'		=>	"Materialien am",
-'title_stats'		=>	"Statistiken der Website",
+'title_stats'		=>	"Statistiken der Webseite",
 'title_addnews'		=>	"Veröffentlichung hinzufügen",
-'title_register'	=>	"Besucherregistrierung",
+'title_register'	=>	"Benutzerregistrierung",
 'title_fav'			=>	"Meine Lesezeichen",
 'title_pm'			=>	"Persönliche Nachrichten",
 'title_feed'		=>	"Rückmeldung",
@@ -813,8 +813,8 @@ $lang = array (
 'reg_err_6'		=>	"<li>Falscher E-Mail-Adressenname!</li>",
 'reg_err_7'		=>	"Der Benutzername darf nicht leer sein!",
 'reg_err_8'		=>	"<li>Es gibt bereits einen Benutzer mit diesem Namen oder E-Mail-Adresse!</li>",
-'reg_err_9'		=>	"Von der Website-Verwaltung wurde die Registrierung nicht unterstützt.",
-'reg_err_10'	=>	"Auf der Website ist bereits die maximale Anzahl von Benutzern erreicht. Versuchen Sie sich später zu registrieren.",
+'reg_err_9'		=>	"Von der Webseite-Verwaltung wurde die Registrierung nicht unterstützt.",
+'reg_err_10'	=>	"Auf der Webseite ist bereits die maximale Anzahl von Benutzern erreicht. Versuchen Sie sich später zu registrieren.",
 'reg_err_11'	=>	"Registrierungsfehler",
 'reg_err_12'	=>	"<li>Es ist ein Fehler beim Hochladen des Avatars aufgetreten.</li>",
 'reg_err_13'	=>	"<li>Nur Dateien im Format JPG oder PNG sind für die Hochladeerlaubnis zugelassen.</li>",
@@ -823,11 +823,11 @@ $lang = array (
 'reg_err_16'	=>	"<li>Länder mit einem solchen langen Namen gibt es nicht!</li>",
 'reg_err_18'	=>	"Achtung! Es ist ein Fehler aufgetreten",
 'reg_ok'		=>	"Registrierung erfolgreich abgeschlossen",
-'reg_ok_1'		=>	"Wir danken Ihnen für Ihre Registrierung auf unserer Website!",
+'reg_ok_1'		=>	"Wir danken Ihnen für Ihre Registrierung auf unserer Webseite!",
 
 'reg_subj'		=>	"Kontoaktivierung",
 'reg_vhead'		=>	"Eine Anfrage zur Aktivierung wurde eingereicht",
-'reg_vtext'		=>	"Anfrage zur Registrierung angenommen.<br><br>Die Website-Verwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Noch ein wenig, und Sie werden auf der Website registriert. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Website-Verwaltung wenden.",
+'reg_vtext'		=>	"Anfrage zur Registrierung angenommen.<br><br>Die Webseite-Verwaltung verlangt, dass alle eingegebenen E-Mail-Adressen real sind. Nach 10 Minuten (möglicherweise früher) erhalten Sie eine E-Mail mit Anweisungen für den nächsten Schritt. Noch ein wenig, und Sie werden auf der Webseite registriert. Wenn Sie innerhalb dieser Zeit keine E-Mail mit Bestätigung erhalten, ist es wahrscheinlich, dass sie in den Spam-Ordner gewandert ist. Bitte überprüfen Sie den Inhalt dieses Ordners. Wenn dies nicht der Fall ist, wiederholen Sie den Versuch, indem Sie eine andere E-Mail-Adresse verwenden oder sich an die Webseite-Verwaltung wenden.",
 
 'add_err_1'		=>	"<li>Der Titel darf nicht leer sein</li>",
 'add_err_2'		=>	"<li>Es wurde ein zu langsamer Titel eingegeben</li>",
@@ -835,17 +835,17 @@ $lang = array (
 'add_err_5'		=>	"<li>Sie müssen das Feld mit einer kurzen Zusammenfassung der Veröffentlichung ausfüllen</li>",
 'add_err_6'		=>	"Achtung! Es ist ein Fehler aufgetreten",
 'add_err_7'		=>	"Der Titel ist ein obligatorisches Feld beim Schreiben eines Artikels",
-'add_err_8'		=>	"Leider haben Sie keine Berechtigung, um Artikel auf unserer Website zu veröffentlichen.",
+'add_err_8'		=>	"Leider haben Sie keine Berechtigung, um Artikel auf unserer Webseite zu veröffentlichen.",
 'add_ok'		=>	"Nachricht hinzugefügt",
 'add_ok_1'		=>	"Ihr Artikel wurde erfolgreich in die Datenbank eingefügt.",
-'add_ok_2'		=>	"Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Nach der Überprüfung durch den Administrator wird er auf der Website veröffentlicht.",
-'add_ok_3'		=>	"Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Allerdings ist zu beachten, dass Sie Informationen ohne Moderation in nicht alle Bereiche veröffentlichen können, sodass Ihr Artikel nur nach der Überprüfung durch den Website-Administrator auf der Website veröffentlicht wird.",
+'add_ok_2'		=>	"Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Nach der Überprüfung durch den Administrator wird er auf der Webseite veröffentlicht.",
+'add_ok_3'		=>	"Ihr Artikel wurde erfolgreich in die Datenbank eingefügt. Allerdings ist zu beachten, dass Sie Informationen ohne Moderation in nicht alle Bereiche veröffentlichen können, sodass Ihr Artikel nur nach der Überprüfung durch den Webseite-Administrator auf der Webseite veröffentlicht wird.",
 'add_noch'		=>	"Noch einmal hinzufügen",
 'add_or'		=>	"oder",
 'add_al_com'	=>	"Kommentare zulassen",
 'add_al_m'		=>	"Auf der Hauptseite veröffentlichen",
-'add_al_ap'		=>	"Auf der Website veröffentlichen",
-'add_al_fix'	=>	"Auf der Website fixieren",
+'add_al_ap'		=>	"Auf der Webseite veröffentlichen",
+'add_al_fix'	=>	"Auf der Webseite fixieren",
 
 'bb_url'			=>	"Geben Sie die vollständige URL einer Verlinkung ein",
 'bb_page'			=>	"Geben Sie die Seitenzahl ein",
@@ -902,24 +902,24 @@ $lang = array (
 'comm_title'		=>	"Bearbeitung des Kommentars",
 
 'login_err'			=>	"Authentifizierungsfehler",
-'login_err_1'		=>	"Achtung! Anmeldung auf der Website nicht erfolgt. Möglicherweise wurden Sie nicht korrekt eingeloggt.",
+'login_err_1'		=>	"Achtung! Anmeldung auf der Webseite nicht erfolgt. Möglicherweise wurden Sie nicht korrekt eingeloggt.",
 
-'search_err_2'		=>	"Leider konnte keine Suche auf der Website durchgeführt werden. Bitte versuchen Sie, Ihren Suchbegriff zu ändern oder zu verkürzen.",
+'search_err_2'		=>	"Leider konnte keine Suche auf der Webseite durchgeführt werden. Bitte versuchen Sie, Ihren Suchbegriff zu ändern oder zu verkürzen.",
 'search_err_3'		=>	"Es wurde ein leeres Suchfeld verwendet oder der Suchbegriff enthält weniger als {minsearch} Zeichen, weshalb die Suche angehalten wurde.",
 'search_ok'			=>	"Nach Ihrem Suchbegriff wurden",
 'search_ok_1'		=>	"Antworten gefunden",
 'search_ok_2'		=>	"Suchergebnisse",
-'search_title'		=>	"Suche auf der Website",
+'search_title'		=>	"Suche auf der Webseite",
 
-'lost_npass'		=>	"Sehr geehrter Besucher! Gemäß Ihrer Anfrage wurde Ihnen ein neues Passwort generiert. Um sich auf der Website anzumelden, verwenden Sie die folgenden Daten:",
+'lost_npass'		=>	"Sehr geehrter Benutzer! Gemäß Ihrer Anfrage wurde Ihnen ein neues Passwort generiert. Um sich auf der Webseite anzumelden, verwenden Sie die folgenden Daten:",
 'lost_login'		=>	"Login:",
 'lost_pass'			=>	"Passwort:",
-'lost_info'			=>	"Nach der Anmeldung auf der Website können Sie das angegebene Passwort auf ein anderes ändern.",
+'lost_info'			=>	"Nach der Anmeldung auf der Webseite können Sie das angegebene Passwort auf ein anderes ändern.",
 'lost_gen'			=>	"Neues Passwort generiert",
 'lost_err'			=>	"Der Benutzer mit diesem Namen hat keine Anfrage zurückgesetzt oder die diese URL ist veraltet. Es ist nur eine Versuchsanfrage erlaubt, um das Passwort über die an Sie gesendete E-Mail-URL zurückzusetzen. Nachdem Sie es dann erneut anfordern müssen, müssen Sie das Passwort über die E-Mail erneut anfordern",
 'lost_subj'			=>	"Wiederherstellung eines vergessenen Passworts",
 'lost_ms'			=>	"Benachrichtigung gesendet",
-'lost_ms_1'			=>	"Sehr geehrter Besucher! Aufgrund der Tatsache, dass alle Passwörter in verschlüsselter Form gespeichert werden. Auf die E-Mail-Adresse, die Sie bei der Registrierung angegeben haben, wurde eine E-Mail zur Generierung eines neuen Passworts gesendet.",
+'lost_ms_1'			=>	"Sehr geehrter Benutzer! Aufgrund der Tatsache, dass alle Passwörter in verschlüsselter Form gespeichert werden. Auf die E-Mail-Adresse, die Sie bei der Registrierung angegeben haben, wurde eine E-Mail zur Generierung eines neuen Passworts gesendet.",
 'lost_err_1'		=>	"Der Benutzer mit diesem Namen oder E-Mail-Adresse wurde nicht in der Datenbank gefunden",
 
 'news_err_1'		=>	"Sie haben einen zu langen Namen eingegeben.",
@@ -946,7 +946,7 @@ $lang = array (
 'news_err_23'		=>	"<li>Es wurde ein zu langsamer Name eingegeben!</li>",
 'news_err_24'		=>	"<li>Länder mit einem solchen langen Namen gibt es nicht!</li>",
 'news_err_26'		=>	"Der Benutzer mit diesem Namen wurde nicht gefunden.",
-'news_err_27'		=>	"Es konnte keine Information zu dieser E-Mail-Adresse auf der Website gefunden werden, oder Sie haben keinen Zugriff auf die Informationen zu dieser E-Mail-Adresse.",
+'news_err_27'		=>	"Es konnte keine Information zu dieser E-Mail-Adresse auf der Webseite gefunden werden, oder Sie haben keinen Zugriff auf die Informationen zu dieser E-Mail-Adresse.",
 'news_err_28'		=>	"Es gibt keinen Zugriff auf die Artikel aus diesem Bereich.",
 'news_err_29'		=>	"Kommentare für diesen Artikel sind nicht erlaubt.",
 
@@ -962,7 +962,7 @@ $lang = array (
 'feed_ok_2'			=>	"Ihre Nachricht wurde erfolgreich gesendet.",
 'feed_ok_4'			=>	"Zurück zur Hauptseite.",
 
-'user_mem'			=>	"Besucher",
+'user_mem'			=>	"Benutzer",
 'user_ed'			=>	"Journalist",
 'user_re'			=>	"Redakteur",
 'user_adm'			=>	"Administrator",
@@ -974,17 +974,17 @@ $lang = array (
 'news_iz'			=>	" von ",
 'news_delcom'		=>	"Möchten Sie wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden",
 'news_regus'		=>	"Achtung! Sie haben keine Berechtigung, um den versteckten Text anzuzeigen.",
-'news_info_1'		=>	"Besucher, die sich in der Gruppe <b>{group}</b> befinden, können keine Kommentare zu dieser Veröffentlichung hinterlassen.",
+'news_info_1'		=>	"Benutzer, die sich in der Gruppe <b>{group}</b> befinden, können keine Kommentare zu dieser Veröffentlichung hinterlassen.",
 'news_mail'			=>	"E-Mail senden",
 'news_nomail'		=>	"ausgeblendet",
-'news_noamail'		=>	"Keine E-Mails und Benachrichtigungen von der Website erhalten",
+'news_noamail'		=>	"Keine E-Mails und Benachrichtigungen von der Webseite erhalten",
 'news_option'		=>	"Profil bearbeiten",
-'news_addfav'		=>	"Zu Ihren Lesezeichen auf der Website hinzufügen",
+'news_addfav'		=>	"Zu Ihren Lesezeichen auf der Webseite hinzufügen",
 'news_minfav'		=>	"Aus Lesezeichen entfernen",
 'news_addcom'		=>	"Kommentar hinzufügen",
 'news_pmnew'		=>	"PS schreiben",
 
-'pm_err_1'			=>	"Leider können Sie keine persönlichen Nachrichten auf der Website verwenden",
+'pm_err_1'			=>	"Leider können Sie keine persönlichen Nachrichten auf der Webseite verwenden",
 'pm_err_2'			=>	"Alle Felder sind Pflichtfelder",
 'pm_err_3'			=>	"Zu langer Betreff der E-Mail",
 'pm_err_4'			=>	"Empfänger mit diesem Namen wurde nicht gefunden",

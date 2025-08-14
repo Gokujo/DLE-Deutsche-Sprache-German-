@@ -25,7 +25,7 @@
 			</li>
 		</ul>
 		<div class="login_form_links">
-			[admin-link]<a href="{admin-link}" target="_blank">Admin-Panel</a>[/admin-link]
+			[admin-link]<a href="{admin-link}" target="_blank">Adminpanel</a>[/admin-link]
 			<a href="{addnews-link}">Nachricht hinzufügen</a>
 		</div>
 	</div>

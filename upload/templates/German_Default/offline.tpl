@@ -16,13 +16,13 @@
 	<meta property="og:image" content="{THEME}/images/logo.png">
 	
 	<link href="{THEME}/css/offline.css" type="text/css" rel="stylesheet">
-	<title>Website vorübergehend deaktiviert</title>
+	<title>Webseite vorübergehend deaktiviert</title>
 </head>
 <body>
 	<div class="offpage">
 		<div class="wrap">
 			<div class="logo"><img src="{THEME}/images/offline.png" alt=""></div>
-			<div class="title">Website vorübergehend deaktiviert</div>
+			<div class="title">Webseite vorübergehend deaktiviert</div>
 			<div class="reason">{reason}</div>
 			<p class="copyright">Copyright © 2004&ndash;2024 <a href="https://dle-news.ru/" target="_blank" rel="nofollow">SoftNews Media Group</a> All Rights Reserved. Powered by DataLife Engine © 2024</p>
 		</div>
